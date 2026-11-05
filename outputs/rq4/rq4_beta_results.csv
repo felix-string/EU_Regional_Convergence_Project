@@ -1,0 +1,6 @@
+specification,n,beta,se_hc1,t_stat,r2,speed_lambda,half_life_years
+All regions (master panel),244,-0.01665,0.00239,-6.95604,0.23708,0.01787,38.78514
+Without outlier regions,240,-0.01867,0.00223,-8.35507,0.28202,0.02022,34.28363
+Balanced panel regions,224,-0.01638,0.00261,-6.28214,0.22145,0.01756,39.46766
+Within countries (country-demeaned),244,-0.00503,0.00246,-2.04857,0.04023,0.00513,134.98704
+Between countries (country means),27,-0.02011,0.00628,-3.20272,0.33073,0.02192,31.61628

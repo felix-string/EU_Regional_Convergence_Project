@@ -1,0 +1,245 @@
+region_code,region_name,country,index_2016,index_2024,change_points,growth_rel_eu_pct_pa,predicted_growth_pct_pa,residual_pct_pa,pattern,outlier_flag
+EL53,Dytiki Makedonia,EL,66,48,-18,-3.981,0.565,-4.546,"poor, falling behind (exception)",False
+FRY3,Guyane,FR,52,41,-11,-2.971,0.962,-3.933,"poor, falling behind (exception)",False
+EL41,Voreio Aigaio,EL,50,42,-8,-2.179,1.027,-3.207,"poor, falling behind (exception)",False
+FRY1,Guadeloupe,FR,77,67,-10,-1.739,0.308,-2.047,middle group,False
+HU22,Nyugat-Dunántúl,HU,75,66,-9,-1.598,0.352,-1.95,middle group,False
+DEC0,Saarland,DE,113,95,-18,-2.169,-0.331,-1.838,middle group,False
+ES64,Ciudad de Melilla,ES,64,59,-5,-1.017,0.616,-1.633,"poor, falling behind (exception)",False
+SE31,Norra Mellansverige,SE,97,85,-12,-1.651,-0.076,-1.574,middle group,False
+FRC2,Franche-Comté,FR,82,74,-8,-1.283,0.203,-1.487,middle group,False
+EL54,Ipeiros,EL,46,45,-1,-0.275,1.166,-1.441,"poor, falling behind (exception)",False
+EL51,"Anatoliki Makedonia, Thraki",EL,46,45,-1,-0.275,1.166,-1.441,"poor, falling behind (exception)",False
+ES63,Ciudad de Ceuta,ES,69,64,-5,-0.94,0.491,-1.431,"poor, falling behind (exception)",False
+SE21,Småland med öarna,SE,106,93,-13,-1.635,-0.224,-1.411,middle group,False
+DE91,Braunschweig,DE,154,129,-25,-2.214,-0.846,-1.368,"rich, losing ground (fits beta)",False
+DEB2,Trier,DE,99,88,-11,-1.472,-0.11,-1.362,middle group,False
+DE13,Freiburg,DE,121,105,-16,-1.773,-0.445,-1.328,middle group,False
+FRY4,La Réunion,FR,67,63,-4,-0.769,0.54,-1.309,"poor, falling behind (exception)",False
+DE27,Schwaben,DE,126,109,-17,-1.812,-0.512,-1.3,"rich, losing ground (fits beta)",False
+FRF3,Lorraine,FR,78,72,-6,-1.001,0.287,-1.287,middle group,False
+FRY2,Martinique,FR,74,69,-5,-0.874,0.374,-1.249,"poor, falling behind (exception)",False
+FI20,Åland,FI,128,111,-17,-1.781,-0.538,-1.243,"rich, losing ground (fits beta)",False
+ITF6,Calabria,IT,59,57,-2,-0.431,0.752,-1.183,"poor, falling behind (exception)",False
+DEA5,Arnsberg,DE,110,98,-12,-1.444,-0.286,-1.158,middle group,False
+FRJ1,Languedoc-Roussillon,FR,82,76,-6,-0.95,0.203,-1.153,middle group,False
+FRE1,Nord-Pas de Calais,FR,83,77,-6,-0.938,0.183,-1.121,middle group,False
+FRF1,Alsace,FR,98,89,-9,-1.204,-0.093,-1.111,middle group,False
+SE23,Västsverige,SE,121,107,-14,-1.537,-0.445,-1.093,middle group,False
+DEB3,Rheinhessen-Pfalz,DE,121,107,-14,-1.537,-0.445,-1.093,middle group,False
+FRI2,Limousin,FR,79,74,-5,-0.817,0.265,-1.083,middle group,False
+EL63,Dytiki Elláda,EL,49,49,0,0.0,1.061,-1.061,"poor, catching up (fits beta)",False
+FRD2,Haute-Normandie,FR,90,83,-7,-1.012,0.048,-1.06,middle group,False
+DEG0,Thüringen,DE,90,83,-7,-1.012,0.048,-1.06,middle group,False
+FRD1,Basse-Normandie,FR,86,80,-6,-0.904,0.124,-1.028,middle group,False
+FRJ2,Midi-Pyrénées,FR,97,89,-8,-1.076,-0.076,-1.0,middle group,False
+EL65,Peloponnisos,EL,58,57,-1,-0.217,0.78,-0.997,"poor, falling behind (exception)",False
+SK01,Bratislavský kraj,SK,181,153,-28,-2.101,-1.115,-0.986,"rich, losing ground (fits beta)",False
+FRE2,Picardie,FR,77,73,-4,-0.667,0.308,-0.975,middle group,False
+DED4,Chemnitz,DE,88,82,-6,-0.883,0.086,-0.969,middle group,False
+DE50,Bremen,DE,152,132,-20,-1.763,-0.824,-0.939,"rich, losing ground (fits beta)",False
+DEA3,Münster,DE,104,95,-9,-1.131,-0.192,-0.939,middle group,False
+DEA4,Detmold,DE,118,106,-12,-1.341,-0.403,-0.938,middle group,False
+FI1C,Etelä-Suomi,FI,96,89,-7,-0.946,-0.059,-0.887,middle group,False
+SE12,Östra Mellansverige,SE,106,97,-9,-1.109,-0.224,-0.885,middle group,False
+DE26,Unterfranken,DE,129,115,-14,-1.436,-0.551,-0.885,"rich, losing ground (fits beta)",False
+CZ04,Severozápad,CZ,62,61,-1,-0.203,0.669,-0.872,"poor, falling behind (exception)",False
+FRB0,Centre — Val de Loire,FR,87,82,-5,-0.74,0.105,-0.845,middle group,False
+DEB1,Koblenz,DE,103,95,-8,-1.011,-0.176,-0.834,middle group,False
+FRG0,Pays de la Loire,FR,93,87,-6,-0.834,-0.006,-0.827,middle group,False
+FRI1,Aquitaine,FR,93,87,-6,-0.834,-0.006,-0.827,middle group,False
+DEA2,Köln,DE,132,118,-14,-1.401,-0.589,-0.812,"rich, losing ground (fits beta)",False
+FRK1,Auvergne,FR,83,79,-4,-0.617,0.183,-0.801,middle group,False
+FRH0,Bretagne,FR,89,84,-5,-0.723,0.067,-0.79,middle group,False
+DE25,Mittelfranken,DE,142,126,-16,-1.494,-0.711,-0.783,"rich, losing ground (fits beta)",False
+DEA1,Düsseldorf,DE,129,116,-13,-1.328,-0.551,-0.777,"rich, losing ground (fits beta)",False
+EL42,Notio Aigaio,EL,72,70,-2,-0.352,0.42,-0.772,"poor, falling behind (exception)",False
+AT12,Niederösterreich,AT,106,98,-8,-0.981,-0.224,-0.757,middle group,False
+DE12,Karlsruhe,DE,139,124,-15,-1.427,-0.675,-0.752,"rich, losing ground (fits beta)",False
+FRI3,Poitou-Charentes,FR,85,81,-4,-0.603,0.144,-0.746,middle group,False
+CZ08,Moravskoslezsko,CZ,73,71,-2,-0.347,0.397,-0.744,"poor, falling behind (exception)",False
+FI1B,Helsinki-Uusimaa,FI,144,128,-16,-1.472,-0.734,-0.738,"rich, losing ground (fits beta)",False
+ES52,Comunitat Valenciana,ES,80,77,-3,-0.478,0.245,-0.722,middle group,False
+DE14,Tübingen,DE,136,122,-14,-1.358,-0.639,-0.719,"rich, losing ground (fits beta)",False
+ES70,Canarias,ES,74,72,-2,-0.342,0.374,-0.717,"poor, falling behind (exception)",False
+BE32,Prov. Hainaut,BE,74,72,-2,-0.342,0.374,-0.717,"poor, falling behind (exception)",False
+DE72,Gießen,DE,108,100,-8,-0.962,-0.255,-0.707,middle group,False
+DE73,Kassel,DE,118,108,-10,-1.107,-0.403,-0.704,middle group,False
+SE22,Sydsverige,SE,103,96,-7,-0.88,-0.176,-0.703,middle group,False
+FRC1,Bourgogne,FR,87,83,-4,-0.588,0.105,-0.693,middle group,False
+DE24,Oberfranken,DE,119,109,-10,-1.097,-0.417,-0.68,middle group,False
+DE22,Niederbayern,DE,124,113,-11,-1.161,-0.485,-0.676,middle group,False
+HU31,Észak-Magyarország,HU,45,47,2,0.544,1.203,-0.659,"poor, catching up (fits beta)",False
+ES62,Región de Murcia,ES,77,75,-2,-0.329,0.308,-0.637,middle group,False
+AT31,Oberösterreich,AT,131,119,-12,-1.201,-0.577,-0.624,"rich, losing ground (fits beta)",False
+AT11,Burgenland,AT,90,86,-4,-0.568,0.048,-0.617,middle group,False
+DE40,Brandenburg,DE,90,86,-4,-0.568,0.048,-0.617,middle group,False
+DE92,Hannover,DE,122,112,-10,-1.069,-0.458,-0.611,middle group,False
+NL11,Groningen,NL,128,117,-11,-1.123,-0.538,-0.585,"rich, losing ground (fits beta)",False
+DED5,Leipzig,DE,103,97,-6,-0.75,-0.176,-0.574,middle group,False
+AT34,Vorarlberg,AT,138,125,-13,-1.237,-0.663,-0.573,"rich, losing ground (fits beta)",False
+BE34,Prov. Luxembourg (BE),BE,73,72,-1,-0.172,0.397,-0.569,"poor, falling behind (exception)",False
+DEE0,Sachsen-Anhalt,DE,86,83,-3,-0.444,0.124,-0.568,middle group,False
+HU21,Közép-Dunántúl,HU,66,66,0,0.0,0.565,-0.565,"poor, catching up (fits beta)",False
+AT13,Wien,AT,153,137,-16,-1.381,-0.835,-0.545,"rich, losing ground (fits beta)",False
+DE93,Lüneburg,DE,87,84,-3,-0.439,0.105,-0.543,middle group,False
+EL64,Sterea Elláda,EL,59,60,1,0.21,0.752,-0.541,"poor, catching up (fits beta)",False
+DE71,Darmstadt,DE,167,148,-19,-1.51,-0.981,-0.529,"rich, losing ground (fits beta)",False
+DK04,Midtjylland,DK,116,108,-8,-0.893,-0.374,-0.519,middle group,False
+ITG1,Sicilia,IT,60,61,1,0.207,0.724,-0.517,"poor, catching up (fits beta)",False
+FRK2,Rhône-Alpes,FR,106,100,-6,-0.728,-0.224,-0.504,middle group,False
+DK05,Nordjylland,DK,106,100,-6,-0.728,-0.224,-0.504,middle group,False
+CZ03,Jihozápad,CZ,76,75,-1,-0.166,0.33,-0.496,middle group,False
+FRL0,Provence-Alpes-Côte d’Azur,FR,101,96,-5,-0.635,-0.144,-0.491,middle group,False
+DED2,Dresden,DE,96,92,-4,-0.532,-0.059,-0.473,middle group,False
+EL52,Kentriki Makedonia,EL,53,55,2,0.463,0.93,-0.467,"poor, catching up (fits beta)",False
+PT1B,Península de Setúbal,PT,53,55,2,0.463,0.93,-0.467,"poor, catching up (fits beta)",False
+ITF3,Campania,IT,63,64,1,0.197,0.642,-0.445,"poor, catching up (fits beta)",False
+ITF4,Puglia,IT,63,64,1,0.197,0.642,-0.445,"poor, catching up (fits beta)",False
+PT1D,Oeste e Vale do Tejo,PT,64,65,1,0.194,0.616,-0.422,"poor, catching up (fits beta)",False
+ES42,Castilla-La Mancha,ES,73,73,0,0.0,0.397,-0.397,"poor, catching up (fits beta)",False
+DE23,Oberpfalz,DE,132,122,-10,-0.985,-0.589,-0.395,"rich, losing ground (fits beta)",False
+ITF5,Basilicata,IT,74,74,0,0.0,0.374,-0.374,"poor, catching up (fits beta)",False
+FRM0,Corse,FR,88,86,-2,-0.287,0.086,-0.373,middle group,False
+ITC3,Liguria,IT,107,102,-5,-0.598,-0.24,-0.358,middle group,False
+DK03,Syddanmark,DK,113,107,-6,-0.682,-0.331,-0.351,middle group,False
+FI19,Länsi-Suomi,FI,96,93,-3,-0.397,-0.059,-0.338,middle group,False
+ES61,Andalucía,ES,68,69,1,0.182,0.515,-0.333,"poor, catching up (fits beta)",False
+FRY5,Mayotte,FR,26,30,4,1.789,2.116,-0.327,"poor, catching up (fits beta)",False
+SE32,Mellersta Norrland,SE,103,99,-4,-0.495,-0.176,-0.319,middle group,False
+HU33,Dél-Alföld,HU,49,52,3,0.743,1.061,-0.318,"poor, catching up (fits beta)",False
+ITI3,Marche,IT,91,89,-2,-0.278,0.03,-0.308,middle group,False
+SE11,Stockholm,SE,170,153,-17,-1.317,-1.011,-0.306,"rich, losing ground (fits beta)",False
+EL61,Thessalia,EL,50,53,3,0.728,1.027,-0.299,"poor, catching up (fits beta)",False
+DE94,Weser-Ems,DE,110,105,-5,-0.582,-0.286,-0.296,middle group,False
+ES23,La Rioja,ES,98,95,-3,-0.389,-0.093,-0.295,middle group,False
+EL62,Ionia Nisia,EL,61,63,2,0.403,0.696,-0.293,"poor, catching up (fits beta)",False
+ITF2,Molise,IT,71,72,1,0.175,0.443,-0.268,"poor, catching up (fits beta)",False
+BE35,Prov. Namur,BE,80,80,0,0.0,0.245,-0.245,middle group,False
+ITI4,Lazio,IT,119,113,-6,-0.647,-0.417,-0.23,middle group,False
+FRF2,Champagne-Ardenne,FR,88,87,-1,-0.143,0.086,-0.229,middle group,False
+ES51,Cataluña,ES,109,105,-4,-0.467,-0.271,-0.197,middle group,False
+AT22,Steiermark,AT,116,111,-5,-0.551,-0.374,-0.177,middle group,False
+ITF1,Abruzzo,IT,84,84,0,0.0,0.163,-0.163,middle group,False
+ES13,Cantabria,ES,84,84,0,0.0,0.163,-0.163,middle group,False
+DEF0,Schleswig-Holstein,DE,99,97,-2,-0.255,-0.11,-0.145,middle group,False
+ITI2,Umbria,IT,85,85,0,0.0,0.144,-0.144,middle group,False
+EE00,Eesti,EE,78,79,1,0.159,0.287,-0.127,middle group,False
+BE33,Prov. Liège,BE,86,86,0,0.0,0.124,-0.124,middle group,False
+HU23,Dél-Dunántúl,HU,46,50,4,1.042,1.166,-0.124,"poor, catching up (fits beta)",False
+NL42,Limburg (NL),NL,114,110,-4,-0.446,-0.345,-0.101,middle group,False
+CZ07,Střední Morava,CZ,72,74,2,0.342,0.42,-0.077,"poor, catching up (fits beta)",False
+FI1D,Pohjois- ja Itä-Suomi,FI,89,89,0,0.0,0.067,-0.067,middle group,False
+SK04,Východné Slovensko,SK,50,54,4,0.962,1.027,-0.065,"poor, catching up (fits beta)",False
+CZ05,Severovýchod,CZ,73,75,2,0.338,0.397,-0.059,"poor, catching up (fits beta)",False
+ITH4,Friuli-Venezia Giulia,IT,104,102,-2,-0.243,-0.192,-0.05,middle group,False
+SE33,Övre Norrland,SE,111,108,-3,-0.342,-0.301,-0.042,middle group,False
+CZ02,Střední Čechy,CZ,83,84,1,0.15,0.183,-0.034,middle group,False
+ITI1,Toscana,IT,105,103,-2,-0.24,-0.208,-0.032,middle group,False
+ES22,Comunidad Foral de Navarra,ES,112,109,-3,-0.339,-0.316,-0.024,middle group,False
+ITH3,Veneto,IT,112,109,-3,-0.339,-0.316,-0.024,middle group,False
+ES41,Castilla y León,ES,85,86,1,0.146,0.144,0.003,middle group,False
+ES43,Extremadura,ES,67,70,3,0.548,0.54,0.008,"poor, catching up (fits beta)",False
+EL43,Kriti,EL,56,60,4,0.862,0.838,0.024,"poor, catching up (fits beta)",False
+BE22,Prov. Limburg (BE),BE,94,94,0,0.0,-0.024,0.024,middle group,False
+ITH5,Emilia-Romagna,IT,121,117,-4,-0.42,-0.445,0.024,middle group,False
+PT19,Centro (PT),PT,68,71,3,0.54,0.515,0.024,"poor, catching up (fits beta)",False
+ES53,Illes Balears,ES,102,101,-1,-0.123,-0.16,0.037,middle group,False
+ITC1,Piemonte,IT,102,101,-1,-0.123,-0.16,0.037,middle group,False
+SK03,Stredné Slovensko,SK,58,62,4,0.834,0.78,0.054,"poor, catching up (fits beta)",False
+ITG2,Sardegna,IT,70,73,3,0.525,0.467,0.058,"poor, catching up (fits beta)",False
+ES11,Galicia,ES,82,84,2,0.301,0.203,0.098,middle group,False
+AT33,Tirol,AT,133,128,-5,-0.479,-0.602,0.123,"rich, losing ground (fits beta)",False
+FR10,Ile de France,FR,172,160,-12,-0.904,-1.03,0.126,"rich, losing ground (fits beta)",False
+DE11,Stuttgart,DE,163,153,-10,-0.791,-0.941,0.149,"rich, losing ground (fits beta)",False
+SK02,Západné Slovensko,SK,66,70,4,0.736,0.565,0.171,"poor, catching up (fits beta)",False
+ES21,País Vasco,ES,117,115,-2,-0.216,-0.389,0.173,middle group,False
+DE21,Oberbayern,DE,183,170,-13,-0.921,-1.133,0.212,"rich, losing ground (fits beta)",False
+PT20,Região Autónoma dos Açores,PT,69,73,4,0.704,0.491,0.214,"poor, catching up (fits beta)",False
+PL43,Lubuskie,PL,58,63,5,1.034,0.78,0.254,"poor, catching up (fits beta)",False
+PT1C,Alentejo,PT,73,77,4,0.667,0.397,0.27,"poor, catching up (fits beta)",False
+DE80,Mecklenburg-Vorpommern,DE,85,88,3,0.434,0.144,0.29,middle group,False
+BE21,Prov. Antwerpen,BE,139,135,-4,-0.365,-0.675,0.31,"rich, losing ground (fits beta)",False
+LV00,Latvija,LV,63,68,5,0.955,0.642,0.312,"poor, catching up (fits beta)",False
+DK02,Sjælland,DK,87,90,3,0.424,0.105,0.319,middle group,False
+BE10,Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest,BE,206,190,-16,-1.011,-1.331,0.32,"rich, losing ground (fits beta)",True
+ES30,Comunidad de Madrid,ES,127,125,-2,-0.198,-0.525,0.327,"rich, losing ground (fits beta)",False
+ES12,Principado de Asturias,ES,79,83,4,0.617,0.265,0.352,middle group,False
+BE24,Prov. Vlaams-Brabant,BE,129,127,-2,-0.195,-0.551,0.356,"rich, losing ground (fits beta)",False
+SI03,Vzhodna Slovenija,SI,67,72,5,0.9,0.54,0.36,"poor, catching up (fits beta)",False
+CZ06,Jihovýchod,CZ,80,84,4,0.61,0.245,0.365,middle group,False
+LU00,Luxembourg,LU,275,245,-30,-1.444,-1.812,0.368,"rich, losing ground (fits beta)",True
+BE23,Prov. Oost-Vlaanderen,BE,109,110,1,0.114,-0.271,0.385,middle group,False
+PL62,Warmińsko-mazurskie,PL,50,56,6,1.417,1.027,0.389,"poor, catching up (fits beta)",False
+ITC2,Valle d’Aosta/Vallée d’Aoste,IT,126,125,-1,-0.1,-0.512,0.412,"rich, losing ground (fits beta)",False
+PL52,Opolskie,PL,57,63,6,1.251,0.809,0.442,"poor, catching up (fits beta)",False
+DE60,Hamburg,DE,211,196,-15,-0.922,-1.371,0.449,"rich, losing ground (fits beta)",False
+PL42,Zachodniopomorskie,PL,58,64,6,1.231,0.78,0.45,"poor, catching up (fits beta)",False
+AT32,Salzburg,AT,150,146,-4,-0.338,-0.802,0.464,"rich, losing ground (fits beta)",False
+AT21,Kärnten,AT,108,110,2,0.229,-0.255,0.485,middle group,False
+LT02,Vidurio ir vakarų Lietuvos regionas,LT,62,68,6,1.155,0.669,0.486,"poor, catching up (fits beta)",False
+ES24,Aragón,ES,100,103,3,0.369,-0.127,0.497,middle group,False
+ITC4,Lombardia,IT,133,132,-1,-0.094,-0.602,0.508,"rich, losing ground (fits beta)",False
+PT11,Norte,PT,65,71,6,1.104,0.59,0.513,"poor, catching up (fits beta)",False
+NL36,Zuid-Holland,NL,129,129,0,0.0,-0.551,0.551,"rich, pulling further ahead (exception)",False
+BE25,Prov. West-Vlaanderen,BE,115,117,2,0.216,-0.36,0.575,middle group,False
+ITH2,Provincia Autonoma di Trento,IT,124,125,1,0.1,-0.485,0.586,middle group,False
+PL81,Lubelskie,PL,48,55,7,1.702,1.095,0.606,"poor, catching up (fits beta)",False
+HU32,Észak-Alföld,HU,43,50,7,1.885,1.278,0.607,"poor, catching up (fits beta)",False
+DE30,Berlin,DE,126,127,1,0.099,-0.512,0.611,"rich, pulling further ahead (exception)",False
+PL51,Dolnośląskie,PL,77,83,6,0.938,0.308,0.63,middle group,False
+PL61,Kujawsko-pomorskie,PL,56,63,7,1.472,0.838,0.634,"poor, catching up (fits beta)",False
+EL30,Attiki,EL,91,96,5,0.669,0.03,0.639,middle group,False
+PL21,Małopolskie,PL,63,70,7,1.317,0.642,0.675,"poor, catching up (fits beta)",False
+NL13,Drenthe,NL,90,96,6,0.807,0.048,0.758,middle group,False
+PL41,Wielkopolskie,PL,75,82,7,1.115,0.352,0.763,middle group,False
+NL12,Friesland (NL),NL,92,98,6,0.79,0.012,0.778,middle group,False
+PL82,Podkarpackie,PL,49,57,8,1.89,1.061,0.83,"poor, catching up (fits beta)",False
+NL22,Gelderland,NL,109,114,5,0.561,-0.271,0.831,middle group,False
+RO31,Sud-Muntenia,RO,47,55,8,1.965,1.13,0.835,"poor, catching up (fits beta)",False
+PL63,Pomorskie,PL,67,75,8,1.41,0.54,0.87,"poor, catching up (fits beta)",False
+PL22,Śląskie,PL,71,79,8,1.335,0.443,0.891,"poor, catching up (fits beta)",False
+CZ01,Praha,CZ,197,192,-5,-0.321,-1.256,0.935,"rich, losing ground (fits beta)",False
+NL23,Flevoland,NL,96,103,7,0.88,-0.059,0.939,middle group,False
+BG42,Yuzhen tsentralen,BG,35,43,8,2.573,1.621,0.952,"poor, catching up (fits beta)",False
+BG32,Severen tsentralen,BG,35,43,8,2.573,1.621,0.952,"poor, catching up (fits beta)",False
+HU12,Pest,HU,55,64,9,1.894,0.868,1.026,"poor, catching up (fits beta)",False
+PL71,Łódzkie,PL,65,74,9,1.621,0.59,1.031,"poor, catching up (fits beta)",False
+PL72,Świętokrzyskie,PL,51,60,9,2.031,0.994,1.037,"poor, catching up (fits beta)",False
+NL21,Overijssel,NL,109,116,7,0.778,-0.271,1.049,middle group,False
+PT15,Algarve,PT,80,89,9,1.333,0.245,1.088,middle group,False
+BG33,Severoiztochen,BG,42,51,9,2.427,1.318,1.109,"poor, catching up (fits beta)",False
+ITH1,Provincia Autonoma di Bolzano/Bozen,IT,157,161,4,0.314,-0.878,1.193,"rich, pulling further ahead (exception)",False
+PL92,Mazowiecki regionalny,PL,61,71,10,1.898,0.696,1.202,"poor, catching up (fits beta)",False
+PL84,Podlaskie,PL,51,61,10,2.238,0.994,1.244,"poor, catching up (fits beta)",False
+RO22,Sud-Est,RO,49,59,10,2.321,1.061,1.261,"poor, catching up (fits beta)",False
+NL41,Noord-Brabant,NL,131,139,8,0.741,-0.577,1.318,"rich, pulling further ahead (exception)",False
+MT00,Malta,MT,100,110,10,1.191,-0.127,1.318,middle group,False
+PT1A,Grande Lisboa,PT,120,129,9,0.904,-0.431,1.335,middle group,False
+HR02,Panonska Hrvatska,HR,43,53,10,2.614,1.278,1.335,"poor, catching up (fits beta)",False
+SI04,Zahodna Slovenija,SI,99,110,11,1.317,-0.11,1.427,middle group,False
+NL32,Noord-Holland,NL,169,175,6,0.436,-1.001,1.437,"rich, pulling further ahead (exception)",False
+NL34,Zeeland,NL,102,113,11,1.28,-0.16,1.44,middle group,False
+NL35,Utrecht,NL,154,162,8,0.633,-0.846,1.479,"rich, pulling further ahead (exception)",False
+HR03,Jadranska Hrvatska,HR,61,73,12,2.245,0.696,1.549,"poor, catching up (fits beta)",False
+CY00,Kýpros,CY,86,99,13,1.76,0.124,1.636,middle group,False
+PT30,Região Autónoma da Madeira,PT,75,88,13,1.998,0.352,1.646,middle group,False
+PL91,Warszawski stołeczny,PL,146,157,11,0.908,-0.757,1.665,"rich, pulling further ahead (exception)",False
+BG34,Yugoiztochen,BG,45,57,12,2.955,1.203,1.752,"poor, catching up (fits beta)",False
+DK01,Hovedstaden,DK,163,175,12,0.888,-0.941,1.829,"rich, pulling further ahead (exception)",False
+IE04,Northern and Western,IE,84,100,16,2.179,0.163,2.016,middle group,False
+RO21,Nord-Est,RO,36,48,12,3.596,1.574,2.022,"poor, catching up (fits beta)",False
+RO42,Vest,RO,62,78,16,2.87,0.669,2.201,"poor, catching up (fits beta)",False
+BE31,Prov. Brabant wallon,BE,136,155,19,1.635,-0.639,2.274,"rich, pulling further ahead (exception)",False
+RO12,Centru,RO,55,71,16,3.192,0.868,2.323,"poor, catching up (fits beta)",False
+BG31,Severozapaden,BG,30,42,12,4.206,1.878,2.328,"poor, catching up (fits beta)",False
+HR05,Grad Zagreb,HR,110,131,21,2.184,-0.286,2.47,middle group,False
+HR06,Sjeverna Hrvatska,HR,48,64,16,3.596,1.095,2.501,"poor, catching up (fits beta)",False
+IE05,Southern,IE,195,217,22,1.336,-1.239,2.575,"rich, pulling further ahead (exception)",True
+LT01,Sostinės regionas,LT,110,133,23,2.373,-0.286,2.659,middle group,False
+RO11,Nord-Vest,RO,52,71,19,3.893,0.962,2.931,"poor, catching up (fits beta)",False
+HU11,Budapest,HU,139,168,29,2.369,-0.675,3.044,"rich, pulling further ahead (exception)",False
+RO41,Sud-Vest Oltenia,RO,42,60,18,4.458,1.318,3.141,"poor, catching up (fits beta)",False
+BG41,Yugozapaden,BG,81,107,26,3.48,0.224,3.256,middle group,False
+RO32,Bucureşti-Ilfov,RO,136,188,52,4.047,-0.639,4.686,"rich, pulling further ahead (exception)",False
+IE06,Eastern and Midland,IE,201,268,67,3.596,-1.29,4.886,"rich, pulling further ahead (exception)",True

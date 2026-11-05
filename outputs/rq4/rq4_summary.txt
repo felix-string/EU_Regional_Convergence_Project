@@ -1,0 +1,31 @@
+RQ4 SUMMARY: sigma vs beta convergence, EU NUTS 2, 2016-2024
+==============================================================
+
+BETA (full period)
+  All regions:      beta = -0.0167 (t = -7.0), R2 = 0.24, half-life = 39 years
+  Without outliers: beta = -0.0187, R2 = 0.28
+  Within countries: beta = -0.0050 (t = -2.0)
+  Between countries: beta = -0.0201 (t = -3.2)
+
+SIGMA (% change 2016 -> 2024)
+  sd_log                 -10.1%  (rose in 1 of 8 years)
+  cv                     -4.6%  (rose in 3 of 8 years)
+  p90_p10                -15.8%  (rose in 1 of 8 years)
+  sd_log_excl_outliers   -11.7%  (rose in 1 of 8 years)
+  cv_excl_outliers       -7.8%  (rose in 1 of 8 years)
+
+WHERE THEY DISAGREE
+  Years where beta < 0 but CV rose:          2019-2020, 2020-2021, 2021-2022
+  Years where beta < 0 but SD of log rose:   2019-2020
+  Poor regions (<75) that fell further behind: 17
+  Rich regions (>125) that pulled further ahead: 13
+  Countries whose own regions diverged (sigma): BG, DK, EL, ES, HU, PT, RO
+
+LINKING THE TWO TESTS (variance of log GDP, 2016-2024)
+  All regions:    change -0.0298 = catch-up -0.0386 + shocks +0.0089
+  Excl. outliers: change -0.0315 = catch-up -0.0397 + shocks +0.0082
+
+BETWEEN vs WITHIN COUNTRIES (variance of log GDP)
+  Between: 0.0861 -> 0.0592 (-31%)
+  Within:  0.0692 -> 0.0664 (-4%)
+  Share of inequality that is within countries: 45% -> 53%

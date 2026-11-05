@@ -1,0 +1,9 @@
+period,beta,beta_significant_5pct,change_sd_log,change_cv,beta_says,sd_log_says,cv_says,agree_sd_log,agree_cv
+2016-2017,-0.01509,True,-0.00519,-0.00268,converging,converging,converging,True,True
+2017-2018,-0.01486,True,-0.0051,-0.00237,converging,converging,converging,True,True
+2018-2019,-0.01915,True,-0.00668,-0.007,converging,converging,converging,True,True
+2019-2020,-0.0041,False,0.00224,0.00856,converging,diverging,diverging,False,False
+2020-2021,-0.02235,True,-0.00662,0.00263,converging,converging,diverging,True,False
+2021-2022,-0.01509,False,-0.00309,0.0024,converging,converging,diverging,True,False
+2022-2023,-0.03499,True,-0.01105,-0.01904,converging,converging,converging,True,True
+2023-2024,-0.01362,True,-0.00435,-0.00065,converging,converging,converging,True,True

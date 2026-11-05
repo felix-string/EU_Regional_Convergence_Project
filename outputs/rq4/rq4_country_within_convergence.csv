@@ -1,0 +1,20 @@
+country,n_regions,sd_log_2016,sd_log_2024,sd_change_pct,within_beta,sigma_says,beta_says,richest_region_2024,tests_agree
+EL,13,0.1949,0.2212,13.5174,-0.0012,diverging,converging,EL30 Attiki,False
+DK,5,0.2272,0.2564,12.8719,0.0122,diverging,diverging,DK01 Hovedstaden,True
+PT,9,0.2228,0.2404,7.9294,0.0079,diverging,diverging,PT1A Grande Lisboa,True
+HU,8,0.3924,0.4129,5.2433,0.0025,diverging,diverging,HU11 Budapest,True
+RO,8,0.4013,0.4205,4.7673,0.0042,diverging,diverging,RO32 Bucureşti-Ilfov,True
+BG,6,0.3509,0.358,2.0049,0.001,diverging,diverging,BG41 Yugozapaden,True
+ES,19,0.2071,0.2105,1.66,0.0003,diverging,diverging,ES30 Comunidad de Madrid,True
+BE,11,0.3204,0.3197,-0.2251,-0.0019,converging,converging,BE10 Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest,True
+SE,8,0.1775,0.1764,-0.6267,-0.0041,converging,converging,SE11 Stockholm,True
+CZ,8,0.3574,0.3496,-2.174,-0.0031,converging,converging,CZ01 Praha,True
+IT,21,0.2936,0.2864,-2.4492,-0.0035,converging,converging,ITH1 Provincia Autonoma di Bolzano/Bozen,True
+FR,27,0.3022,0.2873,-4.9394,-0.0083,converging,converging,FR10 Ile de France,True
+NL,12,0.1991,0.188,-5.5885,-0.0112,converging,converging,NL32 Noord-Holland,True
+AT,9,0.1769,0.1655,-6.4323,-0.0112,converging,converging,AT32 Salzburg,True
+HR,4,0.4193,0.3904,-6.8767,-0.0093,converging,converging,HR05 Grad Zagreb,True
+PL,17,0.2637,0.2454,-6.964,-0.0093,converging,converging,PL91 Warszawski stołeczny,True
+DE,38,0.2164,0.2012,-7.0388,-0.0112,converging,converging,DE60 Hamburg,True
+SK,4,0.5834,0.4667,-20.0064,-0.0251,converging,converging,SK01 Bratislavský kraj,True
+FI,5,0.2101,0.1611,-23.3292,-0.0307,converging,converging,FI1B Helsinki-Uusimaa,True
