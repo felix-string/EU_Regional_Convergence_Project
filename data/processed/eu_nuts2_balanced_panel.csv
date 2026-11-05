@@ -1,0 +1,2017 @@
+region_code,region_name,country_code,year,gdp_pps_index,employment_rate,unemployment_rate,gdp_pps_index_flag,employment_rate_flag,unemployment_rate_flag
+AT11,Burgenland,AT,2016,90,73.1,5.7,,,
+AT11,Burgenland,AT,2017,88,74.7,5.2,,,
+AT11,Burgenland,AT,2018,87,75.2,4.2,,,u
+AT11,Burgenland,AT,2019,86,75.4,3.6,,,u
+AT11,Burgenland,AT,2020,85,75.4,4.2,,,
+AT11,Burgenland,AT,2021,85,74.9,5.1,,b,b
+AT11,Burgenland,AT,2022,86,76.5,4.3,,,
+AT11,Burgenland,AT,2023,87,76.6,5.2,,,
+AT11,Burgenland,AT,2024,86,76.9,4.9,,,
+AT12,Niederösterreich,AT,2016,106,76.5,5.2,,,
+AT12,Niederösterreich,AT,2017,104,78.1,4.8,,,
+AT12,Niederösterreich,AT,2018,104,78.1,3.8,,,
+AT12,Niederösterreich,AT,2019,105,78.4,4.0,,,
+AT12,Niederösterreich,AT,2020,101,77.6,4.2,,,
+AT12,Niederösterreich,AT,2021,100,77.5,5.1,,b,b
+AT12,Niederösterreich,AT,2022,101,78.5,4.0,,,
+AT12,Niederösterreich,AT,2023,100,78.4,4.3,,,
+AT12,Niederösterreich,AT,2024,98,78.9,4.2,,,
+AT13,Wien,AT,2016,153,68.0,11.3,,,
+AT13,Wien,AT,2017,146,68.4,10.4,,,
+AT13,Wien,AT,2018,147,69.7,10.0,,,
+AT13,Wien,AT,2019,144,70.4,9.3,,,
+AT13,Wien,AT,2020,144,68.4,10.7,,,
+AT13,Wien,AT,2021,143,69.4,12.1,,b,b
+AT13,Wien,AT,2022,140,71.2,9.2,,,
+AT13,Wien,AT,2023,139,70.8,9.6,,,
+AT13,Wien,AT,2024,137,70.6,9.4,,,
+AT21,Kärnten,AT,2016,108,73.0,5.4,,,
+AT21,Kärnten,AT,2017,107,73.8,4.8,,,
+AT21,Kärnten,AT,2018,109,75.0,4.1,,,
+AT21,Kärnten,AT,2019,108,75.1,3.8,,,
+AT21,Kärnten,AT,2020,108,73.1,4.7,,,
+AT21,Kärnten,AT,2021,107,73.7,5.6,,b,b
+AT21,Kärnten,AT,2022,112,75.8,4.5,,,
+AT21,Kärnten,AT,2023,115,75.9,4.5,,,
+AT21,Kärnten,AT,2024,110,76.7,4.3,,,
+AT22,Steiermark,AT,2016,116,74.6,5.1,,,
+AT22,Steiermark,AT,2017,116,75.0,4.5,,,
+AT22,Steiermark,AT,2018,115,75.9,4.0,,,
+AT22,Steiermark,AT,2019,114,77.4,3.2,,,
+AT22,Steiermark,AT,2020,113,76.5,4.4,,,
+AT22,Steiermark,AT,2021,111,75.9,4.3,,b,b
+AT22,Steiermark,AT,2022,114,77.6,3.7,,,
+AT22,Steiermark,AT,2023,111,78.2,4.3,,,
+AT22,Steiermark,AT,2024,111,78.2,4.4,,,
+AT31,Oberösterreich,AT,2016,131,78.8,4.5,,,
+AT31,Oberösterreich,AT,2017,129,78.9,4.0,,,
+AT31,Oberösterreich,AT,2018,130,79.3,3.2,,,
+AT31,Oberösterreich,AT,2019,129,80.3,2.9,,,
+AT31,Oberösterreich,AT,2020,128,79.0,3.9,,,
+AT31,Oberösterreich,AT,2021,126,79.3,3.8,,b,b
+AT31,Oberösterreich,AT,2022,127,80.8,2.9,,,
+AT31,Oberösterreich,AT,2023,123,80.5,3.5,,,
+AT31,Oberösterreich,AT,2024,119,80.4,3.8,,,
+AT32,Salzburg,AT,2016,150,78.3,3.4,,,
+AT32,Salzburg,AT,2017,146,79.2,3.1,,,
+AT32,Salzburg,AT,2018,146,80.6,2.8,,,
+AT32,Salzburg,AT,2019,145,80.5,2.4,,,
+AT32,Salzburg,AT,2020,144,79.1,3.0,,,
+AT32,Salzburg,AT,2021,140,78.7,4.6,,b,b
+AT32,Salzburg,AT,2022,151,80.7,3.0,,,
+AT32,Salzburg,AT,2023,147,81.2,3.0,,,
+AT32,Salzburg,AT,2024,146,82.0,3.4,,,
+AT33,Tirol,AT,2016,133,77.8,3.5,,,
+AT33,Tirol,AT,2017,130,77.9,3.3,,,
+AT33,Tirol,AT,2018,131,78.9,2.4,,,
+AT33,Tirol,AT,2019,130,79.6,2.1,,,
+AT33,Tirol,AT,2020,126,78.0,3.1,,,
+AT33,Tirol,AT,2021,118,77.1,4.8,,b,b
+AT33,Tirol,AT,2022,128,80.9,3.2,,,
+AT33,Tirol,AT,2023,128,80.3,3.1,,,
+AT33,Tirol,AT,2024,128,81.5,3.1,,,
+AT34,Vorarlberg,AT,2016,138,80.1,3.4,,,
+AT34,Vorarlberg,AT,2017,136,79.8,3.7,,,
+AT34,Vorarlberg,AT,2018,141,80.2,3.3,,,
+AT34,Vorarlberg,AT,2019,131,79.9,3.2,,,
+AT34,Vorarlberg,AT,2020,131,79.5,3.6,,,
+AT34,Vorarlberg,AT,2021,137,79.1,4.1,,b,b
+AT34,Vorarlberg,AT,2022,147,79.8,3.2,,,
+AT34,Vorarlberg,AT,2023,126,80.5,3.4,,,
+AT34,Vorarlberg,AT,2024,125,79.2,4.1,,,
+BE10,Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest,BE,2016,206,59.8,16.8,,,
+BE10,Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest,BE,2017,203,60.8,14.9,,b,b
+BE10,Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest,BE,2018,199,61.4,13.2,,,
+BE10,Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest,BE,2019,200,61.7,12.6,,,
+BE10,Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest,BE,2020,199,61.3,12.3,,,
+BE10,Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest,BE,2021,194,62.2,12.4,,b,b
+BE10,Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest,BE,2022,191,65.2,11.4,,,
+BE10,Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest,BE,2023,190,66.5,10.6,,,
+BE10,Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest,BE,2024,190,64.1,11.8,p,,
+BE21,Prov. Antwerpen,BE,2016,139,69.2,6.1,,,
+BE21,Prov. Antwerpen,BE,2017,136,70.8,5.9,,b,b
+BE21,Prov. Antwerpen,BE,2018,136,72.8,4.4,,,
+BE21,Prov. Antwerpen,BE,2019,136,74.4,3.6,,,
+BE21,Prov. Antwerpen,BE,2020,139,72.9,4.0,,,
+BE21,Prov. Antwerpen,BE,2021,137,72.7,5.2,,b,b
+BE21,Prov. Antwerpen,BE,2022,141,75.9,4.0,,,
+BE21,Prov. Antwerpen,BE,2023,140,75.7,3.6,,,
+BE21,Prov. Antwerpen,BE,2024,135,75.8,4.6,p,,
+BE22,Prov. Limburg (BE),BE,2016,94,69.7,4.8,,,
+BE22,Prov. Limburg (BE),BE,2017,94,72.0,4.1,,b,b
+BE22,Prov. Limburg (BE),BE,2018,94,72.3,3.8,,,
+BE22,Prov. Limburg (BE),BE,2019,93,72.4,3.6,,,
+BE22,Prov. Limburg (BE),BE,2020,95,71.9,3.6,,,
+BE22,Prov. Limburg (BE),BE,2021,94,73.0,3.4,,b,b
+BE22,Prov. Limburg (BE),BE,2022,96,75.0,3.5,,,
+BE22,Prov. Limburg (BE),BE,2023,96,76.4,3.2,,,
+BE22,Prov. Limburg (BE),BE,2024,94,75.7,3.8,p,,
+BE23,Prov. Oost-Vlaanderen,BE,2016,109,74.0,4.2,,,
+BE23,Prov. Oost-Vlaanderen,BE,2017,108,73.6,3.4,,b,b
+BE23,Prov. Oost-Vlaanderen,BE,2018,107,75.9,2.7,,,
+BE23,Prov. Oost-Vlaanderen,BE,2019,107,76.5,2.9,,,
+BE23,Prov. Oost-Vlaanderen,BE,2020,108,77.1,2.7,,,
+BE23,Prov. Oost-Vlaanderen,BE,2021,110,79.2,2.8,,b,b
+BE23,Prov. Oost-Vlaanderen,BE,2022,112,80.0,2.0,,,
+BE23,Prov. Oost-Vlaanderen,BE,2023,111,78.9,2.9,,,
+BE23,Prov. Oost-Vlaanderen,BE,2024,110,78.9,3.4,p,,
+BE24,Prov. Vlaams-Brabant,BE,2016,129,73.9,4.8,,,
+BE24,Prov. Vlaams-Brabant,BE,2017,126,74.0,4.7,,b,b
+BE24,Prov. Vlaams-Brabant,BE,2018,126,75.6,3.6,,,
+BE24,Prov. Vlaams-Brabant,BE,2019,126,76.1,3.6,,,
+BE24,Prov. Vlaams-Brabant,BE,2020,125,75.0,3.9,,,
+BE24,Prov. Vlaams-Brabant,BE,2021,128,74.3,4.0,,bu,bu
+BE24,Prov. Vlaams-Brabant,BE,2022,124,73.8,3.6,,u,u
+BE24,Prov. Vlaams-Brabant,BE,2023,129,73.7,4.2,,u,u
+BE24,Prov. Vlaams-Brabant,BE,2024,127,74.7,4.2,p,u,u
+BE25,Prov. West-Vlaanderen,BE,2016,115,74.0,3.7,,,
+BE25,Prov. West-Vlaanderen,BE,2017,113,75.4,3.2,,b,b
+BE25,Prov. West-Vlaanderen,BE,2018,112,76.9,2.6,,,
+BE25,Prov. West-Vlaanderen,BE,2019,113,77.5,2.5,,,
+BE25,Prov. West-Vlaanderen,BE,2020,115,76.5,3.3,,,
+BE25,Prov. West-Vlaanderen,BE,2021,114,77.0,3.6,,b,b
+BE25,Prov. West-Vlaanderen,BE,2022,116,78.0,2.7,,,
+BE25,Prov. West-Vlaanderen,BE,2023,119,79.3,2.8,,,
+BE25,Prov. West-Vlaanderen,BE,2024,117,79.0,2.7,p,,
+BE31,Prov. Brabant wallon,BE,2016,136,69.3,7.9,,,
+BE31,Prov. Brabant wallon,BE,2017,136,70.9,7.6,,b,b
+BE31,Prov. Brabant wallon,BE,2018,146,70.4,6.9,,,
+BE31,Prov. Brabant wallon,BE,2019,156,71.4,5.5,,,
+BE31,Prov. Brabant wallon,BE,2020,160,70.4,6.2,,,
+BE31,Prov. Brabant wallon,BE,2021,141,72.2,6.8,,b,b
+BE31,Prov. Brabant wallon,BE,2022,152,74.7,5.5,,,
+BE31,Prov. Brabant wallon,BE,2023,158,74.6,5.7,,,
+BE31,Prov. Brabant wallon,BE,2024,155,73.7,6.8,p,,
+BE32,Prov. Hainaut,BE,2016,74,60.0,11.8,,,
+BE32,Prov. Hainaut,BE,2017,73,59.6,11.4,,b,b
+BE32,Prov. Hainaut,BE,2018,73,60.0,10.0,,,
+BE32,Prov. Hainaut,BE,2019,72,60.9,8.6,,,
+BE32,Prov. Hainaut,BE,2020,73,60.2,8.3,,,
+BE32,Prov. Hainaut,BE,2021,72,61.1,10.3,,b,b
+BE32,Prov. Hainaut,BE,2022,73,61.4,10.5,,,
+BE32,Prov. Hainaut,BE,2023,72,62.6,9.3,,,
+BE32,Prov. Hainaut,BE,2024,72,64.3,8.7,p,,
+BE33,Prov. Liège,BE,2016,86,61.1,11.1,,,
+BE33,Prov. Liège,BE,2017,85,61.2,10.5,,b,b
+BE33,Prov. Liège,BE,2018,85,62.9,8.2,,,
+BE33,Prov. Liège,BE,2019,85,64.3,6.7,,,
+BE33,Prov. Liège,BE,2020,85,64.7,7.8,,,
+BE33,Prov. Liège,BE,2021,85,65.1,9.4,,b,b
+BE33,Prov. Liège,BE,2022,87,64.8,8.3,,,
+BE33,Prov. Liège,BE,2023,87,63.0,9.1,,,
+BE33,Prov. Liège,BE,2024,86,65.1,7.0,p,,
+BE34,Prov. Luxembourg (BE),BE,2016,73,68.2,7.8,,,
+BE34,Prov. Luxembourg (BE),BE,2017,72,70.5,6.7,,b,b
+BE34,Prov. Luxembourg (BE),BE,2018,72,70.5,5.4,,,
+BE34,Prov. Luxembourg (BE),BE,2019,71,71.1,5.4,,,
+BE34,Prov. Luxembourg (BE),BE,2020,72,71.5,5.1,,,
+BE34,Prov. Luxembourg (BE),BE,2021,73,72.3,5.6,,b,b
+BE34,Prov. Luxembourg (BE),BE,2022,74,72.5,4.8,,,
+BE34,Prov. Luxembourg (BE),BE,2023,73,70.6,6.5,,,
+BE34,Prov. Luxembourg (BE),BE,2024,72,72.0,5.4,p,,
+BE35,Prov. Namur,BE,2016,80,64.2,9.7,,,
+BE35,Prov. Namur,BE,2017,78,66.9,7.4,,b,b
+BE35,Prov. Namur,BE,2018,78,66.2,8.5,,,
+BE35,Prov. Namur,BE,2019,77,66.2,7.0,,,
+BE35,Prov. Namur,BE,2020,79,67.7,6.1,,,
+BE35,Prov. Namur,BE,2021,79,66.5,7.6,,b,b
+BE35,Prov. Namur,BE,2022,79,67.5,7.2,,,
+BE35,Prov. Namur,BE,2023,80,68.2,6.6,,,
+BE35,Prov. Namur,BE,2024,80,70.3,6.8,p,,
+BG31,Severozapaden,BG,2016,30,59.1,10.6,,,
+BG31,Severozapaden,BG,2017,32,62.6,11.3,,,
+BG31,Severozapaden,BG,2018,34,63.6,11.3,,,
+BG31,Severozapaden,BG,2019,33,64.9,10.6,,b,b
+BG31,Severozapaden,BG,2020,37,63.6,12.7,,,
+BG31,Severozapaden,BG,2021,39,64.4,10.9,,b,b
+BG31,Severozapaden,BG,2022,41,66.8,6.8,,,
+BG31,Severozapaden,BG,2023,42,67.2,7.8,,,
+BG31,Severozapaden,BG,2024,42,69.3,9.7,,b,b
+BG32,Severen tsentralen,BG,2016,35,65.4,9.3,,,
+BG32,Severen tsentralen,BG,2017,36,67.6,6.9,,,
+BG32,Severen tsentralen,BG,2018,37,69.1,6.7,,,
+BG32,Severen tsentralen,BG,2019,37,74.1,5.1,,b,b
+BG32,Severen tsentralen,BG,2020,39,73.8,5.7,,,
+BG32,Severen tsentralen,BG,2021,41,71.7,6.7,,b,b
+BG32,Severen tsentralen,BG,2022,41,73.3,5.8,,,
+BG32,Severen tsentralen,BG,2023,43,74.2,6.0,,,
+BG32,Severen tsentralen,BG,2024,43,75.4,5.3,,b,b
+BG33,Severoiztochen,BG,2016,42,67.0,9.8,,,
+BG33,Severoiztochen,BG,2017,42,69.8,9.4,,,
+BG33,Severoiztochen,BG,2018,44,70.2,7.4,,,
+BG33,Severoiztochen,BG,2019,44,72.6,5.9,,b,b
+BG33,Severoiztochen,BG,2020,45,72.1,6.0,,,
+BG33,Severoiztochen,BG,2021,47,73.1,5.9,,b,b
+BG33,Severoiztochen,BG,2022,48,76.9,5.3,,,
+BG33,Severoiztochen,BG,2023,50,77.7,4.5,,,
+BG33,Severoiztochen,BG,2024,51,79.8,4.0,,b,b
+BG34,Yugoiztochen,BG,2016,45,66.7,7.9,,,
+BG34,Yugoiztochen,BG,2017,45,70.3,7.0,,,
+BG34,Yugoiztochen,BG,2018,44,71.7,5.4,,,
+BG34,Yugoiztochen,BG,2019,42,74.6,3.9,,b,b
+BG34,Yugoiztochen,BG,2020,40,72.6,4.5,,,
+BG34,Yugoiztochen,BG,2021,46,71.6,5.5,,b,b
+BG34,Yugoiztochen,BG,2022,58,74.5,4.4,,,
+BG34,Yugoiztochen,BG,2023,54,75.9,4.6,,,
+BG34,Yugoiztochen,BG,2024,57,76.7,4.9,,b,b
+BG41,Yugozapaden,BG,2016,81,73.1,5.4,,,
+BG41,Yugozapaden,BG,2017,82,76.7,3.3,,,
+BG41,Yugozapaden,BG,2018,84,78.3,2.6,,,
+BG41,Yugozapaden,BG,2019,90,80.4,2.2,,b,b
+BG41,Yugozapaden,BG,2020,94,78.5,3.5,,,
+BG41,Yugozapaden,BG,2021,97,79.0,3.4,,b,b
+BG41,Yugozapaden,BG,2022,97,81.7,3.1,,,
+BG41,Yugozapaden,BG,2023,101,80.5,3.5,,,
+BG41,Yugozapaden,BG,2024,107,79.9,2.8,,b,b
+BG42,Yuzhen tsentralen,BG,2016,35,66.1,7.1,,,
+BG42,Yuzhen tsentralen,BG,2017,36,71.3,5.3,,,
+BG42,Yuzhen tsentralen,BG,2018,38,71.4,4.2,,,
+BG42,Yuzhen tsentralen,BG,2019,39,73.9,3.0,,b,b
+BG42,Yuzhen tsentralen,BG,2020,42,72.0,3.4,,,
+BG42,Yuzhen tsentralen,BG,2021,39,70.8,3.9,,b,b
+BG42,Yuzhen tsentralen,BG,2022,42,72.7,2.9,,,
+BG42,Yuzhen tsentralen,BG,2023,41,74.2,3.1,,,
+BG42,Yuzhen tsentralen,BG,2024,43,74.1,2.9,,b,b
+CY00,Kýpros,CY,2016,86,68.7,13.0,,,
+CY00,Kýpros,CY,2017,87,70.8,11.1,,,
+CY00,Kýpros,CY,2018,89,73.9,8.4,,,
+CY00,Kýpros,CY,2019,91,75.8,7.2,,,
+CY00,Kýpros,CY,2020,89,75.2,7.6,,,
+CY00,Kýpros,CY,2021,91,76.3,7.2,,b,b
+CY00,Kýpros,CY,2022,95,78.6,6.3,,,
+CY00,Kýpros,CY,2023,97,79.8,5.8,,,
+CY00,Kýpros,CY,2024,99,80.1,4.8,p,,
+CZ01,Praha,CZ,2016,197,80.1,2.2,,,
+CZ01,Praha,CZ,2017,200,82.4,1.7,,,
+CZ01,Praha,CZ,2018,206,83.7,1.3,,,
+CZ01,Praha,CZ,2019,209,83.7,1.3,,,
+CZ01,Praha,CZ,2020,211,82.1,2.3,,,
+CZ01,Praha,CZ,2021,206,82.4,2.3,,b,b
+CZ01,Praha,CZ,2022,200,84.4,1.6,,,
+CZ01,Praha,CZ,2023,197,84.8,2.1,,,
+CZ01,Praha,CZ,2024,192,85.1,1.8,,,
+CZ02,Střední Čechy,CZ,2016,83,78.0,3.1,,,
+CZ02,Střední Čechy,CZ,2017,86,80.2,2.1,,,
+CZ02,Střední Čechy,CZ,2018,85,81.6,2.0,,,
+CZ02,Střední Čechy,CZ,2019,89,82.7,1.3,,,
+CZ02,Střední Čechy,CZ,2020,87,82.3,1.9,,,
+CZ02,Střední Čechy,CZ,2021,83,81.9,2.5,,b,b
+CZ02,Střední Čechy,CZ,2022,80,83.5,1.2,,,
+CZ02,Střední Čechy,CZ,2023,82,82.7,1.7,,,
+CZ02,Střední Čechy,CZ,2024,84,83.4,1.3,,,
+CZ03,Jihozápad,CZ,2016,76,77.6,3.1,,,
+CZ03,Jihozápad,CZ,2017,79,79.3,2.1,,,
+CZ03,Jihozápad,CZ,2018,79,80.3,1.5,,,
+CZ03,Jihozápad,CZ,2019,80,80.6,1.5,,,
+CZ03,Jihozápad,CZ,2020,81,80.0,2.0,,,
+CZ03,Jihozápad,CZ,2021,77,81.2,2.4,,b,b
+CZ03,Jihozápad,CZ,2022,75,82.3,1.7,,,
+CZ03,Jihozápad,CZ,2023,77,82.2,1.9,,,
+CZ03,Jihozápad,CZ,2024,75,83.4,2.3,,,
+CZ04,Severozápad,CZ,2016,62,74.2,5.2,,,
+CZ04,Severozápad,CZ,2017,64,76.1,3.4,,,
+CZ04,Severozápad,CZ,2018,63,76.9,3.4,,,
+CZ04,Severozápad,CZ,2019,65,77.6,3.0,,,
+CZ04,Severozápad,CZ,2020,65,77.2,4.0,,,
+CZ04,Severozápad,CZ,2021,61,77.5,4.3,,b,b
+CZ04,Severozápad,CZ,2022,62,79.2,3.3,,,
+CZ04,Severozápad,CZ,2023,62,80.3,4.1,,,
+CZ04,Severozápad,CZ,2024,61,79.8,4.1,,,
+CZ05,Severovýchod,CZ,2016,73,77.2,4.0,,,
+CZ05,Severovýchod,CZ,2017,76,78.4,2.8,,,
+CZ05,Severovýchod,CZ,2018,76,79.4,2.0,,,
+CZ05,Severovýchod,CZ,2019,78,80.2,1.7,,,
+CZ05,Severovýchod,CZ,2020,80,79.8,2.3,,,
+CZ05,Severovýchod,CZ,2021,74,80.0,2.4,,b,b
+CZ05,Severovýchod,CZ,2022,71,80.9,2.2,,,
+CZ05,Severovýchod,CZ,2023,74,81.3,2.8,,,
+CZ05,Severovýchod,CZ,2024,75,81.4,2.9,,,
+CZ06,Jihovýchod,CZ,2016,80,76.8,3.7,,,
+CZ06,Jihovýchod,CZ,2017,82,78.1,3.1,,,
+CZ06,Jihovýchod,CZ,2018,84,79.4,2.3,,,
+CZ06,Jihovýchod,CZ,2019,86,80.1,1.9,,,
+CZ06,Jihovýchod,CZ,2020,89,80.1,2.3,,,
+CZ06,Jihovýchod,CZ,2021,86,80.0,2.4,,b,b
+CZ06,Jihovýchod,CZ,2022,83,81.3,1.7,,,
+CZ06,Jihovýchod,CZ,2023,85,82.1,2.2,,,
+CZ06,Jihovýchod,CZ,2024,84,82.8,2.4,,,
+CZ07,Střední Morava,CZ,2016,72,75.4,3.9,,,
+CZ07,Střední Morava,CZ,2017,74,77.3,3.3,,,
+CZ07,Střední Morava,CZ,2018,74,79.4,2.2,,,
+CZ07,Střední Morava,CZ,2019,76,79.1,2.2,,,
+CZ07,Střední Morava,CZ,2020,77,78.3,2.5,,,
+CZ07,Střední Morava,CZ,2021,73,78.8,2.2,,b,b
+CZ07,Střední Morava,CZ,2022,72,80.1,2.8,,,
+CZ07,Střední Morava,CZ,2023,74,81.1,2.5,,,
+CZ07,Střední Morava,CZ,2024,74,81.4,2.6,,,
+CZ08,Moravskoslezsko,CZ,2016,73,73.8,6.9,,,
+CZ08,Moravskoslezsko,CZ,2017,74,76.2,4.7,,,
+CZ08,Moravskoslezsko,CZ,2018,75,77.8,3.7,,,
+CZ08,Moravskoslezsko,CZ,2019,74,77.7,3.7,,,
+CZ08,Moravskoslezsko,CZ,2020,73,76.9,3.6,,,
+CZ08,Moravskoslezsko,CZ,2021,71,76.8,4.6,,b,b
+CZ08,Moravskoslezsko,CZ,2022,70,78.5,4.0,,,
+CZ08,Moravskoslezsko,CZ,2023,70,78.5,3.9,,,
+CZ08,Moravskoslezsko,CZ,2024,71,79.7,4.1,,,
+DE11,Stuttgart,DE,2016,163,82.1,3.3,,,
+DE11,Stuttgart,DE,2017,165,82.4,3.0,,,
+DE11,Stuttgart,DE,2018,166,83.4,2.3,,,
+DE11,Stuttgart,DE,2019,158,83.6,2.4,,,
+DE11,Stuttgart,DE,2020,158,81.6,3.5,,b,b
+DE11,Stuttgart,DE,2021,159,81.7,3.1,p,b,b
+DE11,Stuttgart,DE,2022,157,82.8,2.8,p,,
+DE11,Stuttgart,DE,2023,156,82.9,2.9,p,,
+DE11,Stuttgart,DE,2024,153,83.9,3.2,e,,
+DE12,Karlsruhe,DE,2016,139,80.4,3.1,,,
+DE12,Karlsruhe,DE,2017,139,79.9,3.3,,,
+DE12,Karlsruhe,DE,2018,139,81.1,3.0,,,
+DE12,Karlsruhe,DE,2019,136,81.8,2.8,,,
+DE12,Karlsruhe,DE,2020,135,80.5,3.5,,b,b
+DE12,Karlsruhe,DE,2021,131,80.6,3.4,p,b,b
+DE12,Karlsruhe,DE,2022,129,81.4,3.2,p,,
+DE12,Karlsruhe,DE,2023,126,82.7,2.9,p,,
+DE12,Karlsruhe,DE,2024,124,82.2,3.2,e,,
+DE13,Freiburg,DE,2016,121,82.1,3.0,,,
+DE13,Freiburg,DE,2017,121,82.6,2.9,,,
+DE13,Freiburg,DE,2018,120,83.5,2.6,,,
+DE13,Freiburg,DE,2019,118,83.5,2.2,,,
+DE13,Freiburg,DE,2020,117,82.2,2.7,,b,bu
+DE13,Freiburg,DE,2021,112,82.4,3.2,p,b,b
+DE13,Freiburg,DE,2022,108,83.7,2.3,p,,
+DE13,Freiburg,DE,2023,107,84.1,2.2,p,,
+DE13,Freiburg,DE,2024,105,84.2,2.5,e,,
+DE14,Tübingen,DE,2016,136,82.9,2.6,,,
+DE14,Tübingen,DE,2017,135,83.2,2.2,,,
+DE14,Tübingen,DE,2018,135,83.1,1.9,,,
+DE14,Tübingen,DE,2019,131,83.8,1.9,,,
+DE14,Tübingen,DE,2020,133,82.1,2.9,,b,bu
+DE14,Tübingen,DE,2021,130,82.3,3.0,p,b,b
+DE14,Tübingen,DE,2022,126,84.3,2.1,p,,u
+DE14,Tübingen,DE,2023,124,84.4,2.1,p,,u
+DE14,Tübingen,DE,2024,122,83.5,2.8,e,,
+DE21,Oberbayern,DE,2016,183,83.1,2.4,,,
+DE21,Oberbayern,DE,2017,184,83.8,2.2,,,
+DE21,Oberbayern,DE,2018,181,84.1,2.3,,,
+DE21,Oberbayern,DE,2019,178,84.8,1.9,,,
+DE21,Oberbayern,DE,2020,178,82.9,2.8,,b,b
+DE21,Oberbayern,DE,2021,177,82.8,2.7,p,b,b
+DE21,Oberbayern,DE,2022,175,84.0,2.2,p,,
+DE21,Oberbayern,DE,2023,174,84.6,2.3,p,,
+DE21,Oberbayern,DE,2024,170,84.8,2.7,e,,
+DE25,Mittelfranken,DE,2016,142,80.3,2.5,,,
+DE25,Mittelfranken,DE,2017,141,80.5,2.1,,,
+DE25,Mittelfranken,DE,2018,142,81.4,1.8,,,
+DE25,Mittelfranken,DE,2019,138,81.5,2.1,,,
+DE25,Mittelfranken,DE,2020,139,79.5,3.8,,b,bu
+DE25,Mittelfranken,DE,2021,135,80.7,3.4,p,b,b
+DE25,Mittelfranken,DE,2022,130,81.7,2.9,p,,
+DE25,Mittelfranken,DE,2023,129,83.0,2.4,p,,u
+DE25,Mittelfranken,DE,2024,126,84.6,2.7,e,,
+DE27,Schwaben,DE,2016,126,82.3,2.7,,,
+DE27,Schwaben,DE,2017,124,82.7,2.6,,,
+DE27,Schwaben,DE,2018,122,82.6,2.4,,,
+DE27,Schwaben,DE,2019,122,83.4,2.2,,,
+DE27,Schwaben,DE,2020,123,83.2,2.5,,b,bu
+DE27,Schwaben,DE,2021,117,82.8,2.8,p,b,b
+DE27,Schwaben,DE,2022,113,84.1,2.3,p,,u
+DE27,Schwaben,DE,2023,112,85.3,1.8,p,,u
+DE27,Schwaben,DE,2024,109,84.9,2.6,e,,
+DE30,Berlin,DE,2016,126,75.2,7.8,,,
+DE30,Berlin,DE,2017,127,76.2,7.0,,,
+DE30,Berlin,DE,2018,129,77.7,6.1,,,
+DE30,Berlin,DE,2019,128,78.5,5.3,,,
+DE30,Berlin,DE,2020,132,76.6,6.1,,b,b
+DE30,Berlin,DE,2021,131,76.7,5.7,p,b,b
+DE30,Berlin,DE,2022,128,78.9,4.8,p,,
+DE30,Berlin,DE,2023,127,78.0,5.2,p,,
+DE30,Berlin,DE,2024,127,77.5,5.6,p,,
+DE40,Brandenburg,DE,2016,90,80.3,4.6,,,
+DE40,Brandenburg,DE,2017,90,80.7,4.5,,,
+DE40,Brandenburg,DE,2018,89,81.2,4.1,,,
+DE40,Brandenburg,DE,2019,88,81.9,3.4,,,
+DE40,Brandenburg,DE,2020,90,80.6,4.2,,b,b
+DE40,Brandenburg,DE,2021,88,82.5,3.0,p,b,b
+DE40,Brandenburg,DE,2022,88,82.0,3.3,p,,
+DE40,Brandenburg,DE,2023,87,80.7,3.3,p,,
+DE40,Brandenburg,DE,2024,86,82.0,3.2,p,,
+DE60,Hamburg,DE,2016,211,78.9,4.1,,,
+DE60,Hamburg,DE,2017,212,79.8,4.2,,,
+DE60,Hamburg,DE,2018,209,79.9,4.1,,,
+DE60,Hamburg,DE,2019,207,80.7,3.6,,,
+DE60,Hamburg,DE,2020,205,78.9,4.8,,b,b
+DE60,Hamburg,DE,2021,209,78.9,4.5,p,b,b
+DE60,Hamburg,DE,2022,216,79.4,4.0,p,,
+DE60,Hamburg,DE,2023,195,79.2,4.1,p,,
+DE60,Hamburg,DE,2024,196,79.2,4.8,p,,
+DE71,Darmstadt,DE,2016,167,78.3,4.0,,,
+DE71,Darmstadt,DE,2017,165,79.3,3.5,,,
+DE71,Darmstadt,DE,2018,162,79.7,3.1,,,
+DE71,Darmstadt,DE,2019,157,80.6,3.1,,,
+DE71,Darmstadt,DE,2020,158,78.4,4.2,,b,b
+DE71,Darmstadt,DE,2021,155,77.3,4.1,p,b,b
+DE71,Darmstadt,DE,2022,151,78.8,3.9,p,,
+DE71,Darmstadt,DE,2023,149,80.7,3.1,p,,
+DE71,Darmstadt,DE,2024,148,80.4,3.4,e,,
+DE72,Gießen,DE,2016,108,77.7,4.0,,,
+DE72,Gießen,DE,2017,109,77.9,3.6,,,
+DE72,Gießen,DE,2018,109,77.0,3.6,,,
+DE72,Gießen,DE,2019,107,77.7,3.3,,,
+DE72,Gießen,DE,2020,109,73.8,5.2,,b,bu
+DE72,Gießen,DE,2021,105,76.4,3.5,p,b,bu
+DE72,Gießen,DE,2022,100,79.1,2.6,p,,u
+DE72,Gießen,DE,2023,101,79.9,3.0,p,,u
+DE72,Gießen,DE,2024,100,79.0,3.7,e,,u
+DE80,Mecklenburg-Vorpommern,DE,2016,85,75.6,6.3,,,
+DE80,Mecklenburg-Vorpommern,DE,2017,89,76.5,5.2,,,
+DE80,Mecklenburg-Vorpommern,DE,2018,87,76.7,4.9,,,
+DE80,Mecklenburg-Vorpommern,DE,2019,88,78.3,4.0,,,
+DE80,Mecklenburg-Vorpommern,DE,2020,90,78.6,4.5,,b,bu
+DE80,Mecklenburg-Vorpommern,DE,2021,88,79.7,3.8,p,b,b
+DE80,Mecklenburg-Vorpommern,DE,2022,89,79.2,3.8,p,,
+DE80,Mecklenburg-Vorpommern,DE,2023,87,79.7,4.3,p,,
+DE80,Mecklenburg-Vorpommern,DE,2024,88,79.9,3.7,p,,
+DE91,Braunschweig,DE,2016,154,75.2,4.6,,,
+DE91,Braunschweig,DE,2017,146,76.6,4.4,,,
+DE91,Braunschweig,DE,2018,150,77.5,4.0,,,
+DE91,Braunschweig,DE,2019,146,78.8,3.3,,,
+DE91,Braunschweig,DE,2020,143,76.2,4.5,,b,bu
+DE91,Braunschweig,DE,2021,133,77.6,3.9,p,b,b
+DE91,Braunschweig,DE,2022,125,79.4,3.1,p,,
+DE91,Braunschweig,DE,2023,130,80.0,3.1,p,,u
+DE91,Braunschweig,DE,2024,129,79.7,3.7,e,,
+DE92,Hannover,DE,2016,122,76.4,4.7,,,
+DE92,Hannover,DE,2017,121,77.1,4.5,,,
+DE92,Hannover,DE,2018,120,78.1,4.1,,,
+DE92,Hannover,DE,2019,118,79.1,3.5,,,
+DE92,Hannover,DE,2020,120,78.3,3.7,,b,b
+DE92,Hannover,DE,2021,117,79.9,2.8,p,b,b
+DE92,Hannover,DE,2022,112,80.8,3.1,p,,
+DE92,Hannover,DE,2023,112,80.5,3.0,p,,
+DE92,Hannover,DE,2024,112,80.3,3.1,e,,
+DE93,Lüneburg,DE,2016,87,80.1,3.3,,,
+DE93,Lüneburg,DE,2017,88,80.5,3.4,,,
+DE93,Lüneburg,DE,2018,89,81.8,2.5,,,
+DE93,Lüneburg,DE,2019,88,81.8,2.6,,,
+DE93,Lüneburg,DE,2020,91,78.6,3.8,,b,bu
+DE93,Lüneburg,DE,2021,88,81.7,3.1,p,b,b
+DE93,Lüneburg,DE,2022,88,82.4,2.6,p,,u
+DE93,Lüneburg,DE,2023,85,82.0,2.6,p,,u
+DE93,Lüneburg,DE,2024,84,82.8,2.7,p,,u
+DE94,Weser-Ems,DE,2016,110,79.1,3.6,,,
+DE94,Weser-Ems,DE,2017,111,80.1,3.0,,,
+DE94,Weser-Ems,DE,2018,110,80.4,2.7,,,
+DE94,Weser-Ems,DE,2019,108,80.9,3.0,,,
+DE94,Weser-Ems,DE,2020,111,79.2,3.3,,b,b
+DE94,Weser-Ems,DE,2021,108,78.6,3.6,p,b,b
+DE94,Weser-Ems,DE,2022,110,81.3,2.7,p,,
+DE94,Weser-Ems,DE,2023,106,81.6,2.5,p,,
+DE94,Weser-Ems,DE,2024,105,80.6,3.1,e,,
+DEA1,Düsseldorf,DE,2016,129,74.7,4.9,,,
+DEA1,Düsseldorf,DE,2017,129,75.7,4.3,,,
+DEA1,Düsseldorf,DE,2018,129,76.0,4.3,,,
+DEA1,Düsseldorf,DE,2019,124,76.6,3.8,,,
+DEA1,Düsseldorf,DE,2020,126,75.0,5.1,,b,b
+DEA1,Düsseldorf,DE,2021,122,75.2,4.4,p,b,b
+DEA1,Düsseldorf,DE,2022,121,77.2,3.9,p,,
+DEA1,Düsseldorf,DE,2023,118,77.7,4.0,p,,
+DEA1,Düsseldorf,DE,2024,116,77.3,4.3,e,,
+DEA2,Köln,DE,2016,132,76.8,3.9,,,
+DEA2,Köln,DE,2017,132,76.8,3.7,,,
+DEA2,Köln,DE,2018,133,76.9,3.7,,,
+DEA2,Köln,DE,2019,128,78.0,3.4,,,
+DEA2,Köln,DE,2020,130,76.5,4.1,,b,b
+DEA2,Köln,DE,2021,125,77.0,4.1,p,b,b
+DEA2,Köln,DE,2022,123,78.9,3.2,p,,
+DEA2,Köln,DE,2023,120,79.5,3.3,p,,
+DEA2,Köln,DE,2024,118,79.6,3.7,e,,
+DEA3,Münster,DE,2016,104,76.2,4.3,,,
+DEA3,Münster,DE,2017,105,76.0,3.9,,,
+DEA3,Münster,DE,2018,103,77.9,3.6,,,
+DEA3,Münster,DE,2019,102,79.0,3.4,,,
+DEA3,Münster,DE,2020,105,78.1,3.6,,b,b
+DEA3,Münster,DE,2021,101,78.1,3.7,p,b,b
+DEA3,Münster,DE,2022,99,79.1,3.4,p,,
+DEA3,Münster,DE,2023,97,78.7,3.0,p,,
+DEA3,Münster,DE,2024,95,79.1,3.4,e,,
+DEA4,Detmold,DE,2016,118,78.7,4.1,,,
+DEA4,Detmold,DE,2017,118,79.2,3.9,,,
+DEA4,Detmold,DE,2018,118,80.0,3.3,,,
+DEA4,Detmold,DE,2019,115,80.9,3.0,,,
+DEA4,Detmold,DE,2020,120,79.5,3.7,,b,bu
+DEA4,Detmold,DE,2021,114,78.7,3.9,p,b,b
+DEA4,Detmold,DE,2022,110,79.8,2.7,p,,
+DEA4,Detmold,DE,2023,108,81.4,2.4,p,,
+DEA4,Detmold,DE,2024,106,82.2,3.4,e,,
+DEA5,Arnsberg,DE,2016,110,74.3,5.0,,,
+DEA5,Arnsberg,DE,2017,109,75.1,4.7,,,
+DEA5,Arnsberg,DE,2018,110,76.7,4.0,,,
+DEA5,Arnsberg,DE,2019,107,77.1,3.9,,,
+DEA5,Arnsberg,DE,2020,108,75.3,5.1,,b,b
+DEA5,Arnsberg,DE,2021,105,75.5,4.2,p,b,b
+DEA5,Arnsberg,DE,2022,102,78.1,3.9,p,,
+DEA5,Arnsberg,DE,2023,100,78.6,3.6,p,,
+DEA5,Arnsberg,DE,2024,98,77.4,4.1,e,,
+DEB3,Rheinhessen-Pfalz,DE,2016,121,77.3,4.1,,,
+DEB3,Rheinhessen-Pfalz,DE,2017,118,77.5,3.8,,,
+DEB3,Rheinhessen-Pfalz,DE,2018,116,77.9,3.5,,,
+DEB3,Rheinhessen-Pfalz,DE,2019,113,78.9,3.3,,,
+DEB3,Rheinhessen-Pfalz,DE,2020,113,79.0,4.0,,b,b
+DEB3,Rheinhessen-Pfalz,DE,2021,127,79.0,4.2,p,b,b
+DEB3,Rheinhessen-Pfalz,DE,2022,120,78.5,3.6,p,,
+DEB3,Rheinhessen-Pfalz,DE,2023,110,80.1,3.6,p,,
+DEB3,Rheinhessen-Pfalz,DE,2024,107,81.1,3.4,e,,
+DED2,Dresden,DE,2016,96,80.5,4.9,,,
+DED2,Dresden,DE,2017,96,81.5,4.3,,,
+DED2,Dresden,DE,2018,97,81.8,4.1,,,
+DED2,Dresden,DE,2019,96,83.1,3.5,,,
+DED2,Dresden,DE,2020,98,82.4,3.6,,b,bu
+DED2,Dresden,DE,2021,94,82.3,3.4,p,b,b
+DED2,Dresden,DE,2022,94,82.8,3.4,p,,
+DED2,Dresden,DE,2023,93,84.5,2.4,p,,u
+DED2,Dresden,DE,2024,92,83.9,3.6,e,,
+DED5,Leipzig,DE,2016,103,78.4,6.0,,,
+DED5,Leipzig,DE,2017,103,79.9,5.1,,,
+DED5,Leipzig,DE,2018,102,81.2,4.8,,,
+DED5,Leipzig,DE,2019,101,81.0,4.7,,,
+DED5,Leipzig,DE,2020,102,80.1,5.3,,b,bu
+DED5,Leipzig,DE,2021,101,80.8,4.5,p,b,bu
+DED5,Leipzig,DE,2022,100,83.2,3.5,p,,u
+DED5,Leipzig,DE,2023,98,82.8,4.5,p,,
+DED5,Leipzig,DE,2024,97,80.5,5.5,e,,
+DEE0,Sachsen-Anhalt,DE,2016,86,76.7,7.4,,,
+DEE0,Sachsen-Anhalt,DE,2017,86,77.1,6.9,,,
+DEE0,Sachsen-Anhalt,DE,2018,86,78.4,5.3,,,
+DEE0,Sachsen-Anhalt,DE,2019,86,79.2,4.6,,,
+DEE0,Sachsen-Anhalt,DE,2020,88,79.4,4.8,,b,b
+DEE0,Sachsen-Anhalt,DE,2021,86,79.3,4.2,p,b,b
+DEE0,Sachsen-Anhalt,DE,2022,87,80.1,3.9,p,,
+DEE0,Sachsen-Anhalt,DE,2023,85,80.2,3.8,p,,
+DEE0,Sachsen-Anhalt,DE,2024,83,80.6,4.2,p,,
+DEF0,Schleswig-Holstein,DE,2016,99,78.5,4.0,,,
+DEF0,Schleswig-Holstein,DE,2017,101,79.3,3.6,,,
+DEF0,Schleswig-Holstein,DE,2018,100,80.1,3.1,,,
+DEF0,Schleswig-Holstein,DE,2019,99,81.6,2.9,,,
+DEF0,Schleswig-Holstein,DE,2020,102,79.9,3.5,,b,b
+DEF0,Schleswig-Holstein,DE,2021,99,80.6,3.2,p,b,b
+DEF0,Schleswig-Holstein,DE,2022,100,80.8,2.9,p,,
+DEF0,Schleswig-Holstein,DE,2023,96,80.3,3.1,p,,
+DEF0,Schleswig-Holstein,DE,2024,97,80.2,3.4,p,,
+DEG0,Thüringen,DE,2016,90,79.0,5.1,,,
+DEG0,Thüringen,DE,2017,90,79.9,4.4,,,
+DEG0,Thüringen,DE,2018,89,80.8,4.1,,,
+DEG0,Thüringen,DE,2019,87,81.3,3.7,,,
+DEG0,Thüringen,DE,2020,89,80.5,4.2,,b,b
+DEG0,Thüringen,DE,2021,86,81.8,3.5,p,b,b
+DEG0,Thüringen,DE,2022,85,82.1,3.0,p,,
+DEG0,Thüringen,DE,2023,84,82.0,3.1,p,,
+DEG0,Thüringen,DE,2024,83,81.0,3.5,p,,
+DK01,Hovedstaden,DK,2016,163,78.3,6.2,,b,b
+DK01,Hovedstaden,DK,2017,166,78.5,6.2,,b,b
+DK01,Hovedstaden,DK,2018,165,79.3,5.4,,,
+DK01,Hovedstaden,DK,2019,160,80.4,5.1,,,
+DK01,Hovedstaden,DK,2020,169,79.8,6.1,,,
+DK01,Hovedstaden,DK,2021,179,80.2,5.7,,b,b
+DK01,Hovedstaden,DK,2022,192,82.0,4.7,,,
+DK01,Hovedstaden,DK,2023,170,81.8,5.2,,b,b
+DK01,Hovedstaden,DK,2024,175,82.1,6.6,,,
+DK02,Sjælland,DK,2016,87,74.3,6.2,,b,b
+DK02,Sjælland,DK,2017,89,75.7,5.6,,b,b
+DK02,Sjælland,DK,2018,88,75.9,5.2,,,
+DK02,Sjælland,DK,2019,87,77.1,4.9,,,
+DK02,Sjælland,DK,2020,92,76.6,5.4,,,
+DK02,Sjælland,DK,2021,90,77.9,5.0,,b,b
+DK02,Sjælland,DK,2022,87,78.9,3.9,,,
+DK02,Sjælland,DK,2023,89,78.7,4.6,,b,b
+DK02,Sjælland,DK,2024,90,78.8,5.8,,,
+DK03,Syddanmark,DK,2016,113,73.9,6.1,,b,b
+DK03,Syddanmark,DK,2017,114,75.0,6.1,,b,b
+DK03,Syddanmark,DK,2018,112,76.4,4.9,,,
+DK03,Syddanmark,DK,2019,111,76.9,4.8,,,
+DK03,Syddanmark,DK,2020,117,76.7,5.1,,,
+DK03,Syddanmark,DK,2021,115,78.8,4.5,,b,b
+DK03,Syddanmark,DK,2022,110,78.8,4.5,,,
+DK03,Syddanmark,DK,2023,109,78.1,5.2,,b,b
+DK03,Syddanmark,DK,2024,107,79.0,6.0,,,
+DK04,Midtjylland,DK,2016,116,76.4,5.4,,b,b
+DK04,Midtjylland,DK,2017,116,76.3,5.4,,b,b
+DK04,Midtjylland,DK,2018,115,77.7,4.7,,,
+DK04,Midtjylland,DK,2019,114,78.5,4.9,,,
+DK04,Midtjylland,DK,2020,123,78.0,5.5,,,
+DK04,Midtjylland,DK,2021,121,78.8,4.8,,b,b
+DK04,Midtjylland,DK,2022,112,80.0,4.1,,,
+DK04,Midtjylland,DK,2023,109,79.7,5.4,,b,b
+DK04,Midtjylland,DK,2024,108,80.0,6.1,,,
+DK05,Nordjylland,DK,2016,106,73.9,6.0,,b,b
+DK05,Nordjylland,DK,2017,108,75.1,5.6,,b,b
+DK05,Nordjylland,DK,2018,106,75.2,5.5,,,
+DK05,Nordjylland,DK,2019,104,75.7,5.8,,,
+DK05,Nordjylland,DK,2020,110,74.9,5.9,,,
+DK05,Nordjylland,DK,2021,106,77.3,5.2,,b,b
+DK05,Nordjylland,DK,2022,100,78.5,4.8,,,
+DK05,Nordjylland,DK,2023,100,78.6,4.7,,b,b
+DK05,Nordjylland,DK,2024,100,78.4,5.9,,,
+EE00,Eesti,EE,2016,78,76.4,6.9,,,
+EE00,Eesti,EE,2017,80,78.3,5.8,,,
+EE00,Eesti,EE,2018,82,79.1,5.4,,,
+EE00,Eesti,EE,2019,83,79.7,4.5,,,
+EE00,Eesti,EE,2020,85,78.2,7.0,,,
+EE00,Eesti,EE,2021,85,79.3,6.2,,b,b
+EE00,Eesti,EE,2022,83,81.9,5.6,,,
+EE00,Eesti,EE,2023,80,82.1,6.4,,,
+EE00,Eesti,EE,2024,79,81.8,7.6,,,
+EL30,Attiki,EL,2016,91,56.4,23.0,p,,
+EL30,Attiki,EL,2017,91,57.5,21.6,p,,
+EL30,Attiki,EL,2018,90,58.9,19.9,p,,
+EL30,Attiki,EL,2019,90,61.9,16.9,p,,
+EL30,Attiki,EL,2020,86,63.3,14.1,p,,
+EL30,Attiki,EL,2021,89,65.7,11.9,p,b,b
+EL30,Attiki,EL,2022,91,69.3,10.0,p,,
+EL30,Attiki,EL,2023,96,69.0,9.4,p,,
+EL30,Attiki,EL,2024,96,71.0,9.1,p,,
+EL41,Voreio Aigaio,EL,2016,50,59.0,18.3,p,,
+EL41,Voreio Aigaio,EL,2017,47,61.1,22.5,p,,
+EL41,Voreio Aigaio,EL,2018,45,60.8,22.3,p,,
+EL41,Voreio Aigaio,EL,2019,43,65.1,17.7,p,,
+EL41,Voreio Aigaio,EL,2020,39,65.2,16.5,p,,
+EL41,Voreio Aigaio,EL,2021,39,64.0,13.9,p,b,b
+EL41,Voreio Aigaio,EL,2022,41,67.3,11.5,p,,
+EL41,Voreio Aigaio,EL,2023,42,69.2,10.0,p,,
+EL41,Voreio Aigaio,EL,2024,42,70.7,7.1,p,,
+EL42,Notio Aigaio,EL,2016,72,62.2,17.5,p,,
+EL42,Notio Aigaio,EL,2017,70,62.7,16.0,p,,
+EL42,Notio Aigaio,EL,2018,70,64.0,16.9,p,,
+EL42,Notio Aigaio,EL,2019,70,66.0,13.7,p,,
+EL42,Notio Aigaio,EL,2020,57,58.7,16.7,p,,
+EL42,Notio Aigaio,EL,2021,60,58.6,18.8,p,b,b
+EL42,Notio Aigaio,EL,2022,65,64.4,10.7,p,,
+EL42,Notio Aigaio,EL,2023,69,66.6,7.1,p,,
+EL42,Notio Aigaio,EL,2024,70,69.1,9.9,p,,
+EL43,Kriti,EL,2016,56,58.2,22.6,p,,
+EL43,Kriti,EL,2017,57,61.8,17.7,p,,
+EL43,Kriti,EL,2018,56,65.2,13.4,p,,
+EL43,Kriti,EL,2019,56,67.0,11.7,p,,
+EL43,Kriti,EL,2020,49,61.9,17.3,p,,
+EL43,Kriti,EL,2021,52,63.1,16.3,p,b,b
+EL43,Kriti,EL,2022,56,68.8,12.1,p,,
+EL43,Kriti,EL,2023,59,69.4,10.8,p,,
+EL43,Kriti,EL,2024,60,71.4,8.6,p,,
+EL51,"Anatoliki Makedonia, Thraki",EL,2016,46,56.9,22.8,p,,
+EL51,"Anatoliki Makedonia, Thraki",EL,2017,45,58.5,19.5,p,,
+EL51,"Anatoliki Makedonia, Thraki",EL,2018,44,61.1,16.0,p,,
+EL51,"Anatoliki Makedonia, Thraki",EL,2019,43,62.1,16.2,p,,
+EL51,"Anatoliki Makedonia, Thraki",EL,2020,41,59.4,17.2,p,,
+EL51,"Anatoliki Makedonia, Thraki",EL,2021,43,59.5,18.5,p,b,b
+EL51,"Anatoliki Makedonia, Thraki",EL,2022,44,62.8,14.7,p,,
+EL51,"Anatoliki Makedonia, Thraki",EL,2023,44,66.0,12.1,p,,
+EL51,"Anatoliki Makedonia, Thraki",EL,2024,45,67.5,11.6,p,,
+EL52,Kentriki Makedonia,EL,2016,53,55.4,24.5,p,,
+EL52,Kentriki Makedonia,EL,2017,52,55.9,22.9,p,,
+EL52,Kentriki Makedonia,EL,2018,52,57.8,20.7,p,,
+EL52,Kentriki Makedonia,EL,2019,52,58.4,19.6,p,,
+EL52,Kentriki Makedonia,EL,2020,49,58.9,18.4,p,,
+EL52,Kentriki Makedonia,EL,2021,50,59.4,16.1,p,b,b
+EL52,Kentriki Makedonia,EL,2022,54,63.6,14.7,p,,
+EL52,Kentriki Makedonia,EL,2023,55,65.6,14.1,p,,
+EL52,Kentriki Makedonia,EL,2024,55,68.0,12.8,p,,
+EL53,Dytiki Makedonia,EL,2016,66,50.4,31.3,p,,
+EL53,Dytiki Makedonia,EL,2017,65,52.7,29.1,p,,
+EL53,Dytiki Makedonia,EL,2018,62,54.6,27.0,p,,
+EL53,Dytiki Makedonia,EL,2019,58,56.0,24.6,p,,
+EL53,Dytiki Makedonia,EL,2020,53,56.4,19.7,p,,
+EL53,Dytiki Makedonia,EL,2021,54,58.2,19.8,p,b,b
+EL53,Dytiki Makedonia,EL,2022,53,58.8,17.7,p,,
+EL53,Dytiki Makedonia,EL,2023,50,62.3,16.7,p,,
+EL53,Dytiki Makedonia,EL,2024,48,64.8,12.5,p,,
+EL54,Ipeiros,EL,2016,46,54.5,24.4,p,,
+EL54,Ipeiros,EL,2017,44,54.1,24.8,p,,
+EL54,Ipeiros,EL,2018,44,58.0,20.1,p,,
+EL54,Ipeiros,EL,2019,43,60.8,16.4,p,,
+EL54,Ipeiros,EL,2020,41,58.0,17.9,p,,
+EL54,Ipeiros,EL,2021,42,55.8,15.1,p,b,b
+EL54,Ipeiros,EL,2022,43,63.5,13.3,p,,
+EL54,Ipeiros,EL,2023,44,65.3,13.8,p,,
+EL54,Ipeiros,EL,2024,45,67.8,10.7,p,,
+EL61,Thessalia,EL,2016,50,54.8,25.5,p,,
+EL61,Thessalia,EL,2017,49,58.7,20.7,p,,
+EL61,Thessalia,EL,2018,50,59.8,18.4,p,,
+EL61,Thessalia,EL,2019,50,59.7,18.7,p,,
+EL61,Thessalia,EL,2020,48,60.4,16.9,p,,
+EL61,Thessalia,EL,2021,51,62.0,16.7,p,b,b
+EL61,Thessalia,EL,2022,51,64.8,16.4,p,,
+EL61,Thessalia,EL,2023,52,63.7,12.9,p,,
+EL61,Thessalia,EL,2024,53,64.6,10.0,p,,
+EL62,Ionia Nisia,EL,2016,61,62.0,16.0,p,,
+EL62,Ionia Nisia,EL,2017,61,59.2,19.7,p,,
+EL62,Ionia Nisia,EL,2018,61,64.5,16.0,p,,
+EL62,Ionia Nisia,EL,2019,61,64.7,12.4,p,,
+EL62,Ionia Nisia,EL,2020,50,60.1,16.0,p,,
+EL62,Ionia Nisia,EL,2021,54,61.5,13.2,p,b,b
+EL62,Ionia Nisia,EL,2022,58,64.0,12.9,p,,
+EL62,Ionia Nisia,EL,2023,63,65.3,14.7,p,,
+EL62,Ionia Nisia,EL,2024,63,67.2,16.2,p,,
+EL63,Dytiki Elláda,EL,2016,49,51.0,29.8,p,,
+EL63,Dytiki Elláda,EL,2017,49,53.6,26.3,p,,
+EL63,Dytiki Elláda,EL,2018,47,53.7,24.1,p,,
+EL63,Dytiki Elláda,EL,2019,47,53.2,24.1,p,,
+EL63,Dytiki Elláda,EL,2020,45,55.3,21.6,p,,
+EL63,Dytiki Elláda,EL,2021,46,59.7,17.5,p,b,b
+EL63,Dytiki Elláda,EL,2022,48,62.4,12.6,p,,
+EL63,Dytiki Elláda,EL,2023,49,65.9,9.8,p,,
+EL63,Dytiki Elláda,EL,2024,49,66.8,10.1,p,,
+EL64,Sterea Elláda,EL,2016,59,55.2,25.0,p,,
+EL64,Sterea Elláda,EL,2017,59,58.6,20.9,p,,
+EL64,Sterea Elláda,EL,2018,59,60.6,18.9,p,,
+EL64,Sterea Elláda,EL,2019,58,61.2,17.2,p,,
+EL64,Sterea Elláda,EL,2020,58,59.8,19.3,p,,
+EL64,Sterea Elláda,EL,2021,59,61.2,17.2,p,b,b
+EL64,Sterea Elláda,EL,2022,62,66.6,13.8,p,,
+EL64,Sterea Elláda,EL,2023,59,69.8,9.9,p,,
+EL64,Sterea Elláda,EL,2024,60,69.7,8.6,p,,
+EL65,Peloponnisos,EL,2016,58,60.6,19.2,p,,
+EL65,Peloponnisos,EL,2017,58,63.3,16.8,p,,
+EL65,Peloponnisos,EL,2018,56,65.0,14.4,p,,
+EL65,Peloponnisos,EL,2019,56,67.0,12.0,p,,
+EL65,Peloponnisos,EL,2020,53,68.3,11.4,p,,
+EL65,Peloponnisos,EL,2021,54,67.1,12.7,p,b,b
+EL65,Peloponnisos,EL,2022,57,68.3,12.6,p,,
+EL65,Peloponnisos,EL,2023,57,70.5,9.6,p,,
+EL65,Peloponnisos,EL,2024,57,73.4,7.6,p,,
+ES11,Galicia,ES,2016,82,63.5,17.2,,,
+ES11,Galicia,ES,2017,82,64.7,15.7,,,
+ES11,Galicia,ES,2018,81,66.7,13.3,,,
+ES11,Galicia,ES,2019,81,68.0,11.8,,,
+ES11,Galicia,ES,2020,76,66.8,12.0,,,
+ES11,Galicia,ES,2021,78,68.0,11.6,,bd,bd
+ES11,Galicia,ES,2022,81,69.1,11.0,,d,d
+ES11,Galicia,ES,2023,84,70.6,9.7,p,d,d
+ES11,Galicia,ES,2024,84,71.1,9.4,p,d,d
+ES12,Principado de Asturias,ES,2016,79,60.4,17.6,,,
+ES12,Principado de Asturias,ES,2017,80,62.7,13.7,,,
+ES12,Principado de Asturias,ES,2018,79,63.0,13.6,,,
+ES12,Principado de Asturias,ES,2019,79,62.9,14.2,,,
+ES12,Principado de Asturias,ES,2020,73,62.7,14.1,,,
+ES12,Principado de Asturias,ES,2021,76,65.2,12.3,,bd,bd
+ES12,Principado de Asturias,ES,2022,81,64.4,12.5,,d,d
+ES12,Principado de Asturias,ES,2023,82,65.9,12.1,p,d,d
+ES12,Principado de Asturias,ES,2024,83,69.4,10.1,p,d,d
+ES13,Cantabria,ES,2016,84,65.3,14.9,,,
+ES13,Cantabria,ES,2017,84,66.5,13.6,,,
+ES13,Cantabria,ES,2018,83,67.7,10.7,,,
+ES13,Cantabria,ES,2019,83,68.8,10.3,,,
+ES13,Cantabria,ES,2020,77,66.4,12.2,,,
+ES13,Cantabria,ES,2021,79,68.8,11.3,,bd,bd
+ES13,Cantabria,ES,2022,81,70.1,9.6,,d,d
+ES13,Cantabria,ES,2023,83,71.7,8.1,p,d,d
+ES13,Cantabria,ES,2024,84,73.6,7.8,p,d,d
+ES21,País Vasco,ES,2016,117,69.6,12.6,,,
+ES21,País Vasco,ES,2017,117,70.0,11.3,,,
+ES21,País Vasco,ES,2018,115,71.4,10.0,,,
+ES21,País Vasco,ES,2019,114,72.4,9.2,,,
+ES21,País Vasco,ES,2020,104,70.9,9.5,,,
+ES21,País Vasco,ES,2021,107,71.8,10.3,,bd,bd
+ES21,País Vasco,ES,2022,111,73.3,8.9,,d,d
+ES21,País Vasco,ES,2023,114,75.3,7.7,p,d,d
+ES21,País Vasco,ES,2024,115,74.2,8.1,p,d,d
+ES22,Comunidad Foral de Navarra,ES,2016,112,69.3,12.5,,,
+ES22,Comunidad Foral de Navarra,ES,2017,112,72.1,10.2,,,
+ES22,Comunidad Foral de Navarra,ES,2018,109,72.5,10.0,,,
+ES22,Comunidad Foral de Navarra,ES,2019,109,73.7,8.2,,,
+ES22,Comunidad Foral de Navarra,ES,2020,100,70.4,10.1,,,
+ES22,Comunidad Foral de Navarra,ES,2021,103,71.8,10.7,,bd,bd
+ES22,Comunidad Foral de Navarra,ES,2022,106,73.4,9.7,,d,d
+ES22,Comunidad Foral de Navarra,ES,2023,108,73.2,9.9,p,d,d
+ES22,Comunidad Foral de Navarra,ES,2024,109,75.8,7.6,p,d,d
+ES23,La Rioja,ES,2016,98,70.4,13.5,,,
+ES23,La Rioja,ES,2017,98,71.3,12.0,,,
+ES23,La Rioja,ES,2018,96,73.2,10.4,,,
+ES23,La Rioja,ES,2019,95,74.0,10.0,,,
+ES23,La Rioja,ES,2020,89,72.2,10.8,,,
+ES23,La Rioja,ES,2021,89,73.3,11.6,,bd,bd
+ES23,La Rioja,ES,2022,93,74.8,9.6,,d,d
+ES23,La Rioja,ES,2023,95,74.5,9.4,p,d,d
+ES23,La Rioja,ES,2024,95,74.4,9.7,p,d,d
+ES24,Aragón,ES,2016,100,69.6,14.8,,,
+ES24,Aragón,ES,2017,100,71.6,11.7,,,
+ES24,Aragón,ES,2018,99,72.7,10.6,,,
+ES24,Aragón,ES,2019,99,73.8,10.0,,,
+ES24,Aragón,ES,2020,93,71.2,11.7,,,
+ES24,Aragón,ES,2021,95,73.0,10.3,,bd,bd
+ES24,Aragón,ES,2022,100,74.2,9.6,,d,d
+ES24,Aragón,ES,2023,102,75.3,8.6,p,d,d
+ES24,Aragón,ES,2024,103,75.9,8.1,p,d,d
+ES30,Comunidad de Madrid,ES,2016,127,70.4,15.7,,,
+ES30,Comunidad de Madrid,ES,2017,127,71.9,13.4,,,
+ES30,Comunidad de Madrid,ES,2018,125,72.9,12.2,,,
+ES30,Comunidad de Madrid,ES,2019,124,74.2,10.6,,,
+ES30,Comunidad de Madrid,ES,2020,113,72.0,12.5,,,
+ES30,Comunidad de Madrid,ES,2021,116,74.1,11.7,,bd,bd
+ES30,Comunidad de Madrid,ES,2022,120,74.5,11.2,,d,d
+ES30,Comunidad de Madrid,ES,2023,125,75.5,10.0,p,d,d
+ES30,Comunidad de Madrid,ES,2024,125,76.8,9.0,p,d,d
+ES41,Castilla y León,ES,2016,85,66.0,15.8,,,
+ES41,Castilla y León,ES,2017,85,67.4,14.1,,,
+ES41,Castilla y León,ES,2018,85,68.9,12.1,,,
+ES41,Castilla y León,ES,2019,84,69.8,11.6,,,
+ES41,Castilla y León,ES,2020,79,68.3,12.1,,,
+ES41,Castilla y León,ES,2021,82,69.4,11.6,,bd,bd
+ES41,Castilla y León,ES,2022,84,72.1,9.9,,d,d
+ES41,Castilla y León,ES,2023,86,72.2,9.7,p,d,d
+ES41,Castilla y León,ES,2024,86,73.1,9.4,p,d,d
+ES42,Castilla-La Mancha,ES,2016,73,59.9,23.6,,,
+ES42,Castilla-La Mancha,ES,2017,74,62.6,20.8,,,
+ES42,Castilla-La Mancha,ES,2018,73,64.5,18.2,,,
+ES42,Castilla-La Mancha,ES,2019,72,65.8,16.2,,,
+ES42,Castilla-La Mancha,ES,2020,68,63.3,17.7,,,
+ES42,Castilla-La Mancha,ES,2021,70,66.6,15.7,,bd,bd
+ES42,Castilla-La Mancha,ES,2022,74,67.9,14.6,,d,d
+ES42,Castilla-La Mancha,ES,2023,73,68.8,13.2,p,d,d
+ES42,Castilla-La Mancha,ES,2024,73,68.9,13.3,p,d,d
+ES43,Extremadura,ES,2016,67,54.6,27.5,,,
+ES43,Extremadura,ES,2017,69,55.3,26.3,,,
+ES43,Extremadura,ES,2018,68,57.8,23.7,,,
+ES43,Extremadura,ES,2019,67,60.0,21.6,,,
+ES43,Extremadura,ES,2020,63,58.6,21.8,,,
+ES43,Extremadura,ES,2021,66,60.8,20.2,,bd,bd
+ES43,Extremadura,ES,2022,68,63.4,17.3,,d,d
+ES43,Extremadura,ES,2023,70,64.6,17.4,p,d,d
+ES43,Extremadura,ES,2024,70,65.4,15.5,p,d,d
+ES51,Cataluña,ES,2016,109,70.1,15.7,,,
+ES51,Cataluña,ES,2017,109,71.8,13.4,,,
+ES51,Cataluña,ES,2018,107,72.9,11.5,,,
+ES51,Cataluña,ES,2019,106,73.6,11.0,,,
+ES51,Cataluña,ES,2020,96,71.2,12.6,,,
+ES51,Cataluña,ES,2021,99,72.8,11.7,,bd,bd
+ES51,Cataluña,ES,2022,101,73.9,10.0,,d,d
+ES51,Cataluña,ES,2023,104,75.2,9.3,p,d,d
+ES51,Cataluña,ES,2024,105,75.7,8.9,p,d,d
+ES52,Comunitat Valenciana,ES,2016,80,63.4,20.6,,,
+ES52,Comunitat Valenciana,ES,2017,81,65.3,18.2,,,
+ES52,Comunitat Valenciana,ES,2018,80,66.9,15.6,,,
+ES52,Comunitat Valenciana,ES,2019,79,67.8,14.1,,,
+ES52,Comunitat Valenciana,ES,2020,72,65.1,16.2,,,
+ES52,Comunitat Valenciana,ES,2021,75,65.9,16.1,,bd,bd
+ES52,Comunitat Valenciana,ES,2022,75,69.3,13.3,,d,d
+ES52,Comunitat Valenciana,ES,2023,78,70.6,12.8,p,d,d
+ES52,Comunitat Valenciana,ES,2024,77,70.3,12.6,p,d,d
+ES53,Illes Balears,ES,2016,102,71.4,13.9,,,
+ES53,Illes Balears,ES,2017,103,71.3,12.4,,,
+ES53,Illes Balears,ES,2018,101,72.5,11.5,,,
+ES53,Illes Balears,ES,2019,100,72.1,11.8,,,
+ES53,Illes Balears,ES,2020,78,66.0,16.1,,,
+ES53,Illes Balears,ES,2021,84,69.7,14.3,,bd,bd
+ES53,Illes Balears,ES,2022,95,73.5,10.6,,d,d
+ES53,Illes Balears,ES,2023,99,73.1,10.3,p,d,d
+ES53,Illes Balears,ES,2024,101,74.4,9.3,p,d,d
+ES61,Andalucía,ES,2016,68,54.1,28.9,,,
+ES61,Andalucía,ES,2017,69,56.3,25.5,,,
+ES61,Andalucía,ES,2018,68,57.9,23.0,,,
+ES61,Andalucía,ES,2019,67,59.3,21.2,,,
+ES61,Andalucía,ES,2020,61,57.2,22.3,,,
+ES61,Andalucía,ES,2021,64,59.3,21.9,,bd,bd
+ES61,Andalucía,ES,2022,66,61.2,19.1,,d,d
+ES61,Andalucía,ES,2023,68,62.9,18.3,p,d,d
+ES61,Andalucía,ES,2024,69,64.1,16.5,p,d,d
+ES62,Región de Murcia,ES,2016,77,61.8,19.8,,,
+ES62,Región de Murcia,ES,2017,78,63.5,18.0,,,
+ES62,Región de Murcia,ES,2018,75,64.3,16.8,,,
+ES62,Región de Murcia,ES,2019,75,65.8,14.7,,,
+ES62,Región de Murcia,ES,2020,69,64.2,16.2,,,
+ES62,Región de Murcia,ES,2021,72,66.7,14.7,,bd,bd
+ES62,Región de Murcia,ES,2022,74,67.3,13.6,,d,d
+ES62,Región de Murcia,ES,2023,75,68.4,12.8,p,d,d
+ES62,Región de Murcia,ES,2024,75,68.7,12.7,p,d,d
+ES63,Ciudad de Ceuta,ES,2016,69,53.9,24.9,,,
+ES63,Ciudad de Ceuta,ES,2017,67,55.5,22.4,,,
+ES63,Ciudad de Ceuta,ES,2018,66,53.3,29.0,,,
+ES63,Ciudad de Ceuta,ES,2019,66,54.3,25.8,,,
+ES63,Ciudad de Ceuta,ES,2020,63,54.1,24.5,,,
+ES63,Ciudad de Ceuta,ES,2021,64,50.3,30.8,,bd,bd
+ES63,Ciudad de Ceuta,ES,2022,65,55.4,30.0,,d,d
+ES63,Ciudad de Ceuta,ES,2023,66,55.2,30.0,p,d,d
+ES63,Ciudad de Ceuta,ES,2024,64,56.5,27.5,p,d,d
+ES64,Ciudad de Melilla,ES,2016,64,49.9,30.8,,,
+ES64,Ciudad de Melilla,ES,2017,63,52.7,27.6,,,
+ES64,Ciudad de Melilla,ES,2018,61,56.9,25.8,,,
+ES64,Ciudad de Melilla,ES,2019,61,55.7,27.0,,,
+ES64,Ciudad de Melilla,ES,2020,58,57.7,23.7,,,
+ES64,Ciudad de Melilla,ES,2021,58,55.6,25.4,,bd,bd
+ES64,Ciudad de Melilla,ES,2022,59,54.6,25.9,,d,d
+ES64,Ciudad de Melilla,ES,2023,60,53.0,26.6,p,d,d
+ES64,Ciudad de Melilla,ES,2024,59,55.3,28.3,p,d,d
+ES70,Canarias,ES,2016,74,57.7,26.1,,,
+ES70,Canarias,ES,2017,75,59.0,23.5,,,
+ES70,Canarias,ES,2018,73,61.6,20.1,,,
+ES70,Canarias,ES,2019,72,61.4,20.5,,,
+ES70,Canarias,ES,2020,60,57.1,22.6,,,
+ES70,Canarias,ES,2021,62,57.6,23.5,,bd,bd
+ES70,Canarias,ES,2022,68,63.4,17.6,,d,d
+ES70,Canarias,ES,2023,71,65.0,16.1,p,d,d
+ES70,Canarias,ES,2024,72,67.3,13.8,p,d,d
+FI19,Länsi-Suomi,FI,2016,96,72.3,9.4,,,
+FI19,Länsi-Suomi,FI,2017,96,73.4,9.3,,,
+FI19,Länsi-Suomi,FI,2018,96,75.8,7.4,,,
+FI19,Länsi-Suomi,FI,2019,94,77.0,6.4,,,
+FI19,Länsi-Suomi,FI,2020,99,76.6,7.7,,,
+FI19,Länsi-Suomi,FI,2021,97,76.5,7.7,,b,b
+FI19,Länsi-Suomi,FI,2022,95,78.5,6.3,,,
+FI19,Länsi-Suomi,FI,2023,94,78.2,6.7,,,
+FI19,Länsi-Suomi,FI,2024,93,77.3,7.8,,,
+FI1B,Helsinki-Uusimaa,FI,2016,144,77.7,7.4,,,
+FI1B,Helsinki-Uusimaa,FI,2017,144,77.7,7.7,,,
+FI1B,Helsinki-Uusimaa,FI,2018,143,79.3,6.9,,,
+FI1B,Helsinki-Uusimaa,FI,2019,141,79.7,6.4,,,
+FI1B,Helsinki-Uusimaa,FI,2020,145,78.8,7.2,,,
+FI1B,Helsinki-Uusimaa,FI,2021,140,79.2,7.7,,b,b
+FI1B,Helsinki-Uusimaa,FI,2022,134,80.8,6.7,,,
+FI1B,Helsinki-Uusimaa,FI,2023,131,79.7,7.6,,,
+FI1B,Helsinki-Uusimaa,FI,2024,128,78.2,8.9,,,
+FI1C,Etelä-Suomi,FI,2016,96,71.7,9.1,,,
+FI1C,Etelä-Suomi,FI,2017,98,73.0,8.5,,,
+FI1C,Etelä-Suomi,FI,2018,97,75.8,7.4,,,
+FI1C,Etelä-Suomi,FI,2019,95,76.6,6.3,,,
+FI1C,Etelä-Suomi,FI,2020,99,75.8,7.7,,,
+FI1C,Etelä-Suomi,FI,2021,97,76.3,7.5,,b,b
+FI1C,Etelä-Suomi,FI,2022,94,77.5,7.6,,,
+FI1C,Etelä-Suomi,FI,2023,89,77.7,7.5,,,
+FI1C,Etelä-Suomi,FI,2024,89,76.0,8.9,,,
+FI1D,Pohjois- ja Itä-Suomi,FI,2016,89,69.7,10.2,,,
+FI1D,Pohjois- ja Itä-Suomi,FI,2017,90,71.0,9.6,,,
+FI1D,Pohjois- ja Itä-Suomi,FI,2018,90,73.0,8.1,,,
+FI1D,Pohjois- ja Itä-Suomi,FI,2019,88,74.1,7.8,,,
+FI1D,Pohjois- ja Itä-Suomi,FI,2020,93,73.3,8.8,,,
+FI1D,Pohjois- ja Itä-Suomi,FI,2021,91,73.8,7.8,,b,b
+FI1D,Pohjois- ja Itä-Suomi,FI,2022,92,75.1,6.7,,,
+FI1D,Pohjois- ja Itä-Suomi,FI,2023,88,76.2,6.9,,,
+FI1D,Pohjois- ja Itä-Suomi,FI,2024,89,75.4,7.8,,,
+FR10,Ile de France,FR,2016,172,72.8,9.2,,,
+FR10,Ile de France,FR,2017,168,73.5,8.7,,,
+FR10,Ile de France,FR,2018,168,74.2,8.8,,,
+FR10,Ile de France,FR,2019,174,74.9,7.9,,,
+FR10,Ile de France,FR,2020,166,74.2,8.2,,,
+FR10,Ile de France,FR,2021,162,76.4,8.0,,bd,bd
+FR10,Ile de France,FR,2022,158,76.5,7.6,p,d,d
+FR10,Ile de France,FR,2023,160,76.6,7.6,p,d,d
+FR10,Ile de France,FR,2024,160,77.0,8.0,p,bd,bd
+FRB0,Centre — Val de Loire,FR,2016,87,69.6,9.9,,,
+FRB0,Centre — Val de Loire,FR,2017,86,71.5,8.5,,,
+FRB0,Centre — Val de Loire,FR,2018,85,71.9,8.4,,,
+FRB0,Centre — Val de Loire,FR,2019,86,72.6,8.2,,,
+FRB0,Centre — Val de Loire,FR,2020,87,71.5,8.9,,,
+FRB0,Centre — Val de Loire,FR,2021,83,74.7,7.2,,bd,bd
+FRB0,Centre — Val de Loire,FR,2022,79,74.8,6.4,p,d,d
+FRB0,Centre — Val de Loire,FR,2023,83,77.5,5.7,p,d,d
+FRB0,Centre — Val de Loire,FR,2024,82,78.6,5.6,p,bd,bd
+FRC1,Bourgogne,FR,2016,87,70.0,9.6,,,
+FRC1,Bourgogne,FR,2017,87,69.9,10.7,,,
+FRC1,Bourgogne,FR,2018,87,73.3,8.9,,,
+FRC1,Bourgogne,FR,2019,87,73.5,7.5,,,
+FRC1,Bourgogne,FR,2020,88,73.0,7.8,,,
+FRC1,Bourgogne,FR,2021,85,74.2,7.1,,bd,bd
+FRC1,Bourgogne,FR,2022,82,75.7,6.7,p,d,d
+FRC1,Bourgogne,FR,2023,83,75.4,7.3,p,d,d
+FRC1,Bourgogne,FR,2024,83,74.8,6.7,p,bd,bd
+FRC2,Franche-Comté,FR,2016,82,73.5,8.1,,,
+FRC2,Franche-Comté,FR,2017,81,73.8,6.9,,,
+FRC2,Franche-Comté,FR,2018,79,73.7,7.2,,,
+FRC2,Franche-Comté,FR,2019,81,72.0,8.2,,,
+FRC2,Franche-Comté,FR,2020,82,73.9,5.6,,,
+FRC2,Franche-Comté,FR,2021,77,73.4,7.0,,bd,bd
+FRC2,Franche-Comté,FR,2022,73,77.3,5.9,p,d,d
+FRC2,Franche-Comté,FR,2023,75,78.3,5.7,p,d,d
+FRC2,Franche-Comté,FR,2024,74,77.9,5.3,p,bd,bd
+FRD1,Basse-Normandie,FR,2016,86,70.9,8.6,,,
+FRD1,Basse-Normandie,FR,2017,82,71.0,8.1,,,
+FRD1,Basse-Normandie,FR,2018,82,73.7,8.0,,,
+FRD1,Basse-Normandie,FR,2019,84,72.3,8.2,,,
+FRD1,Basse-Normandie,FR,2020,84,72.5,6.1,,,
+FRD1,Basse-Normandie,FR,2021,80,73.7,6.4,,bd,bd
+FRD1,Basse-Normandie,FR,2022,78,74.6,6.2,p,d,d
+FRD1,Basse-Normandie,FR,2023,81,76.2,6.0,p,d,d
+FRD1,Basse-Normandie,FR,2024,80,76.6,7.3,p,bd,bd
+FRD2,Haute-Normandie,FR,2016,90,67.4,11.5,,,
+FRD2,Haute-Normandie,FR,2017,88,67.7,11.3,,,
+FRD2,Haute-Normandie,FR,2018,86,68.6,9.3,,,
+FRD2,Haute-Normandie,FR,2019,88,69.3,9.9,,,
+FRD2,Haute-Normandie,FR,2020,87,71.3,8.3,,,
+FRD2,Haute-Normandie,FR,2021,84,74.2,7.6,,bd,bd
+FRD2,Haute-Normandie,FR,2022,82,74.2,7.9,p,d,d
+FRD2,Haute-Normandie,FR,2023,84,74.9,6.9,p,d,d
+FRD2,Haute-Normandie,FR,2024,83,73.4,7.6,p,bd,bd
+FRE1,Nord-Pas de Calais,FR,2016,83,63.0,13.3,,,
+FRE1,Nord-Pas de Calais,FR,2017,82,63.3,12.9,,,
+FRE1,Nord-Pas de Calais,FR,2018,81,63.1,12.2,,,
+FRE1,Nord-Pas de Calais,FR,2019,82,64.7,11.2,,,
+FRE1,Nord-Pas de Calais,FR,2020,83,65.7,9.1,,,
+FRE1,Nord-Pas de Calais,FR,2021,79,68.5,8.8,,bd,bd
+FRE1,Nord-Pas de Calais,FR,2022,76,68.5,8.7,p,d,d
+FRE1,Nord-Pas de Calais,FR,2023,78,68.8,9.8,p,d,d
+FRE1,Nord-Pas de Calais,FR,2024,77,69.6,9.5,p,bd,bd
+FRE2,Picardie,FR,2016,77,66.2,11.5,,,
+FRE2,Picardie,FR,2017,77,70.3,10.0,,,
+FRE2,Picardie,FR,2018,75,69.6,9.2,,,
+FRE2,Picardie,FR,2019,76,69.0,9.1,,,
+FRE2,Picardie,FR,2020,76,67.7,8.6,,,
+FRE2,Picardie,FR,2021,73,68.8,9.7,,bd,bd
+FRE2,Picardie,FR,2022,72,70.5,9.1,p,d,d
+FRE2,Picardie,FR,2023,74,69.8,9.1,p,d,d
+FRE2,Picardie,FR,2024,73,73.4,7.6,p,bd,bd
+FRF1,Alsace,FR,2016,98,71.0,10.9,,,
+FRF1,Alsace,FR,2017,96,69.6,9.0,,,
+FRF1,Alsace,FR,2018,96,73.0,8.0,,,
+FRF1,Alsace,FR,2019,97,73.6,7.3,,,
+FRF1,Alsace,FR,2020,96,72.0,7.3,,,
+FRF1,Alsace,FR,2021,92,75.0,7.1,,bd,bd
+FRF1,Alsace,FR,2022,88,76.6,6.7,p,d,d
+FRF1,Alsace,FR,2023,91,76.8,5.9,p,d,d
+FRF1,Alsace,FR,2024,89,77.4,6.0,p,bd,bd
+FRF2,Champagne-Ardenne,FR,2016,88,64.9,11.3,,,
+FRF2,Champagne-Ardenne,FR,2017,87,68.0,9.6,,,
+FRF2,Champagne-Ardenne,FR,2018,87,68.7,8.8,,,
+FRF2,Champagne-Ardenne,FR,2019,88,67.7,9.1,,,
+FRF2,Champagne-Ardenne,FR,2020,87,64.2,11.7,,,
+FRF2,Champagne-Ardenne,FR,2021,84,69.4,8.9,,bd,bd
+FRF2,Champagne-Ardenne,FR,2022,85,72.2,8.0,p,d,d
+FRF2,Champagne-Ardenne,FR,2023,89,72.6,7.1,p,d,d
+FRF2,Champagne-Ardenne,FR,2024,87,73.9,7.2,p,bd,bd
+FRF3,Lorraine,FR,2016,78,66.7,11.7,,,
+FRF3,Lorraine,FR,2017,77,68.0,11.0,,,
+FRF3,Lorraine,FR,2018,76,68.3,9.8,,,
+FRF3,Lorraine,FR,2019,76,69.7,8.1,,,
+FRF3,Lorraine,FR,2020,77,67.8,8.7,,,
+FRF3,Lorraine,FR,2021,73,68.9,8.5,,bd,bd
+FRF3,Lorraine,FR,2022,70,71.1,6.9,p,d,d
+FRF3,Lorraine,FR,2023,73,71.8,7.4,p,d,d
+FRF3,Lorraine,FR,2024,72,72.2,8.5,p,bd,bd
+FRG0,Pays de la Loire,FR,2016,93,74.0,8.9,,,
+FRG0,Pays de la Loire,FR,2017,92,75.0,7.1,,,
+FRG0,Pays de la Loire,FR,2018,91,73.4,7.8,,,
+FRG0,Pays de la Loire,FR,2019,94,73.8,7.6,,,
+FRG0,Pays de la Loire,FR,2020,95,73.8,6.9,,,
+FRG0,Pays de la Loire,FR,2021,91,77.0,6.0,,bd,bd
+FRG0,Pays de la Loire,FR,2022,86,77.3,6.1,p,d,d
+FRG0,Pays de la Loire,FR,2023,88,77.5,6.1,p,d,d
+FRG0,Pays de la Loire,FR,2024,87,77.7,6.3,p,bd,bd
+FRH0,Bretagne,FR,2016,89,72.4,8.6,,,
+FRH0,Bretagne,FR,2017,88,73.1,7.3,,,
+FRH0,Bretagne,FR,2018,87,73.6,6.8,,,
+FRH0,Bretagne,FR,2019,89,73.9,6.9,,,
+FRH0,Bretagne,FR,2020,90,72.1,6.7,,,
+FRH0,Bretagne,FR,2021,86,75.7,5.8,,bd,bd
+FRH0,Bretagne,FR,2022,83,74.8,5.9,p,d,d
+FRH0,Bretagne,FR,2023,85,75.2,5.4,p,d,d
+FRH0,Bretagne,FR,2024,84,78.2,5.7,p,bd,bd
+FRI1,Aquitaine,FR,2016,93,70.8,10.0,,,
+FRI1,Aquitaine,FR,2017,91,70.8,10.1,,,
+FRI1,Aquitaine,FR,2018,91,71.9,9.3,,,
+FRI1,Aquitaine,FR,2019,93,72.4,9.1,,,
+FRI1,Aquitaine,FR,2020,93,72.5,7.3,,,
+FRI1,Aquitaine,FR,2021,90,75.1,7.4,,bd,bd
+FRI1,Aquitaine,FR,2022,86,75.2,6.9,p,d,d
+FRI1,Aquitaine,FR,2023,88,76.6,7.2,p,d,d
+FRI1,Aquitaine,FR,2024,87,78.7,6.9,p,bd,bd
+FRI2,Limousin,FR,2016,79,75.1,7.1,,,
+FRI2,Limousin,FR,2017,78,74.9,6.3,,,
+FRI2,Limousin,FR,2018,77,72.8,7.0,,,
+FRI2,Limousin,FR,2019,81,72.4,7.0,,,
+FRI2,Limousin,FR,2020,82,70.2,7.2,,,
+FRI2,Limousin,FR,2021,78,74.0,6.3,,bd,bd
+FRI2,Limousin,FR,2022,73,73.0,6.8,p,d,d
+FRI2,Limousin,FR,2023,76,74.4,6.3,p,d,d
+FRI2,Limousin,FR,2024,74,75.2,5.4,p,bd,bd
+FRI3,Poitou-Charentes,FR,2016,85,70.0,9.0,,,
+FRI3,Poitou-Charentes,FR,2017,84,70.5,9.1,,,
+FRI3,Poitou-Charentes,FR,2018,84,71.6,8.7,,,
+FRI3,Poitou-Charentes,FR,2019,86,73.6,8.1,,,
+FRI3,Poitou-Charentes,FR,2020,86,74.1,8.6,,,
+FRI3,Poitou-Charentes,FR,2021,83,71.6,8.6,,bd,bd
+FRI3,Poitou-Charentes,FR,2022,79,73.7,7.2,p,d,d
+FRI3,Poitou-Charentes,FR,2023,83,74.0,7.3,p,d,d
+FRI3,Poitou-Charentes,FR,2024,81,75.2,5.3,p,bd,bd
+FRJ1,Languedoc-Roussillon,FR,2016,82,65.0,11.9,,,
+FRJ1,Languedoc-Roussillon,FR,2017,80,65.5,12.3,,,
+FRJ1,Languedoc-Roussillon,FR,2018,79,65.4,11.7,,,
+FRJ1,Languedoc-Roussillon,FR,2019,81,65.4,10.4,,,
+FRJ1,Languedoc-Roussillon,FR,2020,82,68.5,9.2,,,
+FRJ1,Languedoc-Roussillon,FR,2021,80,67.2,11.4,,bd,bd
+FRJ1,Languedoc-Roussillon,FR,2022,76,70.4,9.0,p,d,d
+FRJ1,Languedoc-Roussillon,FR,2023,78,68.9,9.2,p,d,d
+FRJ1,Languedoc-Roussillon,FR,2024,76,70.3,9.0,p,bd,bd
+FRJ2,Midi-Pyrénées,FR,2016,97,71.8,8.5,,,
+FRJ2,Midi-Pyrénées,FR,2017,95,72.5,7.2,,,
+FRJ2,Midi-Pyrénées,FR,2018,95,74.2,7.7,,,
+FRJ2,Midi-Pyrénées,FR,2019,97,73.6,6.7,,,
+FRJ2,Midi-Pyrénées,FR,2020,94,72.6,5.6,,,
+FRJ2,Midi-Pyrénées,FR,2021,91,73.8,6.1,,bd,bd
+FRJ2,Midi-Pyrénées,FR,2022,86,75.8,6.2,p,d,d
+FRJ2,Midi-Pyrénées,FR,2023,90,75.6,6.1,p,d,d
+FRJ2,Midi-Pyrénées,FR,2024,89,77.1,6.2,p,bd,bd
+FRK1,Auvergne,FR,2016,83,72.6,7.2,,,
+FRK1,Auvergne,FR,2017,84,69.7,8.4,,,
+FRK1,Auvergne,FR,2018,83,74.1,7.8,,,
+FRK1,Auvergne,FR,2019,85,73.7,5.6,,,
+FRK1,Auvergne,FR,2020,85,74.2,5.5,,,
+FRK1,Auvergne,FR,2021,82,73.9,7.0,,bd,bd
+FRK1,Auvergne,FR,2022,78,74.0,7.1,p,d,d
+FRK1,Auvergne,FR,2023,81,77.4,7.1,p,d,d
+FRK1,Auvergne,FR,2024,79,74.1,7.8,p,bd,bd
+FRK2,Rhône-Alpes,FR,2016,106,73.8,8.1,,,
+FRK2,Rhône-Alpes,FR,2017,104,74.7,7.3,,,
+FRK2,Rhône-Alpes,FR,2018,105,75.3,7.3,,,
+FRK2,Rhône-Alpes,FR,2019,106,74.8,7.0,,,
+FRK2,Rhône-Alpes,FR,2020,106,73.8,7.5,,,
+FRK2,Rhône-Alpes,FR,2021,101,75.4,7.2,,bd,bd
+FRK2,Rhône-Alpes,FR,2022,97,76.8,6.6,p,d,d
+FRK2,Rhône-Alpes,FR,2023,102,76.7,6.5,p,d,d
+FRK2,Rhône-Alpes,FR,2024,100,76.8,6.8,p,bd,bd
+FRL0,Provence-Alpes-Côte d’Azur,FR,2016,101,68.2,10.6,,,
+FRL0,Provence-Alpes-Côte d’Azur,FR,2017,99,68.1,10.3,,,
+FRL0,Provence-Alpes-Côte d’Azur,FR,2018,98,69.8,9.3,,,
+FRL0,Provence-Alpes-Côte d’Azur,FR,2019,100,69.9,8.8,,,
+FRL0,Provence-Alpes-Côte d’Azur,FR,2020,99,70.7,8.0,,,
+FRL0,Provence-Alpes-Côte d’Azur,FR,2021,105,72.0,8.1,,bd,bd
+FRL0,Provence-Alpes-Côte d’Azur,FR,2022,105,72.7,6.7,p,d,d
+FRL0,Provence-Alpes-Côte d’Azur,FR,2023,97,72.3,7.1,p,d,d
+FRL0,Provence-Alpes-Côte d’Azur,FR,2024,96,72.9,6.9,p,bd,bd
+FRM0,Corse,FR,2016,88,70.0,8.3,,u,u
+FRM0,Corse,FR,2017,87,72.5,9.8,,u,u
+FRM0,Corse,FR,2018,87,68.1,5.0,,u,u
+FRM0,Corse,FR,2019,88,69.1,6.3,,u,u
+FRM0,Corse,FR,2020,87,73.6,8.1,,u,u
+FRM0,Corse,FR,2021,86,69.6,9.1,,bdu,bdu
+FRM0,Corse,FR,2022,82,70.9,6.1,p,du,du
+FRM0,Corse,FR,2023,86,71.2,6.9,p,du,du
+FRM0,Corse,FR,2024,86,71.7,7.2,p,bdu,bdu
+FRY1,Guadeloupe,FR,2016,77,53.3,23.8,,,
+FRY1,Guadeloupe,FR,2017,69,55.5,22.4,,,
+FRY1,Guadeloupe,FR,2018,69,54.2,22.6,,,
+FRY1,Guadeloupe,FR,2019,71,55.4,20.6,,,
+FRY1,Guadeloupe,FR,2020,71,56.3,17.5,,,
+FRY1,Guadeloupe,FR,2021,68,57.7,17.1,,bd,bd
+FRY1,Guadeloupe,FR,2022,66,56.8,18.6,p,d,d
+FRY1,Guadeloupe,FR,2023,66,57.8,18.6,p,d,d
+FRY1,Guadeloupe,FR,2024,67,61.0,16.8,p,bd,bd
+FRY2,Martinique,FR,2016,74,59.4,17.8,,,
+FRY2,Martinique,FR,2017,73,59.5,17.8,,,
+FRY2,Martinique,FR,2018,72,60.7,17.3,,,
+FRY2,Martinique,FR,2019,72,63.7,14.8,,,
+FRY2,Martinique,FR,2020,72,62.4,12.4,,,
+FRY2,Martinique,FR,2021,68,62.2,12.8,,bd,bd
+FRY2,Martinique,FR,2022,68,63.6,12.5,p,d,d
+FRY2,Martinique,FR,2023,68,66.2,10.8,p,d,d
+FRY2,Martinique,FR,2024,69,67.3,12.3,p,bd,bd
+FRY3,Guyane,FR,2016,52,51.5,23.0,,,
+FRY3,Guyane,FR,2017,49,50.7,21.9,,,
+FRY3,Guyane,FR,2018,49,51.8,19.0,,,
+FRY3,Guyane,FR,2019,51,50.9,19.3,,,
+FRY3,Guyane,FR,2020,52,49.5,16.1,,,
+FRY3,Guyane,FR,2021,48,49.4,14.6,,bd,bd
+FRY3,Guyane,FR,2022,45,50.5,13.1,p,d,d
+FRY3,Guyane,FR,2023,42,52.4,14.0,p,d,d
+FRY3,Guyane,FR,2024,41,51.1,17.0,p,bd,bd
+FRY4,La Réunion,FR,2016,67,54.0,22.3,,,
+FRY4,La Réunion,FR,2017,66,53.4,22.7,,,
+FRY4,La Réunion,FR,2018,65,52.1,24.0,,,
+FRY4,La Réunion,FR,2019,66,52.1,21.3,,,
+FRY4,La Réunion,FR,2020,67,54.0,17.4,,,
+FRY4,La Réunion,FR,2021,66,54.8,17.9,,bd,bd
+FRY4,La Réunion,FR,2022,64,54.9,18.1,p,d,d
+FRY4,La Réunion,FR,2023,64,55.9,19.0,p,d,d
+FRY4,La Réunion,FR,2024,63,57.5,17.3,p,bd,bd
+HR02,Panonska Hrvatska,HR,2016,43,55.4,17.1,,,
+HR02,Panonska Hrvatska,HR,2017,43,55.0,16.0,,,
+HR02,Panonska Hrvatska,HR,2018,44,58.2,12.1,,,
+HR02,Panonska Hrvatska,HR,2019,45,59.5,9.5,,,
+HR02,Panonska Hrvatska,HR,2020,46,58.7,11.9,,,
+HR02,Panonska Hrvatska,HR,2021,50,63.4,9.5,,b,b
+HR02,Panonska Hrvatska,HR,2022,50,62.9,10.6,,,
+HR02,Panonska Hrvatska,HR,2023,53,62.8,10.1,,,
+HR02,Panonska Hrvatska,HR,2024,53,67.2,7.1,p,,
+HR03,Jadranska Hrvatska,HR,2016,61,59.7,13.9,,,
+HR03,Jadranska Hrvatska,HR,2017,63,63.1,10.8,,,
+HR03,Jadranska Hrvatska,HR,2018,64,62.6,9.2,,,
+HR03,Jadranska Hrvatska,HR,2019,65,64.4,6.4,,,
+HR03,Jadranska Hrvatska,HR,2020,59,64.7,7.4,,,
+HR03,Jadranska Hrvatska,HR,2021,66,66.0,9.2,,b,b
+HR03,Jadranska Hrvatska,HR,2022,69,69.5,6.8,,,
+HR03,Jadranska Hrvatska,HR,2023,73,70.7,6.0,,,
+HR03,Jadranska Hrvatska,HR,2024,73,73.1,6.4,p,,
+HR05,Grad Zagreb,HR,2016,110,68.6,9.5,,,
+HR05,Grad Zagreb,HR,2017,112,71.4,8.2,,,
+HR05,Grad Zagreb,HR,2018,115,73.9,5.1,,,
+HR05,Grad Zagreb,HR,2019,118,74.8,5.4,,,
+HR05,Grad Zagreb,HR,2020,116,77.3,4.7,,,
+HR05,Grad Zagreb,HR,2021,121,77.6,5.3,,b,b
+HR05,Grad Zagreb,HR,2022,119,77.5,5.3,,,
+HR05,Grad Zagreb,HR,2023,131,77.9,3.8,,,
+HR05,Grad Zagreb,HR,2024,131,79.7,2.6,p,,
+HR06,Sjeverna Hrvatska,HR,2016,48,64.9,10.0,,,
+HR06,Sjeverna Hrvatska,HR,2017,50,66.7,8.7,,,
+HR06,Sjeverna Hrvatska,HR,2018,51,68.4,5.8,,,
+HR06,Sjeverna Hrvatska,HR,2019,53,70.6,4.6,,,
+HR06,Sjeverna Hrvatska,HR,2020,54,70.7,5.0,,,
+HR06,Sjeverna Hrvatska,HR,2021,57,70.3,4.6,,b,b
+HR06,Sjeverna Hrvatska,HR,2022,59,73.0,4.0,,,
+HR06,Sjeverna Hrvatska,HR,2023,66,73.6,4.4,,,
+HR06,Sjeverna Hrvatska,HR,2024,64,76.0,3.1,p,,
+HU11,Budapest,HU,2016,139,76.8,4.3,,,
+HU11,Budapest,HU,2017,141,78.2,2.9,,,
+HU11,Budapest,HU,2018,146,77.6,3.0,,b,b
+HU11,Budapest,HU,2019,155,78.8,2.4,,,
+HU11,Budapest,HU,2020,157,79.9,3.3,,,
+HU11,Budapest,HU,2021,158,83.2,2.9,,b,b
+HU11,Budapest,HU,2022,160,84.9,2.3,,,
+HU11,Budapest,HU,2023,164,84.3,2.3,,,
+HU11,Budapest,HU,2024,168,85.3,2.6,p,,
+HU12,Pest,HU,2016,55,73.7,3.1,,,
+HU12,Pest,HU,2017,54,74.7,2.6,,,
+HU12,Pest,HU,2018,56,76.5,2.2,,b,b
+HU12,Pest,HU,2019,58,77.9,2.4,,,
+HU12,Pest,HU,2020,60,77.6,3.3,,,
+HU12,Pest,HU,2021,61,82.2,2.9,,b,b
+HU12,Pest,HU,2022,65,82.7,2.2,,,
+HU12,Pest,HU,2023,65,83.0,3.2,,,
+HU12,Pest,HU,2024,64,83.8,3.1,p,,
+HU21,Közép-Dunántúl,HU,2016,66,73.3,3.0,,,
+HU21,Közép-Dunántúl,HU,2017,64,75.6,2.2,,,
+HU21,Közép-Dunántúl,HU,2018,66,76.1,2.2,,b,b
+HU21,Közép-Dunántúl,HU,2019,66,77.1,2.0,,,
+HU21,Közép-Dunántúl,HU,2020,66,77.0,2.8,,,
+HU21,Közép-Dunántúl,HU,2021,66,81.6,2.1,,b,b
+HU21,Közép-Dunántúl,HU,2022,67,83.4,1.7,,,
+HU21,Közép-Dunántúl,HU,2023,66,84.0,2.2,,,
+HU21,Közép-Dunántúl,HU,2024,66,84.4,2.8,p,,
+HU22,Nyugat-Dunántúl,HU,2016,75,73.7,2.7,,,
+HU22,Nyugat-Dunántúl,HU,2017,72,76.0,2.4,,,
+HU22,Nyugat-Dunántúl,HU,2018,73,77.9,2.0,,b,b
+HU22,Nyugat-Dunántúl,HU,2019,72,79.0,1.7,,,
+HU22,Nyugat-Dunántúl,HU,2020,71,78.6,2.4,,,
+HU22,Nyugat-Dunántúl,HU,2021,68,82.0,2.3,,b,b
+HU22,Nyugat-Dunántúl,HU,2022,69,82.5,2.4,,,
+HU22,Nyugat-Dunántúl,HU,2023,67,83.6,2.7,,,
+HU22,Nyugat-Dunántúl,HU,2024,66,83.5,3.3,p,,
+HU23,Dél-Dunántúl,HU,2016,46,66.9,6.2,,,
+HU23,Dél-Dunántúl,HU,2017,47,67.8,6.3,,,
+HU23,Dél-Dunántúl,HU,2018,49,69.6,5.4,,b,b
+HU23,Dél-Dunántúl,HU,2019,49,70.3,4.8,,,
+HU23,Dél-Dunántúl,HU,2020,50,69.3,5.3,,,
+HU23,Dél-Dunántúl,HU,2021,51,73.0,4.7,,b,b
+HU23,Dél-Dunántúl,HU,2022,52,75.4,4.6,,,
+HU23,Dél-Dunántúl,HU,2023,50,75.3,6.0,,,
+HU23,Dél-Dunántúl,HU,2024,50,74.7,7.3,p,,
+HU31,Észak-Magyarország,HU,2016,45,67.2,6.3,,,
+HU31,Észak-Magyarország,HU,2017,47,68.9,5.8,,,
+HU31,Észak-Magyarország,HU,2018,49,71.0,4.8,,b,b
+HU31,Észak-Magyarország,HU,2019,48,71.7,4.4,,,
+HU31,Észak-Magyarország,HU,2020,50,70.9,5.1,,,
+HU31,Észak-Magyarország,HU,2021,51,73.1,6.2,,b,b
+HU31,Észak-Magyarország,HU,2022,49,75.2,6.2,,,
+HU31,Észak-Magyarország,HU,2023,48,76.0,6.4,,,
+HU31,Észak-Magyarország,HU,2024,47,75.6,6.9,p,,
+HU32,Észak-Alföld,HU,2016,43,67.5,9.3,,,
+HU32,Észak-Alföld,HU,2017,44,69.9,7.4,,,
+HU32,Észak-Alföld,HU,2018,46,71.4,6.6,,b,b
+HU32,Észak-Alföld,HU,2019,47,71.7,6.3,,,
+HU32,Észak-Alföld,HU,2020,49,70.9,7.3,,,
+HU32,Észak-Alföld,HU,2021,49,74.6,7.0,,b,b
+HU32,Észak-Alföld,HU,2022,49,76.5,6.2,,,
+HU32,Észak-Alföld,HU,2023,49,78.1,6.7,,,
+HU32,Észak-Alföld,HU,2024,50,77.7,7.1,p,,
+HU33,Dél-Alföld,HU,2016,49,70.7,5.6,,,
+HU33,Dél-Alföld,HU,2017,49,72.5,4.1,,,
+HU33,Dél-Alföld,HU,2018,52,74.3,3.4,,b,b
+HU33,Dél-Alföld,HU,2019,52,75.3,3.4,,,
+HU33,Dél-Alföld,HU,2020,55,74.6,4.6,,,
+HU33,Dél-Alföld,HU,2021,54,78.6,4.4,,b,b
+HU33,Dél-Alföld,HU,2022,55,78.9,4.0,,,
+HU33,Dél-Alföld,HU,2023,54,78.7,4.6,,,
+HU33,Dél-Alföld,HU,2024,52,80.0,4.8,p,,
+IE04,Northern and Western,IE,2016,84,70.5,8.6,,,
+IE04,Northern and Western,IE,2017,83,72.9,6.2,,b,b
+IE04,Northern and Western,IE,2018,82,73.2,5.6,,,
+IE04,Northern and Western,IE,2019,82,74.1,4.8,,,
+IE04,Northern and Western,IE,2020,94,72.4,5.0,,,
+IE04,Northern and Western,IE,2021,102,74.8,5.0,,b,b
+IE04,Northern and Western,IE,2022,105,77.8,4.0,,,
+IE04,Northern and Western,IE,2023,104,78.7,3.8,,,
+IE04,Northern and Western,IE,2024,100,78.5,4.2,e,,
+IE05,Southern,IE,2016,195,71.4,8.6,,,
+IE05,Southern,IE,2017,210,72.5,7.0,,b,b
+IE05,Southern,IE,2018,207,72.3,6.2,,,
+IE05,Southern,IE,2019,206,72.9,5.5,,,
+IE05,Southern,IE,2020,225,72.1,5.8,,,
+IE05,Southern,IE,2021,250,72.9,6.5,,b,b
+IE05,Southern,IE,2022,270,77.0,4.3,,,
+IE05,Southern,IE,2023,229,77.9,4.2,,,
+IE05,Southern,IE,2024,217,78.8,4.1,e,,
+IE06,Eastern and Midland,IE,2016,201,71.7,8.2,,,
+IE06,Eastern and Midland,IE,2017,208,73.3,6.7,,b,b
+IE06,Eastern and Midland,IE,2018,220,75.6,5.6,,,
+IE06,Eastern and Midland,IE,2019,216,76.9,4.7,,,
+IE06,Eastern and Midland,IE,2020,231,74.5,5.8,,,
+IE06,Eastern and Midland,IE,2021,251,76.2,6.5,,b,b
+IE06,Eastern and Midland,IE,2022,262,79.2,4.7,,,
+IE06,Eastern and Midland,IE,2023,251,80.0,4.5,,,
+IE06,Eastern and Midland,IE,2024,268,80.8,4.4,e,,
+ITC1,Piemonte,IT,2016,102,69.0,9.4,,,
+ITC1,Piemonte,IT,2017,102,69.9,9.1,,,
+ITC1,Piemonte,IT,2018,101,70.7,8.2,,b,b
+ITC1,Piemonte,IT,2019,100,70.8,7.6,,,
+ITC1,Piemonte,IT,2020,96,69.3,7.5,,,
+ITC1,Piemonte,IT,2021,99,69.8,7.3,,b,b
+ITC1,Piemonte,IT,2022,100,71.3,6.5,,,
+ITC1,Piemonte,IT,2023,101,72.2,6.2,,,
+ITC1,Piemonte,IT,2024,101,74.3,5.4,,,
+ITC2,Valle d’Aosta/Vallée d’Aoste,IT,2016,126,71.3,8.7,,,
+ITC2,Valle d’Aosta/Vallée d’Aoste,IT,2017,127,72.2,7.8,,,
+ITC2,Valle d’Aosta/Vallée d’Aoste,IT,2018,124,72.8,7.1,,b,b
+ITC2,Valle d’Aosta/Vallée d’Aoste,IT,2019,123,73.5,6.5,,,
+ITC2,Valle d’Aosta/Vallée d’Aoste,IT,2020,118,72.3,5.8,,,
+ITC2,Valle d’Aosta/Vallée d’Aoste,IT,2021,119,71.6,7.3,,b,b
+ITC2,Valle d’Aosta/Vallée d’Aoste,IT,2022,127,74.9,5.4,,,u
+ITC2,Valle d’Aosta/Vallée d’Aoste,IT,2023,128,77.3,4.0,,,u
+ITC2,Valle d’Aosta/Vallée d’Aoste,IT,2024,125,77.6,3.9,,,u
+ITC3,Liguria,IT,2016,107,67.1,9.8,,,
+ITC3,Liguria,IT,2017,106,66.8,9.5,,,
+ITC3,Liguria,IT,2018,103,67.5,9.8,,b,b
+ITC3,Liguria,IT,2019,103,67.7,9.5,,,
+ITC3,Liguria,IT,2020,98,67.0,8.2,,,
+ITC3,Liguria,IT,2021,100,68.0,8.4,,b,b
+ITC3,Liguria,IT,2022,102,70.7,7.0,,,
+ITC3,Liguria,IT,2023,105,72.2,6.1,,,
+ITC3,Liguria,IT,2024,102,72.2,5.4,,,
+ITC4,Lombardia,IT,2016,133,71.1,7.4,,,
+ITC4,Lombardia,IT,2017,131,72.2,6.4,,,
+ITC4,Lombardia,IT,2018,130,72.7,6.0,,b,b
+ITC4,Lombardia,IT,2019,128,73.4,5.6,,,
+ITC4,Lombardia,IT,2020,126,71.8,5.1,,,
+ITC4,Lombardia,IT,2021,130,71.6,5.9,,b,b
+ITC4,Lombardia,IT,2022,133,73.4,4.9,,,
+ITC4,Lombardia,IT,2023,133,74.6,4.0,,,
+ITC4,Lombardia,IT,2024,132,74.8,3.7,,,
+ITF1,Abruzzo,IT,2016,84,59.7,12.1,,,
+ITF1,Abruzzo,IT,2017,84,61.0,11.7,,,
+ITF1,Abruzzo,IT,2018,82,62.2,10.8,,b,b
+ITF1,Abruzzo,IT,2019,81,62.6,11.1,,,
+ITF1,Abruzzo,IT,2020,79,61.2,9.6,,,
+ITF1,Abruzzo,IT,2021,81,62.1,9.3,,b,b
+ITF1,Abruzzo,IT,2022,83,62.8,9.4,,,
+ITF1,Abruzzo,IT,2023,84,66.0,8.1,,,
+ITF1,Abruzzo,IT,2024,84,66.8,7.1,,,
+ITF2,Molise,IT,2016,71,55.7,12.8,,,
+ITF2,Molise,IT,2017,71,55.6,14.6,,,
+ITF2,Molise,IT,2018,70,57.5,12.7,,b,b
+ITF2,Molise,IT,2019,71,58.8,12.0,,,
+ITF2,Molise,IT,2020,70,57.4,9.8,,,
+ITF2,Molise,IT,2021,72,55.9,10.9,,b,b
+ITF2,Molise,IT,2022,72,58.8,10.5,,,
+ITF2,Molise,IT,2023,73,60.9,9.6,,,
+ITF2,Molise,IT,2024,72,62.1,7.9,,,
+ITF3,Campania,IT,2016,63,44.9,20.4,,,
+ITF3,Campania,IT,2017,63,45.8,20.9,,,
+ITF3,Campania,IT,2018,61,45.3,20.3,,b,b
+ITF3,Campania,IT,2019,61,45.2,20.0,,,
+ITF3,Campania,IT,2020,60,44.2,18.2,,,
+ITF3,Campania,IT,2021,61,45.0,19.3,,b,b
+ITF3,Campania,IT,2022,63,47.3,17.1,,,
+ITF3,Campania,IT,2023,64,48.4,17.4,,,
+ITF3,Campania,IT,2024,64,49.4,15.6,,,
+ITF4,Puglia,IT,2016,63,48.0,19.4,,,
+ITF4,Puglia,IT,2017,62,48.3,18.9,,,
+ITF4,Puglia,IT,2018,62,49.4,16.1,,b,b
+ITF4,Puglia,IT,2019,61,50.3,14.8,,,
+ITF4,Puglia,IT,2020,60,50.0,14.1,,,
+ITF4,Puglia,IT,2021,62,50.5,14.6,,b,b
+ITF4,Puglia,IT,2022,64,53.4,12.1,,,
+ITF4,Puglia,IT,2023,64,54.7,11.6,,,
+ITF4,Puglia,IT,2024,64,55.3,9.3,,,
+ITF5,Basilicata,IT,2016,74,54.3,13.3,,,
+ITF5,Basilicata,IT,2017,72,53.5,12.8,,,
+ITF5,Basilicata,IT,2018,73,53.3,12.5,,b,b
+ITF5,Basilicata,IT,2019,71,54.8,10.8,,,
+ITF5,Basilicata,IT,2020,68,54.7,8.7,,,
+ITF5,Basilicata,IT,2021,73,56.7,8.3,,b,b
+ITF5,Basilicata,IT,2022,75,57.3,7.1,,,
+ITF5,Basilicata,IT,2023,75,59.1,7.5,,,
+ITF5,Basilicata,IT,2024,74,60.4,6.7,,,
+ITF6,Calabria,IT,2016,59,42.9,23.2,,,
+ITF6,Calabria,IT,2017,58,44.2,21.6,,,
+ITF6,Calabria,IT,2018,57,45.5,21.6,,b,b
+ITF6,Calabria,IT,2019,56,45.3,20.9,,,
+ITF6,Calabria,IT,2020,55,44.4,19.9,,,
+ITF6,Calabria,IT,2021,56,45.5,18.0,,b,b
+ITF6,Calabria,IT,2022,57,47.0,14.6,,,
+ITF6,Calabria,IT,2023,57,48.4,15.9,,,
+ITF6,Calabria,IT,2024,57,48.5,13.1,,,
+ITG1,Sicilia,IT,2016,60,43.5,22.1,,,
+ITG1,Sicilia,IT,2017,60,44.0,21.5,,,
+ITG1,Sicilia,IT,2018,58,44.3,21.3,,b,b
+ITG1,Sicilia,IT,2019,58,44.7,19.9,,,
+ITG1,Sicilia,IT,2020,57,44.4,18.1,,,
+ITG1,Sicilia,IT,2021,59,44.5,18.7,,b,b
+ITG1,Sicilia,IT,2022,61,46.2,16.6,,,
+ITG1,Sicilia,IT,2023,60,48.7,15.8,,,
+ITG1,Sicilia,IT,2024,61,50.7,13.0,,,
+ITG2,Sardegna,IT,2016,70,53.6,17.3,,,
+ITG2,Sardegna,IT,2017,69,53.7,17.0,,,
+ITG2,Sardegna,IT,2018,68,56.1,15.4,,b,b
+ITG2,Sardegna,IT,2019,69,57.4,14.8,,,
+ITG2,Sardegna,IT,2020,67,55.8,13.0,,,
+ITG2,Sardegna,IT,2021,69,57.0,13.5,,b,b
+ITG2,Sardegna,IT,2022,71,58.6,11.5,,,
+ITG2,Sardegna,IT,2023,72,59.9,10.1,,,
+ITG2,Sardegna,IT,2024,73,61.7,8.3,,,
+ITH1,Provincia Autonoma di Bolzano/Bozen,IT,2016,157,78.2,3.7,,,
+ITH1,Provincia Autonoma di Bolzano/Bozen,IT,2017,156,78.4,3.1,,,
+ITH1,Provincia Autonoma di Bolzano/Bozen,IT,2018,156,79.0,2.9,,b,b
+ITH1,Provincia Autonoma di Bolzano/Bozen,IT,2019,156,79.2,2.9,,,
+ITH1,Provincia Autonoma di Bolzano/Bozen,IT,2020,151,77.3,3.7,,,
+ITH1,Provincia Autonoma di Bolzano/Bozen,IT,2021,153,75.8,3.8,,b,b
+ITH1,Provincia Autonoma di Bolzano/Bozen,IT,2022,161,79.2,2.3,,,
+ITH1,Provincia Autonoma di Bolzano/Bozen,IT,2023,166,79.6,2.0,,,
+ITH1,Provincia Autonoma di Bolzano/Bozen,IT,2024,161,79.9,2.0,,,
+ITH2,Provincia Autonoma di Trento,IT,2016,124,71.4,6.9,,,
+ITH2,Provincia Autonoma di Trento,IT,2017,122,73.0,5.7,,,
+ITH2,Provincia Autonoma di Trento,IT,2018,122,73.6,4.8,,b,b
+ITH2,Provincia Autonoma di Trento,IT,2019,122,74.0,5.0,,,
+ITH2,Provincia Autonoma di Trento,IT,2020,120,72.5,5.4,,,
+ITH2,Provincia Autonoma di Trento,IT,2021,121,72.5,4.8,,b,b
+ITH2,Provincia Autonoma di Trento,IT,2022,126,74.9,3.8,,,
+ITH2,Provincia Autonoma di Trento,IT,2023,127,75.6,3.8,,,
+ITH2,Provincia Autonoma di Trento,IT,2024,125,76.9,2.7,,,
+ITH3,Veneto,IT,2016,112,69.5,6.8,,,
+ITH3,Veneto,IT,2017,111,70.8,6.3,,,
+ITH3,Veneto,IT,2018,109,71.5,6.4,,b,b
+ITH3,Veneto,IT,2019,109,72.7,5.6,,,
+ITH3,Veneto,IT,2020,104,70.9,5.8,,,
+ITH3,Veneto,IT,2021,107,70.8,5.3,,b,b
+ITH3,Veneto,IT,2022,110,72.9,4.2,,,
+ITH3,Veneto,IT,2023,110,75.7,4.2,,,
+ITH3,Veneto,IT,2024,109,75.6,3.0,,,
+ITH4,Friuli-Venezia Giulia,IT,2016,104,69.2,7.6,,,
+ITH4,Friuli-Venezia Giulia,IT,2017,103,70.3,6.7,,,
+ITH4,Friuli-Venezia Giulia,IT,2018,102,71.0,6.7,,b,b
+ITH4,Friuli-Venezia Giulia,IT,2019,102,71.4,6.1,,,
+ITH4,Friuli-Venezia Giulia,IT,2020,100,71.9,5.6,,,
+ITH4,Friuli-Venezia Giulia,IT,2021,104,72.3,5.7,,b,b
+ITH4,Friuli-Venezia Giulia,IT,2022,103,73.4,5.3,,,
+ITH4,Friuli-Venezia Giulia,IT,2023,102,73.8,4.6,,,
+ITH4,Friuli-Venezia Giulia,IT,2024,102,75.1,4.3,,,
+ITH5,Emilia-Romagna,IT,2016,121,73.0,7.0,,,
+ITH5,Emilia-Romagna,IT,2017,119,73.3,6.6,,,
+ITH5,Emilia-Romagna,IT,2018,118,74.5,5.8,,b,b
+ITH5,Emilia-Romagna,IT,2019,116,75.4,5.5,,,
+ITH5,Emilia-Romagna,IT,2020,113,73.8,5.8,,,
+ITH5,Emilia-Romagna,IT,2021,117,73.5,5.5,,b,b
+ITH5,Emilia-Romagna,IT,2022,118,74.8,5.0,,,
+ITH5,Emilia-Romagna,IT,2023,118,75.9,5.0,,,
+ITH5,Emilia-Romagna,IT,2024,117,75.6,4.3,,,
+ITI1,Toscana,IT,2016,105,69.9,9.5,,,
+ITI1,Toscana,IT,2017,104,70.7,8.6,,,
+ITI1,Toscana,IT,2018,103,71.4,7.3,,b,b
+ITI1,Toscana,IT,2019,105,71.7,6.7,,,
+ITI1,Toscana,IT,2020,97,71.0,6.7,,,
+ITI1,Toscana,IT,2021,100,70.5,7.5,,b,b
+ITI1,Toscana,IT,2022,103,73.7,6.0,,,
+ITI1,Toscana,IT,2023,103,74.5,5.3,,,
+ITI1,Toscana,IT,2024,103,76.1,4.0,,,
+ITI2,Umbria,IT,2016,85,67.2,9.6,,,
+ITI2,Umbria,IT,2017,84,67.4,10.6,,,
+ITI2,Umbria,IT,2018,84,67.7,9.2,,b,b
+ITI2,Umbria,IT,2019,83,69.2,8.4,,,
+ITI2,Umbria,IT,2020,80,68.5,8.2,,,
+ITI2,Umbria,IT,2021,82,69.3,6.6,,b,b
+ITI2,Umbria,IT,2022,83,69.9,7.1,,,
+ITI2,Umbria,IT,2023,85,71.8,6.0,,,
+ITI2,Umbria,IT,2024,85,73.4,4.8,,,
+ITI3,Marche,IT,2016,91,66.7,10.6,,,
+ITI3,Marche,IT,2017,91,66.5,10.6,,,
+ITI3,Marche,IT,2018,89,69.4,8.1,,b,b
+ITI3,Marche,IT,2019,89,69.8,8.6,,,
+ITI3,Marche,IT,2020,86,68.9,7.4,,,
+ITI3,Marche,IT,2021,89,68.9,7.1,,b,b
+ITI3,Marche,IT,2022,90,72.0,6.2,,,
+ITI3,Marche,IT,2023,90,72.6,5.2,,,
+ITI3,Marche,IT,2024,89,72.2,5.1,,,
+ITI4,Lazio,IT,2016,119,64.2,11.2,,,
+ITI4,Lazio,IT,2017,116,65.3,10.7,,,
+ITI4,Lazio,IT,2018,114,65.3,11.1,,b,b
+ITI4,Lazio,IT,2019,114,65.7,9.9,,,
+ITI4,Lazio,IT,2020,110,64.7,9.2,,,
+ITI4,Lazio,IT,2021,110,64.4,10.0,,b,b
+ITI4,Lazio,IT,2022,115,66.5,7.7,,,
+ITI4,Lazio,IT,2023,114,68.1,7.2,,,
+ITI4,Lazio,IT,2024,113,69.0,6.3,,,
+LT01,Sostinės regionas,LT,2016,110,80.1,5.6,,,
+LT01,Sostinės regionas,LT,2017,113,81.1,4.8,,,
+LT01,Sostinės regionas,LT,2018,119,83.1,4.6,,,
+LT01,Sostinės regionas,LT,2019,124,83.9,4.4,,,
+LT01,Sostinės regionas,LT,2020,128,82.1,6.8,,,
+LT01,Sostinės regionas,LT,2021,131,83.6,4.8,,b,b
+LT01,Sostinės regionas,LT,2022,129,84.4,4.6,,,
+LT01,Sostinės regionas,LT,2023,131,83.2,4.9,,,
+LT01,Sostinės regionas,LT,2024,133,82.2,5.9,,,
+LT02,Vidurio ir vakarų Lietuvos regionas,LT,2016,62,73.2,8.9,,,
+LT02,Vidurio ir vakarų Lietuvos regionas,LT,2017,64,73.8,8.1,,,
+LT02,Vidurio ir vakarų Lietuvos regionas,LT,2018,66,75.6,6.9,,,
+LT02,Vidurio ir vakarų Lietuvos regionas,LT,2019,67,75.8,7.2,,,
+LT02,Vidurio ir vakarų Lietuvos regionas,LT,2020,70,74.3,9.3,,,
+LT02,Vidurio ir vakarų Lietuvos regionas,LT,2021,70,74.7,8.2,,b,b
+LT02,Vidurio ir vakarų Lietuvos regionas,LT,2022,69,76.6,6.6,,,
+LT02,Vidurio ir vakarų Lietuvos regionas,LT,2023,67,76.4,7.8,,,
+LT02,Vidurio ir vakarų Lietuvos regionas,LT,2024,68,77.8,7.7,,,
+LU00,Luxembourg,LU,2016,275,70.7,6.3,,,
+LU00,Luxembourg,LU,2017,266,71.5,5.5,,,
+LU00,Luxembourg,LU,2018,258,72.1,5.6,,,
+LU00,Luxembourg,LU,2019,248,72.8,5.6,,,
+LU00,Luxembourg,LU,2020,255,72.1,6.8,,,
+LU00,Luxembourg,LU,2021,262,74.1,5.3,,b,b
+LU00,Luxembourg,LU,2022,250,74.8,4.6,,,
+LU00,Luxembourg,LU,2023,248,74.8,5.2,,,
+LU00,Luxembourg,LU,2024,245,74.2,6.4,p,,
+LV00,Latvija,LV,2016,63,73.2,9.6,,,
+LV00,Latvija,LV,2017,64,74.8,8.7,,,
+LV00,Latvija,LV,2018,66,76.8,7.4,,,
+LV00,Latvija,LV,2019,66,77.4,6.3,,,
+LV00,Latvija,LV,2020,68,77.0,8.1,,,
+LV00,Latvija,LV,2021,71,75.3,7.6,,b,b
+LV00,Latvija,LV,2022,69,77.0,6.9,,,
+LV00,Latvija,LV,2023,70,77.5,6.5,,,
+LV00,Latvija,LV,2024,68,77.4,6.9,,,
+MT00,Malta,MT,2016,100,71.1,4.7,,,
+MT00,Malta,MT,2017,106,73.0,4.0,,,
+MT00,Malta,MT,2018,106,74.9,4.0,,,
+MT00,Malta,MT,2019,105,75.6,4.1,,,
+MT00,Malta,MT,2020,105,76.0,4.9,,,
+MT00,Malta,MT,2021,109,77.8,3.8,,b,b
+MT00,Malta,MT,2022,103,80.1,3.5,,,
+MT00,Malta,MT,2023,109,81.3,3.5,,,
+MT00,Malta,MT,2024,110,82.7,3.2,,,
+NL11,Groningen,NL,2016,128,71.5,8.2,,,
+NL11,Groningen,NL,2017,128,71.4,7.2,,,
+NL11,Groningen,NL,2018,126,73.8,5.5,,,
+NL11,Groningen,NL,2019,119,74.3,5.1,,,
+NL11,Groningen,NL,2020,116,74.5,5.2,,,
+NL11,Groningen,NL,2021,120,78.3,5.4,,b,b
+NL11,Groningen,NL,2022,140,80.9,4.7,,,
+NL11,Groningen,NL,2023,120,80.4,4.2,,,
+NL11,Groningen,NL,2024,117,80.6,4.7,p,,
+NL12,Friesland (NL),NL,2016,92,77.2,6.7,,,
+NL12,Friesland (NL),NL,2017,92,77.7,5.6,,,
+NL12,Friesland (NL),NL,2018,92,79.1,4.7,,,
+NL12,Friesland (NL),NL,2019,91,80.4,3.7,,,
+NL12,Friesland (NL),NL,2020,96,80.1,3.9,,,
+NL12,Friesland (NL),NL,2021,96,81.4,4.5,,b,b
+NL12,Friesland (NL),NL,2022,101,82.2,3.8,,,
+NL12,Friesland (NL),NL,2023,96,83.6,4.0,,,
+NL12,Friesland (NL),NL,2024,98,83.2,3.9,p,,
+NL13,Drenthe,NL,2016,90,75.9,6.5,,,
+NL13,Drenthe,NL,2017,90,78.4,5.0,,,
+NL13,Drenthe,NL,2018,91,78.7,4.2,,,
+NL13,Drenthe,NL,2019,89,79.7,2.8,,,
+NL13,Drenthe,NL,2020,92,78.4,3.7,,,
+NL13,Drenthe,NL,2021,93,80.6,3.5,,b,b
+NL13,Drenthe,NL,2022,94,83.3,2.9,,,
+NL13,Drenthe,NL,2023,93,84.0,3.3,,,
+NL13,Drenthe,NL,2024,96,83.0,3.4,p,,
+NL21,Overijssel,NL,2016,109,77.1,6.2,,,
+NL21,Overijssel,NL,2017,110,78.4,5.1,,,
+NL21,Overijssel,NL,2018,110,80.0,3.7,,,
+NL21,Overijssel,NL,2019,108,80.9,3.0,,,
+NL21,Overijssel,NL,2020,113,80.6,3.5,,,
+NL21,Overijssel,NL,2021,113,82.0,3.8,,b,b
+NL21,Overijssel,NL,2022,114,83.3,3.3,,,
+NL21,Overijssel,NL,2023,112,84.5,2.9,,,
+NL21,Overijssel,NL,2024,116,83.6,3.4,p,,
+NL22,Gelderland,NL,2016,109,77.1,5.6,,,
+NL22,Gelderland,NL,2017,109,78.7,4.5,,,
+NL22,Gelderland,NL,2018,109,79.4,3.3,,,
+NL22,Gelderland,NL,2019,108,80.3,3.1,,,
+NL22,Gelderland,NL,2020,112,80.2,3.5,,,
+NL22,Gelderland,NL,2021,112,81.7,3.9,,b,b
+NL22,Gelderland,NL,2022,113,83.3,3.5,,,
+NL22,Gelderland,NL,2023,110,83.7,3.3,,,
+NL22,Gelderland,NL,2024,114,84.2,3.5,p,,
+NL23,Flevoland,NL,2016,96,76.9,8.0,,,
+NL23,Flevoland,NL,2017,95,77.9,5.7,,,
+NL23,Flevoland,NL,2018,96,80.3,4.5,,,
+NL23,Flevoland,NL,2019,96,81.2,3.5,,,
+NL23,Flevoland,NL,2020,99,81.3,3.9,,,
+NL23,Flevoland,NL,2021,98,80.8,4.6,,b,b
+NL23,Flevoland,NL,2022,102,83.0,3.3,,,
+NL23,Flevoland,NL,2023,103,82.7,4.3,,,
+NL23,Flevoland,NL,2024,103,84.2,3.8,p,,
+NL32,Noord-Holland,NL,2016,169,79.3,5.5,,,
+NL32,Noord-Holland,NL,2017,170,79.5,4.5,,,
+NL32,Noord-Holland,NL,2018,171,80.3,3.8,,,
+NL32,Noord-Holland,NL,2019,170,80.9,3.2,,,
+NL32,Noord-Holland,NL,2020,168,80.6,3.9,,,
+NL32,Noord-Holland,NL,2021,168,81.6,4.5,,b,b
+NL32,Noord-Holland,NL,2022,175,83.5,3.6,,,
+NL32,Noord-Holland,NL,2023,172,84.0,3.8,,,
+NL32,Noord-Holland,NL,2024,175,84.4,3.8,p,,
+NL34,Zeeland,NL,2016,102,79.2,3.9,,,
+NL34,Zeeland,NL,2017,102,77.9,2.9,,,
+NL34,Zeeland,NL,2018,105,79.8,2.7,,,
+NL34,Zeeland,NL,2019,102,80.0,2.6,,,
+NL34,Zeeland,NL,2020,106,81.0,2.6,,,
+NL34,Zeeland,NL,2021,104,83.4,3.6,,b,b
+NL34,Zeeland,NL,2022,110,83.5,2.6,,,
+NL34,Zeeland,NL,2023,112,84.0,2.1,,,
+NL34,Zeeland,NL,2024,113,84.7,2.1,p,,
+NL41,Noord-Brabant,NL,2016,131,78.7,5.3,,,
+NL41,Noord-Brabant,NL,2017,133,79.9,4.2,,,
+NL41,Noord-Brabant,NL,2018,133,80.7,3.5,,,
+NL41,Noord-Brabant,NL,2019,131,81.8,3.2,,,
+NL41,Noord-Brabant,NL,2020,136,81.9,3.5,,,
+NL41,Noord-Brabant,NL,2021,137,84.1,3.2,,b,b
+NL41,Noord-Brabant,NL,2022,136,84.3,3.0,,,
+NL41,Noord-Brabant,NL,2023,135,84.9,3.2,,,
+NL41,Noord-Brabant,NL,2024,139,84.0,3.2,p,,
+NL42,Limburg (NL),NL,2016,114,74.2,5.7,,,
+NL42,Limburg (NL),NL,2017,114,75.4,4.8,,,
+NL42,Limburg (NL),NL,2018,114,76.7,3.4,,,
+NL42,Limburg (NL),NL,2019,111,77.2,3.1,,,
+NL42,Limburg (NL),NL,2020,114,75.9,3.5,,,
+NL42,Limburg (NL),NL,2021,114,79.2,3.8,,b,b
+NL42,Limburg (NL),NL,2022,111,79.2,3.6,,,
+NL42,Limburg (NL),NL,2023,109,79.9,3.4,,,
+NL42,Limburg (NL),NL,2024,110,80.6,3.3,p,,
+PL21,Małopolskie,PL,2016,63,69.9,5.2,,b,b
+PL21,Małopolskie,PL,2017,64,71.2,4.2,,,
+PL21,Małopolskie,PL,2018,66,72.1,2.9,,,
+PL21,Małopolskie,PL,2019,67,72.8,2.9,,b,b
+PL21,Małopolskie,PL,2020,71,73.5,2.7,b,,
+PL21,Małopolskie,PL,2021,72,73.8,3.2,,b,b
+PL21,Małopolskie,PL,2022,69,74.0,2.4,b,,
+PL21,Małopolskie,PL,2023,69,75.6,2.3,,,
+PL21,Małopolskie,PL,2024,70,76.4,2.5,p,,
+PL22,Śląskie,PL,2016,71,66.9,5.4,,b,b
+PL22,Śląskie,PL,2017,72,68.6,3.9,,,
+PL22,Śląskie,PL,2018,74,69.4,3.4,,,
+PL22,Śląskie,PL,2019,75,70.6,2.4,,b,b
+PL22,Śląskie,PL,2020,78,70.4,2.7,b,,
+PL22,Śląskie,PL,2021,81,73.1,2.9,,b,b
+PL22,Śląskie,PL,2022,82,74.6,2.2,b,,
+PL22,Śląskie,PL,2023,79,76.1,2.5,,,
+PL22,Śląskie,PL,2024,79,76.7,2.4,p,,
+PL41,Wielkopolskie,PL,2016,75,71.5,4.8,,b,b
+PL41,Wielkopolskie,PL,2017,76,74.0,3.1,,,
+PL41,Wielkopolskie,PL,2018,77,75.0,2.2,,,
+PL41,Wielkopolskie,PL,2019,80,75.6,2.6,,b,b
+PL41,Wielkopolskie,PL,2020,84,75.3,1.8,b,,
+PL41,Wielkopolskie,PL,2021,83,78.3,2.3,,b,b
+PL41,Wielkopolskie,PL,2022,81,78.8,2.0,b,,
+PL41,Wielkopolskie,PL,2023,81,79.0,2.8,,,
+PL41,Wielkopolskie,PL,2024,82,79.9,2.3,p,,
+PL42,Zachodniopomorskie,PL,2016,58,64.8,7.0,,b,b
+PL42,Zachodniopomorskie,PL,2017,59,67.5,4.7,,,
+PL42,Zachodniopomorskie,PL,2018,60,70.4,3.8,,,
+PL42,Zachodniopomorskie,PL,2019,61,70.8,3.1,,b,b
+PL42,Zachodniopomorskie,PL,2020,66,71.6,3.4,b,,
+PL42,Zachodniopomorskie,PL,2021,66,73.5,3.5,,b,b
+PL42,Zachodniopomorskie,PL,2022,64,75.7,2.3,b,,u
+PL42,Zachodniopomorskie,PL,2023,63,77.2,2.2,,,u
+PL42,Zachodniopomorskie,PL,2024,64,77.6,2.7,p,,
+PL51,Dolnośląskie,PL,2016,77,70.0,5.5,,b,b
+PL51,Dolnośląskie,PL,2017,77,70.7,4.7,,,
+PL51,Dolnośląskie,PL,2018,78,72.4,3.3,,,
+PL51,Dolnośląskie,PL,2019,80,75.0,3.3,,b,b
+PL51,Dolnośląskie,PL,2020,86,75.3,3.2,b,,
+PL51,Dolnośląskie,PL,2021,87,76.7,4.1,,b,b
+PL51,Dolnośląskie,PL,2022,84,76.9,3.5,b,,
+PL51,Dolnośląskie,PL,2023,82,79.4,3.0,,,
+PL51,Dolnośląskie,PL,2024,83,80.1,3.4,p,,
+PL52,Opolskie,PL,2016,57,69.1,5.0,,b,b
+PL52,Opolskie,PL,2017,57,71.1,4.3,,,
+PL52,Opolskie,PL,2018,58,73.1,3.2,,,u
+PL52,Opolskie,PL,2019,60,73.0,3.2,,b,bu
+PL52,Opolskie,PL,2020,64,73.5,2.8,b,,u
+PL52,Opolskie,PL,2021,66,77.9,2.8,,b,bu
+PL52,Opolskie,PL,2022,63,76.3,2.7,b,,u
+PL52,Opolskie,PL,2023,62,77.0,2.7,,,u
+PL52,Opolskie,PL,2024,63,78.5,2.4,p,,u
+PL61,Kujawsko-pomorskie,PL,2016,56,66.7,7.4,,b,b
+PL61,Kujawsko-pomorskie,PL,2017,56,68.1,5.5,,,
+PL61,Kujawsko-pomorskie,PL,2018,58,70.0,4.3,,,
+PL61,Kujawsko-pomorskie,PL,2019,58,71.0,3.9,,b,b
+PL61,Kujawsko-pomorskie,PL,2020,65,71.5,3.1,b,,
+PL61,Kujawsko-pomorskie,PL,2021,65,74.7,4.5,,b,b
+PL61,Kujawsko-pomorskie,PL,2022,65,76.8,3.9,b,,
+PL61,Kujawsko-pomorskie,PL,2023,62,77.8,3.8,,,
+PL61,Kujawsko-pomorskie,PL,2024,63,78.1,4.2,p,,
+PL62,Warmińsko-mazurskie,PL,2016,50,63.4,8.8,,b,b
+PL62,Warmińsko-mazurskie,PL,2017,50,65.6,7.2,,,
+PL62,Warmińsko-mazurskie,PL,2018,50,66.7,5.6,,,
+PL62,Warmińsko-mazurskie,PL,2019,51,68.4,3.3,,b,b
+PL62,Warmińsko-mazurskie,PL,2020,57,69.8,3.0,b,,u
+PL62,Warmińsko-mazurskie,PL,2021,57,73.0,3.5,,b,b
+PL62,Warmińsko-mazurskie,PL,2022,56,73.6,3.4,b,,
+PL62,Warmińsko-mazurskie,PL,2023,54,75.0,2.6,,,u
+PL62,Warmińsko-mazurskie,PL,2024,56,75.1,3.8,p,,
+PL63,Pomorskie,PL,2016,67,70.6,5.7,,b,b
+PL63,Pomorskie,PL,2017,67,72.7,4.2,,,
+PL63,Pomorskie,PL,2018,69,73.6,3.0,,,
+PL63,Pomorskie,PL,2019,71,76.2,2.8,,b,b
+PL63,Pomorskie,PL,2020,73,75.7,3.2,b,,
+PL63,Pomorskie,PL,2021,76,77.5,2.4,,b,b
+PL63,Pomorskie,PL,2022,77,79.1,1.9,b,,
+PL63,Pomorskie,PL,2023,73,79.8,1.9,,,
+PL63,Pomorskie,PL,2024,75,80.2,2.2,p,,
+PL71,Łódzkie,PL,2016,65,71.3,5.6,,b,b
+PL71,Łódzkie,PL,2017,65,73.4,4.6,,,
+PL71,Łódzkie,PL,2018,67,74.7,4.4,,,
+PL71,Łódzkie,PL,2019,69,73.8,3.6,,b,b
+PL71,Łódzkie,PL,2020,76,75.8,3.1,b,,
+PL71,Łódzkie,PL,2021,75,75.7,4.5,,b,b
+PL71,Łódzkie,PL,2022,73,78.5,3.5,b,,
+PL71,Łódzkie,PL,2023,73,77.9,3.8,,,
+PL71,Łódzkie,PL,2024,74,77.6,3.5,p,,
+PL72,Świętokrzyskie,PL,2016,51,66.9,8.9,,b,b
+PL72,Świętokrzyskie,PL,2017,51,67.9,7.0,,,
+PL72,Świętokrzyskie,PL,2018,53,68.0,5.8,,,
+PL72,Świętokrzyskie,PL,2019,54,70.3,4.1,,b,b
+PL72,Świętokrzyskie,PL,2020,59,72.2,4.3,b,,
+PL72,Świętokrzyskie,PL,2021,59,73.9,4.5,,b,b
+PL72,Świętokrzyskie,PL,2022,57,75.8,3.8,b,,
+PL72,Świętokrzyskie,PL,2023,57,75.9,3.8,,,u
+PL72,Świętokrzyskie,PL,2024,60,76.4,3.7,p,,u
+PL81,Lubelskie,PL,2016,48,67.2,8.0,,b,b
+PL81,Lubelskie,PL,2017,49,68.2,7.2,,,
+PL81,Lubelskie,PL,2018,49,69.7,6.3,,,
+PL81,Lubelskie,PL,2019,51,69.7,5.4,,b,b
+PL81,Lubelskie,PL,2020,55,70.4,5.6,b,,
+PL81,Lubelskie,PL,2021,55,73.0,5.2,,b,b
+PL81,Lubelskie,PL,2022,55,75.1,4.8,b,,
+PL81,Lubelskie,PL,2023,53,76.2,4.0,,,
+PL81,Lubelskie,PL,2024,55,76.9,3.3,p,,
+PL82,Podkarpackie,PL,2016,49,66.6,9.6,,b,b
+PL82,Podkarpackie,PL,2017,49,68.2,8.4,,,
+PL82,Podkarpackie,PL,2018,51,68.4,6.5,,,
+PL82,Podkarpackie,PL,2019,52,69.1,5.0,,b,b
+PL82,Podkarpackie,PL,2020,56,70.1,4.3,b,,
+PL82,Podkarpackie,PL,2021,57,68.3,4.8,,b,b
+PL82,Podkarpackie,PL,2022,55,68.7,4.7,b,,
+PL82,Podkarpackie,PL,2023,55,70.5,4.3,,,
+PL82,Podkarpackie,PL,2024,57,71.8,3.7,p,,
+PL84,Podlaskie,PL,2016,51,70.3,6.7,,b,b
+PL84,Podlaskie,PL,2017,52,71.1,4.7,,,
+PL84,Podlaskie,PL,2018,53,72.9,3.2,,,
+PL84,Podlaskie,PL,2019,55,73.5,3.0,,b,b
+PL84,Podlaskie,PL,2020,61,73.5,2.8,b,,u
+PL84,Podlaskie,PL,2021,60,76.0,3.2,,b,bu
+PL84,Podlaskie,PL,2022,60,77.5,2.5,b,,u
+PL84,Podlaskie,PL,2023,59,78.5,2.3,,,u
+PL84,Podlaskie,PL,2024,61,77.3,2.9,p,,u
+PL91,Warszawski stołeczny,PL,2016,146,78.9,3.7,,b,b
+PL91,Warszawski stołeczny,PL,2017,149,79.9,3.5,,,
+PL91,Warszawski stołeczny,PL,2018,154,82.5,2.4,,,
+PL91,Warszawski stołeczny,PL,2019,159,82.2,2.1,,b,b
+PL91,Warszawski stołeczny,PL,2020,158,81.4,2.6,b,,
+PL91,Warszawski stołeczny,PL,2021,154,83.7,2.1,,b,b
+PL91,Warszawski stołeczny,PL,2022,151,85.5,2.0,b,,
+PL91,Warszawski stołeczny,PL,2023,155,86.5,1.9,,,
+PL91,Warszawski stołeczny,PL,2024,157,86.2,2.5,p,,
+PL92,Mazowiecki regionalny,PL,2016,61,68.7,7.8,,b,b
+PL92,Mazowiecki regionalny,PL,2017,61,69.9,6.4,,,
+PL92,Mazowiecki regionalny,PL,2018,62,70.4,5.7,,,
+PL92,Mazowiecki regionalny,PL,2019,65,72.1,4.5,,b,b
+PL92,Mazowiecki regionalny,PL,2020,69,72.9,4.7,b,,
+PL92,Mazowiecki regionalny,PL,2021,70,74.3,3.8,,b,b
+PL92,Mazowiecki regionalny,PL,2022,73,75.9,3.7,b,,
+PL92,Mazowiecki regionalny,PL,2023,70,77.6,3.1,,,
+PL92,Mazowiecki regionalny,PL,2024,71,77.9,3.5,p,,
+PT11,Norte,PT,2016,65,68.1,12.2,,,
+PT11,Norte,PT,2017,65,71.5,9.8,,,
+PT11,Norte,PT,2018,66,73.7,7.3,,,
+PT11,Norte,PT,2019,66,74.3,6.7,,,
+PT11,Norte,PT,2020,65,73.8,6.9,,,
+PT11,Norte,PT,2021,65,74.9,6.7,,b,b
+PT11,Norte,PT,2022,66,76.0,6.0,,,
+PT11,Norte,PT,2023,69,76.6,7.0,,,
+PT11,Norte,PT,2024,71,77.4,6.6,p,,
+PT15,Algarve,PT,2016,80,73.7,9.3,,,
+PT15,Algarve,PT,2017,81,77.0,7.7,,,
+PT15,Algarve,PT,2018,82,77.6,6.4,,,
+PT15,Algarve,PT,2019,82,77.9,7.0,,,
+PT15,Algarve,PT,2020,70,74.4,8.4,,,
+PT15,Algarve,PT,2021,71,75.6,8.6,,b,b
+PT15,Algarve,PT,2022,84,79.2,6.0,,,
+PT15,Algarve,PT,2023,87,80.2,5.7,,,
+PT15,Algarve,PT,2024,89,79.8,5.8,p,,
+PT20,Região Autónoma dos Açores,PT,2016,69,66.8,10.9,,,
+PT20,Região Autónoma dos Açores,PT,2017,68,69.1,8.8,,,
+PT20,Região Autónoma dos Açores,PT,2018,68,69.9,8.4,,,
+PT20,Região Autónoma dos Açores,PT,2019,68,71.2,7.7,,,
+PT20,Região Autónoma dos Açores,PT,2020,65,71.0,5.9,,,
+PT20,Região Autónoma dos Açores,PT,2021,65,68.9,7.0,,b,bu
+PT20,Região Autónoma dos Açores,PT,2022,67,71.7,6.1,,,u
+PT20,Região Autónoma dos Açores,PT,2023,71,72.9,6.5,,,u
+PT20,Região Autónoma dos Açores,PT,2024,73,74.8,5.6,p,,u
+PT30,Região Autónoma da Madeira,PT,2016,75,66.6,12.8,,,
+PT30,Região Autónoma da Madeira,PT,2017,76,69.1,10.3,,,
+PT30,Região Autónoma da Madeira,PT,2018,76,71.2,8.7,,,
+PT30,Região Autónoma da Madeira,PT,2019,76,73.6,6.9,,,
+PT30,Região Autónoma da Madeira,PT,2020,68,71.0,7.6,,,
+PT30,Região Autónoma da Madeira,PT,2021,71,70.5,7.8,,b,b
+PT30,Região Autónoma da Madeira,PT,2022,82,72.4,6.8,,,u
+PT30,Região Autónoma da Madeira,PT,2023,86,73.5,6.0,,,u
+PT30,Região Autónoma da Madeira,PT,2024,88,76.3,5.7,p,,u
+RO11,Nord-Vest,RO,2016,52,68.9,4.3,,,
+RO11,Nord-Vest,RO,2017,58,71.5,3.6,,,
+RO11,Nord-Vest,RO,2018,60,72.5,2.9,,,
+RO11,Nord-Vest,RO,2019,64,72.3,3.0,,,
+RO11,Nord-Vest,RO,2020,67,71.8,3.8,,,
+RO11,Nord-Vest,RO,2021,67,71.4,3.1,,b,b
+RO11,Nord-Vest,RO,2022,65,72.2,3.1,,,
+RO11,Nord-Vest,RO,2023,69,71.4,3.0,,,
+RO11,Nord-Vest,RO,2024,71,71.8,4.5,p,,
+RO12,Centru,RO,2016,55,63.2,5.2,,,
+RO12,Centru,RO,2017,59,65.8,4.2,,,
+RO12,Centru,RO,2018,62,63.9,4.2,,,
+RO12,Centru,RO,2019,64,65.2,5.3,,,
+RO12,Centru,RO,2020,68,65.5,7.1,,,
+RO12,Centru,RO,2021,68,65.6,5.1,,b,b
+RO12,Centru,RO,2022,65,67.6,5.4,,,
+RO12,Centru,RO,2023,70,66.9,4.6,,,
+RO12,Centru,RO,2024,71,68.4,4.3,p,,
+RO21,Nord-Est,RO,2016,36,74.9,3.0,,,
+RO21,Nord-Est,RO,2017,39,76.2,2.9,,,
+RO21,Nord-Est,RO,2018,41,78.1,2.4,,,
+RO21,Nord-Est,RO,2019,44,79.5,2.1,,,
+RO21,Nord-Est,RO,2020,47,79.1,3.0,,,
+RO21,Nord-Est,RO,2021,45,67.3,6.8,,b,b
+RO21,Nord-Est,RO,2022,43,69.4,6.6,,,
+RO21,Nord-Est,RO,2023,47,69.0,5.9,,,
+RO21,Nord-Est,RO,2024,48,69.6,4.9,p,,
+RO22,Sud-Est,RO,2016,49,61.1,7.7,,,
+RO22,Sud-Est,RO,2017,51,62.2,6.5,,,
+RO22,Sud-Est,RO,2018,54,64.0,6.1,,,
+RO22,Sud-Est,RO,2019,55,65.4,6.4,,,
+RO22,Sud-Est,RO,2020,56,65.5,7.4,,,
+RO22,Sud-Est,RO,2021,58,63.0,6.0,,b,b
+RO22,Sud-Est,RO,2022,56,63.4,7.3,,,
+RO22,Sud-Est,RO,2023,57,62.2,9.1,,,
+RO22,Sud-Est,RO,2024,59,62.6,9.9,p,,
+RO31,Sud-Muntenia,RO,2016,47,64.7,8.9,,,
+RO31,Sud-Muntenia,RO,2017,48,67.8,6.8,,,
+RO31,Sud-Muntenia,RO,2018,51,69.0,5.5,,,
+RO31,Sud-Muntenia,RO,2019,52,70.0,4.7,,,
+RO31,Sud-Muntenia,RO,2020,54,69.4,5.9,,,
+RO31,Sud-Muntenia,RO,2021,54,65.2,7.7,,b,b
+RO31,Sud-Muntenia,RO,2022,55,65.8,7.9,,,
+RO31,Sud-Muntenia,RO,2023,54,67.3,7.8,,,
+RO31,Sud-Muntenia,RO,2024,55,69.0,7.3,p,,
+RO32,Bucureşti-Ilfov,RO,2016,136,71.3,4.7,,,
+RO32,Bucureşti-Ilfov,RO,2017,145,73.7,4.3,,,
+RO32,Bucureşti-Ilfov,RO,2018,147,75.1,3.6,,,
+RO32,Bucureşti-Ilfov,RO,2019,158,76.3,2.5,,,
+RO32,Bucureşti-Ilfov,RO,2020,164,76.1,4.7,,,
+RO32,Bucureşti-Ilfov,RO,2021,168,77.0,3.5,,b,b
+RO32,Bucureşti-Ilfov,RO,2022,174,79.9,2.7,,,
+RO32,Bucureşti-Ilfov,RO,2023,181,80.7,2.8,,,
+RO32,Bucureşti-Ilfov,RO,2024,188,81.1,2.2,p,,
+RO41,Sud-Vest Oltenia,RO,2016,42,60.2,9.9,,,
+RO41,Sud-Vest Oltenia,RO,2017,46,65.9,7.7,,,
+RO41,Sud-Vest Oltenia,RO,2018,50,67.4,6.4,,,
+RO41,Sud-Vest Oltenia,RO,2019,53,69.0,5.3,,,
+RO41,Sud-Vest Oltenia,RO,2020,55,69.4,5.0,,,
+RO41,Sud-Vest Oltenia,RO,2021,55,60.2,9.2,,b,b
+RO41,Sud-Vest Oltenia,RO,2022,57,61.8,8.8,,,
+RO41,Sud-Vest Oltenia,RO,2023,59,63.4,8.9,,,
+RO41,Sud-Vest Oltenia,RO,2024,60,63.5,7.7,p,,
+RO42,Vest,RO,2016,62,61.4,4.9,,,
+RO42,Vest,RO,2017,65,63.5,4.4,,,
+RO42,Vest,RO,2018,67,64.5,3.6,,,
+RO42,Vest,RO,2019,70,65.1,3.4,,,
+RO42,Vest,RO,2020,72,65.0,4.6,,,
+RO42,Vest,RO,2021,73,64.0,3.5,,b,b
+RO42,Vest,RO,2022,72,65.2,3.7,,,
+RO42,Vest,RO,2023,77,66.9,2.8,,,
+RO42,Vest,RO,2024,78,66.9,3.3,p,,
+SE11,Stockholm,SE,2016,170,83.4,6.5,,,
+SE11,Stockholm,SE,2017,162,84.2,6.3,,,
+SE11,Stockholm,SE,2018,160,85.6,5.6,,b,b
+SE11,Stockholm,SE,2019,161,84.9,6.1,,,
+SE11,Stockholm,SE,2020,167,83.8,7.6,,,
+SE11,Stockholm,SE,2021,164,83.5,8.3,,b,b
+SE11,Stockholm,SE,2022,154,85.0,7.0,,,
+SE11,Stockholm,SE,2023,151,85.2,6.9,,,
+SE11,Stockholm,SE,2024,153,83.7,8.3,,,
+SE12,Östra Mellansverige,SE,2016,106,79.6,7.7,,,
+SE12,Östra Mellansverige,SE,2017,104,79.9,7.6,,,
+SE12,Östra Mellansverige,SE,2018,102,79.8,7.2,,b,b
+SE12,Östra Mellansverige,SE,2019,99,80.5,7.3,,,
+SE12,Östra Mellansverige,SE,2020,103,78.4,9.4,,,
+SE12,Östra Mellansverige,SE,2021,102,78.1,9.8,,b,b
+SE12,Östra Mellansverige,SE,2022,97,78.0,9.5,,,
+SE12,Östra Mellansverige,SE,2023,96,80.0,9.1,,,
+SE12,Östra Mellansverige,SE,2024,97,79.6,9.6,,,
+SE21,Småland med öarna,SE,2016,106,82.0,6.2,,,
+SE21,Småland med öarna,SE,2017,104,83.0,5.5,,,
+SE21,Småland med öarna,SE,2018,101,83.5,5.7,,b,b
+SE21,Småland med öarna,SE,2019,99,84.1,6.3,,,
+SE21,Småland med öarna,SE,2020,102,82.2,7.7,,,
+SE21,Småland med öarna,SE,2021,103,81.5,7.6,,b,b
+SE21,Småland med öarna,SE,2022,97,83.7,6.2,,,
+SE21,Småland med öarna,SE,2023,95,83.9,6.9,,,
+SE21,Småland med öarna,SE,2024,93,84.2,7.2,,,
+SE22,Sydsverige,SE,2016,103,78.5,8.4,,,
+SE22,Sydsverige,SE,2017,101,78.8,8.4,,,
+SE22,Sydsverige,SE,2018,100,78.7,8.6,,b,b
+SE22,Sydsverige,SE,2019,100,78.2,8.9,,,
+SE22,Sydsverige,SE,2020,105,77.2,10.5,,,
+SE22,Sydsverige,SE,2021,102,76.8,11.3,,b,b
+SE22,Sydsverige,SE,2022,96,79.1,9.3,,,
+SE22,Sydsverige,SE,2023,94,80.5,9.4,,,
+SE22,Sydsverige,SE,2024,96,80.1,9.7,,,
+SE23,Västsverige,SE,2016,121,81.9,6.5,,,
+SE23,Västsverige,SE,2017,117,82.7,6.0,,,
+SE23,Västsverige,SE,2018,114,83.2,5.6,,b,b
+SE23,Västsverige,SE,2019,113,83.5,6.1,,,
+SE23,Västsverige,SE,2020,114,81.6,7.6,,,
+SE23,Västsverige,SE,2021,114,81.2,8.5,,b,b
+SE23,Västsverige,SE,2022,110,83.5,6.4,,,
+SE23,Västsverige,SE,2023,110,82.7,7.4,,,
+SE23,Västsverige,SE,2024,107,81.5,8.4,,,
+SE31,Norra Mellansverige,SE,2016,97,80.1,7.5,,,
+SE31,Norra Mellansverige,SE,2017,95,80.9,6.9,,,
+SE31,Norra Mellansverige,SE,2018,95,81.9,6.4,,b,b
+SE31,Norra Mellansverige,SE,2019,94,80.1,7.3,,,
+SE31,Norra Mellansverige,SE,2020,96,79.0,7.9,,,
+SE31,Norra Mellansverige,SE,2021,95,78.5,9.8,,b,b
+SE31,Norra Mellansverige,SE,2022,90,81.3,7.7,,,
+SE31,Norra Mellansverige,SE,2023,85,82.5,7.3,,,
+SE31,Norra Mellansverige,SE,2024,85,82.5,7.2,,,
+SE32,Mellersta Norrland,SE,2016,103,81.4,6.8,,,
+SE32,Mellersta Norrland,SE,2017,101,81.8,6.2,,,
+SE32,Mellersta Norrland,SE,2018,100,82.4,5.5,,b,b
+SE32,Mellersta Norrland,SE,2019,99,81.0,6.7,,,
+SE32,Mellersta Norrland,SE,2020,101,80.5,7.6,,,
+SE32,Mellersta Norrland,SE,2021,103,83.7,6.3,,b,b
+SE32,Mellersta Norrland,SE,2022,100,83.4,6.6,,,
+SE32,Mellersta Norrland,SE,2023,95,83.1,6.5,,,
+SE32,Mellersta Norrland,SE,2024,99,81.6,7.6,,,
+SE33,Övre Norrland,SE,2016,111,81.0,5.8,,,
+SE33,Övre Norrland,SE,2017,114,81.8,5.9,,,
+SE33,Övre Norrland,SE,2018,112,81.9,5.4,,b,b
+SE33,Övre Norrland,SE,2019,115,81.0,6.1,,,
+SE33,Övre Norrland,SE,2020,116,81.6,6.2,,,
+SE33,Övre Norrland,SE,2021,126,79.6,6.2,,b,b
+SE33,Övre Norrland,SE,2022,118,81.4,5.2,,,
+SE33,Övre Norrland,SE,2023,109,82.6,5.7,,,
+SE33,Övre Norrland,SE,2024,108,83.6,5.2,,,
+SI03,Vzhodna Slovenija,SI,2016,67,68.4,8.9,,,
+SI03,Vzhodna Slovenija,SI,2017,68,72.6,6.8,,,
+SI03,Vzhodna Slovenija,SI,2018,70,74.0,5.5,,,
+SI03,Vzhodna Slovenija,SI,2019,71,74.8,4.9,,,
+SI03,Vzhodna Slovenija,SI,2020,71,74.2,5.5,,,
+SI03,Vzhodna Slovenija,SI,2021,71,74.4,5.0,,b,b
+SI03,Vzhodna Slovenija,SI,2022,73,76.0,4.2,,,
+SI03,Vzhodna Slovenija,SI,2023,73,75.9,3.8,,,
+SI03,Vzhodna Slovenija,SI,2024,72,76.3,4.1,,,
+SI04,Zahodna Slovenija,SI,2016,99,72.0,7.1,,,
+SI04,Zahodna Slovenija,SI,2017,101,74.4,6.4,,,
+SI04,Zahodna Slovenija,SI,2018,103,77.1,4.8,,,
+SI04,Zahodna Slovenija,SI,2019,104,78.3,4.0,,,
+SI04,Zahodna Slovenija,SI,2020,105,77.1,4.4,,,
+SI04,Zahodna Slovenija,SI,2021,106,78.0,4.5,,b,b
+SI04,Zahodna Slovenija,SI,2022,108,80.1,3.8,,,
+SI04,Zahodna Slovenija,SI,2023,112,79.2,3.5,,,
+SI04,Zahodna Slovenija,SI,2024,110,80.5,3.3,,,
+SK01,Bratislavský kraj,SK,2016,181,78.7,5.1,,,
+SK01,Bratislavský kraj,SK,2017,171,79.2,4.2,,,
+SK01,Bratislavský kraj,SK,2018,167,79.9,2.9,,,
+SK01,Bratislavský kraj,SK,2019,162,81.3,2.4,,,
+SK01,Bratislavský kraj,SK,2020,170,79.8,3.4,,,
+SK01,Bratislavský kraj,SK,2021,158,83.4,2.6,b,b,bu
+SK01,Bratislavský kraj,SK,2022,149,84.5,2.3,,,u
+SK01,Bratislavský kraj,SK,2023,151,85.8,2.3,,,
+SK01,Bratislavský kraj,SK,2024,153,85.4,2.3,e,,u
+SK02,Západné Slovensko,SK,2016,66,71.9,7.7,,,
+SK02,Západné Slovensko,SK,2017,63,73.4,5.5,,,
+SK02,Západné Slovensko,SK,2018,62,73.9,4.3,,,
+SK02,Západné Slovensko,SK,2019,64,74.6,4.0,,,
+SK02,Západné Slovensko,SK,2020,68,74.1,4.7,,,
+SK02,Západné Slovensko,SK,2021,66,77.3,4.7,b,b,b
+SK02,Západné Slovensko,SK,2022,63,78.3,4.1,,,
+SK02,Západné Slovensko,SK,2023,69,78.8,3.6,,,
+SK02,Západné Slovensko,SK,2024,70,79.4,3.3,e,,
+SK03,Stredné Slovensko,SK,2016,58,68.9,10.8,,,
+SK03,Stredné Slovensko,SK,2017,56,70.1,9.4,,,
+SK03,Stredné Slovensko,SK,2018,56,71.9,7.5,,,
+SK03,Stredné Slovensko,SK,2019,57,73.2,6.1,,,
+SK03,Stredné Slovensko,SK,2020,59,72.4,6.7,,,
+SK03,Stredné Slovensko,SK,2021,62,73.9,7.5,b,b,b
+SK03,Stredné Slovensko,SK,2022,60,76.7,6.6,,,
+SK03,Stredné Slovensko,SK,2023,61,78.0,5.9,,,
+SK03,Stredné Slovensko,SK,2024,62,79.0,5.1,e,,
+SK04,Východné Slovensko,SK,2016,50,64.5,13.2,,,
+SK04,Východné Slovensko,SK,2017,50,66.1,12.0,,,
+SK04,Východné Slovensko,SK,2018,50,68.1,10.1,,,
+SK04,Východné Slovensko,SK,2019,49,69.0,9.1,,,
+SK04,Východné Slovensko,SK,2020,53,67.6,10.6,,,
+SK04,Východné Slovensko,SK,2021,54,68.5,10.9,b,b,b
+SK04,Východné Slovensko,SK,2022,52,71.3,10.2,,,
+SK04,Východné Slovensko,SK,2023,54,71.6,10.4,,,
+SK04,Východné Slovensko,SK,2024,54,72.5,9.6,e,,

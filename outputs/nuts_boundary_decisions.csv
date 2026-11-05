@@ -1,0 +1,21 @@
+region_code,region_name,country_code,first_missing_year,last_missing_year,number_missing_years,employment_missing_years,unemployment_missing_years,suspected_reason,provisional_treatment
+DE22,Niederbayern,DE,2020,2023,3,0,3,Requires review,Keep in master panel; exclude from balanced panel
+DE23,Oberpfalz,DE,2020,2022,2,0,2,Requires review,Keep in master panel; exclude from balanced panel
+DE24,Oberfranken,DE,2020,2020,1,0,1,Requires review,Keep in master panel; exclude from balanced panel
+DE26,Unterfranken,DE,2020,2020,1,0,1,Requires review,Keep in master panel; exclude from balanced panel
+DE50,Bremen,DE,2020,2020,1,0,1,Requires review,Keep in master panel; exclude from balanced panel
+DE73,Kassel,DE,2020,2020,1,0,1,Requires review,Keep in master panel; exclude from balanced panel
+DEB1,Koblenz,DE,2020,2020,1,0,1,Requires review,Keep in master panel; exclude from balanced panel
+DEB2,Trier,DE,2020,2024,5,0,5,Requires review,Keep in master panel; exclude from balanced panel
+DEC0,Saarland,DE,2020,2020,1,0,1,Requires review,Keep in master panel; exclude from balanced panel
+DED4,Chemnitz,DE,2020,2020,1,0,1,Requires review,Keep in master panel; exclude from balanced panel
+FI20,Åland,FI,2016,2024,9,0,9,Requires review,Keep in master panel; exclude from balanced panel
+FRY5,Mayotte,FR,2021,2023,3,3,3,Requires review,Keep in master panel; exclude from balanced panel
+NL35,Utrecht,NL,2016,2018,3,3,3,Requires review,Keep in master panel; exclude from balanced panel
+NL36,Zuid-Holland,NL,2016,2018,3,3,3,Requires review,Keep in master panel; exclude from balanced panel
+PL43,Lubuskie,PL,2020,2024,5,0,5,Requires review,Keep in master panel; exclude from balanced panel
+PT19,Centro (PT),PT,2016,2018,3,3,3,Requires review,Keep in master panel; exclude from balanced panel
+PT1A,Grande Lisboa,PT,2016,2018,3,3,3,Requires review,Keep in master panel; exclude from balanced panel
+PT1B,Península de Setúbal,PT,2016,2018,3,3,3,Requires review,Keep in master panel; exclude from balanced panel
+PT1C,Alentejo,PT,2016,2018,3,3,3,Requires review,Keep in master panel; exclude from balanced panel
+PT1D,Oeste e Vale do Tejo,PT,2016,2018,3,3,3,Requires review,Keep in master panel; exclude from balanced panel

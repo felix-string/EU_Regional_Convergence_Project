@@ -1,0 +1,21 @@
+region_code,region_name,country_code,years_present,complete_years,gdp_missing,employment_missing,unemployment_missing,complete_all_years
+FI20,Åland,FI,9,0,0,0,9,False
+DEB2,Trier,DE,9,4,0,0,5,False
+PL43,Lubuskie,PL,9,4,0,0,5,False
+FRY5,Mayotte,FR,9,6,0,3,3,False
+NL35,Utrecht,NL,9,6,0,3,3,False
+NL36,Zuid-Holland,NL,9,6,0,3,3,False
+PT19,Centro (PT),PT,9,6,0,3,3,False
+PT1A,Grande Lisboa,PT,9,6,0,3,3,False
+PT1B,Península de Setúbal,PT,9,6,0,3,3,False
+PT1C,Alentejo,PT,9,6,0,3,3,False
+PT1D,Oeste e Vale do Tejo,PT,9,6,0,3,3,False
+DE22,Niederbayern,DE,9,6,0,0,3,False
+DE23,Oberpfalz,DE,9,7,0,0,2,False
+DE24,Oberfranken,DE,9,8,0,0,1,False
+DE26,Unterfranken,DE,9,8,0,0,1,False
+DE50,Bremen,DE,9,8,0,0,1,False
+DE73,Kassel,DE,9,8,0,0,1,False
+DEB1,Koblenz,DE,9,8,0,0,1,False
+DEC0,Saarland,DE,9,8,0,0,1,False
+DED4,Chemnitz,DE,9,8,0,0,1,False

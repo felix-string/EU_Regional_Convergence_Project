@@ -1,0 +1,14 @@
+measure,value
+Master panel rows,2196
+Master panel regions,244
+Master panel start year,2016
+Master panel end year,2024
+Master GDP missing,0
+Master employment missing,24
+Master unemployment missing,55
+Balanced panel rows,2016
+Balanced panel regions,224
+Regions excluded from balanced panel,20
+NUTS transition regions,7
+Unemployment quality regions,12
+Other incomplete coverage regions,1

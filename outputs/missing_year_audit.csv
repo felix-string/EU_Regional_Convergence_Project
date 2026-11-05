@@ -1,0 +1,56 @@
+region_code,region_name,country_code,year,employment_rate,unemployment_rate,employment_rate_flag,unemployment_rate_flag
+DE22,Niederbayern,DE,2020,82.1,,b,bu
+DE22,Niederbayern,DE,2022,84.9,,,u
+DE22,Niederbayern,DE,2023,84.4,,,u
+DE23,Oberpfalz,DE,2020,82.4,,b,bu
+DE23,Oberpfalz,DE,2022,83.8,,,u
+DE24,Oberfranken,DE,2020,84.5,,b,bu
+DE26,Unterfranken,DE,2020,80.7,,b,bu
+DE50,Bremen,DE,2020,74.6,,b,bu
+DE73,Kassel,DE,2020,79.8,,b,bu
+DEB1,Koblenz,DE,2020,78.3,,b,bu
+DEB2,Trier,DE,2020,78.9,,b,bu
+DEB2,Trier,DE,2021,79.2,,b,bu
+DEB2,Trier,DE,2022,82.9,,,u
+DEB2,Trier,DE,2023,85.7,,,u
+DEB2,Trier,DE,2024,84.8,,,u
+DEC0,Saarland,DE,2020,77.1,,b,bu
+DED4,Chemnitz,DE,2020,82.5,,b,bu
+FI20,Åland,FI,2016,86.2,,,u
+FI20,Åland,FI,2017,88.2,,,u
+FI20,Åland,FI,2018,85.1,,,u
+FI20,Åland,FI,2019,85.1,,,u
+FI20,Åland,FI,2020,86.5,,,u
+FI20,Åland,FI,2021,89.1,,b,bu
+FI20,Åland,FI,2022,89.7,,,u
+FI20,Åland,FI,2023,84.3,,,u
+FI20,Åland,FI,2024,86.4,,,u
+FRY5,Mayotte,FR,2021,,,,
+FRY5,Mayotte,FR,2022,,,,
+FRY5,Mayotte,FR,2023,,,,
+NL35,Utrecht,NL,2016,,,,
+NL35,Utrecht,NL,2017,,,,
+NL35,Utrecht,NL,2018,,,,
+NL36,Zuid-Holland,NL,2016,,,,
+NL36,Zuid-Holland,NL,2017,,,,
+NL36,Zuid-Holland,NL,2018,,,,
+PL43,Lubuskie,PL,2020,72.9,,,u
+PL43,Lubuskie,PL,2021,73.6,,b,bu
+PL43,Lubuskie,PL,2022,75.7,,,u
+PL43,Lubuskie,PL,2023,78.0,,,u
+PL43,Lubuskie,PL,2024,77.9,,,u
+PT19,Centro (PT),PT,2016,,,,
+PT19,Centro (PT),PT,2017,,,,
+PT19,Centro (PT),PT,2018,,,,
+PT1A,Grande Lisboa,PT,2016,,,,
+PT1A,Grande Lisboa,PT,2017,,,,
+PT1A,Grande Lisboa,PT,2018,,,,
+PT1B,Península de Setúbal,PT,2016,,,,
+PT1B,Península de Setúbal,PT,2017,,,,
+PT1B,Península de Setúbal,PT,2018,,,,
+PT1C,Alentejo,PT,2016,,,,
+PT1C,Alentejo,PT,2017,,,,
+PT1C,Alentejo,PT,2018,,,,
+PT1D,Oeste e Vale do Tejo,PT,2016,,,,
+PT1D,Oeste e Vale do Tejo,PT,2017,,,,
+PT1D,Oeste e Vale do Tejo,PT,2018,,,,
