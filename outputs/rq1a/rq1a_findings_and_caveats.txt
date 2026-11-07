@@ -1,0 +1,32 @@
+Observations: 2196; regions: 244; years: 2016–2024.
+Balanced region-year structure: True. Missing GDP values: 0.
+GDP flags (all years): {'none': 1692, 'p': 433, 'b': 38, 'e': 33}
+Important: A balanced panel and stable region codes DO NOT establish harmonized NUTS boundary definitions.
+Check Eurostat vintage, NUTS classification, retroactive revisions, and data provenance externally.
+All main statistics are unweighted across regions. SD is sample SD (ddof=1).
+GDP is an index, not GDP in euros; SD and percentile gaps are index points.
+Period comparisons use start/end levels, not average annual measures.
+Annual top-1% trimming changes the sample and is a sensitivity test, not a replacement.
+Unflagged-only comparison changes sample composition; interpret with caution.
+Descriptive results do not establish causes of widening/narrowing.
+
+Main results:
+2016: CV=39.77%; SD=37.56; P90-P10=88.70; IQR=48.25
+2017: CV=39.51%; SD=37.25; P90-P10=90.10; IQR=47.50
+2018: CV=39.27%; SD=36.98; P90-P10=90.70; IQR=47.00
+2019: CV=38.57%; SD=36.23; P90-P10=85.70; IQR=46.25
+2020: CV=39.43%; SD=37.15; P90-P10=85.70; IQR=45.25
+2021: CV=39.69%; SD=37.35; P90-P10=83.00; IQR=44.50
+2022: CV=39.93%; SD=37.67; P90-P10=84.00; IQR=44.00
+2023: CV=38.02%; SD=35.81; P90-P10=79.40; IQR=41.25
+2024: CV=37.96%; SD=35.69; P90-P10=75.70; IQR=39.25
+
+Period changes (CV percentage points; SD and gap index points):
+2016–2019: CV -1.21; SD -1.32; P90-P10 -3.00
+2019–2022: CV +1.36; SD +1.44; P90-P10 -1.70
+2022–2024: CV -1.97; SD -1.99; P90-P10 -8.30
+
+Robustness direction from first to last year:
+Main CV: 39.77 to 37.96 (-1.82)
+Trimmed CV: 37.06 to 34.35 (-2.71)
+IQR: 48.25 to 39.25 (-9.00)
