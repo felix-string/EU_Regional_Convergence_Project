@@ -5,3 +5,5 @@ openpyxl>=3.1
 pyarrow>=17.0
 matplotlib>=3.8
 ipykernel>=6.29
+statsmodels
+
