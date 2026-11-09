@@ -1,0 +1,10 @@
+sample,period,cv_start,cv_end,cv_change,cv_change_per_year
+balanced,2016-2020 (old LFS method),11.98,11.033,-0.947,-0.237
+balanced,2020-2021 (break year),11.033,11.118,0.085,0.085
+balanced,2021-2024 (new LFS method),11.118,9.417,-1.701,-0.567
+constant,2016-2020 (old LFS method),12.03,11.03,-1.0,-0.25
+constant,2020-2021 (break year),11.03,11.114,0.083,0.083
+constant,2021-2024 (new LFS method),11.114,9.35,-1.764,-0.588
+master,2016-2020 (old LFS method),12.281,11.296,-0.984,-0.246
+master,2020-2021 (break year),11.296,11.007,-0.289,-0.289
+master,2021-2024 (new LFS method),11.007,9.759,-1.248,-0.416
