@@ -1,0 +1,10 @@
+year,regions_with_data,regions_in_master_panel,regions_missing,missing_region_codes,regions_in_balanced_panel
+2016,237,244,7,"NL35, NL36, PT19, PT1A, PT1B, PT1C, PT1D",224
+2017,237,244,7,"NL35, NL36, PT19, PT1A, PT1B, PT1C, PT1D",224
+2018,237,244,7,"NL35, NL36, PT19, PT1A, PT1B, PT1C, PT1D",224
+2019,244,244,0,,224
+2020,244,244,0,,224
+2021,243,244,1,FRY5,224
+2022,243,244,1,FRY5,224
+2023,243,244,1,FRY5,224
+2024,244,244,0,,224

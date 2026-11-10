@@ -1,0 +1,225 @@
+region_code,region_name,country_code,employment_2016,employment_2024,change_pp,quintile_2016
+EL63,Dytiki Elláda,EL,51.0,66.8,15.8,Q1 lowest
+EL30,Attiki,EL,56.4,71.0,14.6,Q1 lowest
+EL64,Sterea Elláda,EL,55.2,69.7,14.5,Q1 lowest
+EL53,Dytiki Makedonia,EL,50.4,64.8,14.4,Q1 lowest
+HR03,Jadranska Hrvatska,HR,59.7,73.1,13.4,Q1 lowest
+EL54,Ipeiros,EL,54.5,67.8,13.3,Q1 lowest
+EL43,Kriti,EL,58.2,71.4,13.2,Q1 lowest
+EL65,Peloponnisos,EL,60.6,73.4,12.8,Q1 lowest
+PL42,Zachodniopomorskie,PL,64.8,77.6,12.8,Q2
+BG33,Severoiztochen,BG,67.0,79.8,12.8,Q2
+EL52,Kentriki Makedonia,EL,55.4,68.0,12.6,Q1 lowest
+HR02,Panonska Hrvatska,HR,55.4,67.2,11.8,Q1 lowest
+EL41,Voreio Aigaio,EL,59.0,70.7,11.7,Q1 lowest
+PL62,Warmińsko-mazurskie,PL,63.4,75.1,11.7,Q1 lowest
+MT00,Malta,MT,71.1,82.7,11.6,Q3
+CY00,Kýpros,CY,68.7,80.1,11.4,Q2
+PL61,Kujawsko-pomorskie,PL,66.7,78.1,11.4,Q2
+HU21,Közép-Dunántúl,HU,73.3,84.4,11.1,Q4
+HR05,Grad Zagreb,HR,68.6,79.7,11.1,Q2
+HR06,Sjeverna Hrvatska,HR,64.9,76.0,11.1,Q2
+ES43,Extremadura,ES,54.6,65.4,10.8,Q1 lowest
+EL51,"Anatoliki Makedonia, Thraki",EL,56.9,67.5,10.6,Q1 lowest
+HU32,Észak-Alföld,HU,67.5,77.7,10.2,Q2
+BG31,Severozapaden,BG,59.1,69.3,10.2,Q1 lowest
+PL51,Dolnośląskie,PL,70.0,80.1,10.1,Q3
+SK03,Stredné Slovensko,SK,68.9,79.0,10.1,Q2
+HU12,Pest,HU,73.7,83.8,10.1,Q4
+BG32,Severen tsentralen,BG,65.4,75.4,10.0,Q2
+BG34,Yugoiztochen,BG,66.7,76.7,10.0,Q2
+ES61,Andalucía,ES,54.1,64.1,10.0,Q1 lowest
+EL61,Thessalia,EL,54.8,64.6,9.8,Q1 lowest
+HU22,Nyugat-Dunántúl,HU,73.7,83.5,9.8,Q4
+RO32,Bucureşti-Ilfov,RO,71.3,81.1,9.8,Q3
+PL22,Śląskie,PL,66.9,76.7,9.8,Q2
+PL81,Lubelskie,PL,67.2,76.9,9.7,Q2
+PT30,Região Autónoma da Madeira,PT,66.6,76.3,9.7,Q2
+PL63,Pomorskie,PL,70.6,80.2,9.6,Q3
+ES70,Canarias,ES,57.7,67.3,9.6,Q1 lowest
+PL72,Świętokrzyskie,PL,66.9,76.4,9.5,Q2
+PL52,Opolskie,PL,69.1,78.5,9.4,Q2
+PT11,Norte,PT,68.1,77.4,9.3,Q2
+HU33,Dél-Alföld,HU,70.7,80.0,9.3,Q3
+PL92,Mazowiecki regionalny,PL,68.7,77.9,9.2,Q2
+NL11,Groningen,NL,71.5,80.6,9.1,Q3
+IE06,Eastern and Midland,IE,71.7,80.8,9.1,Q3
+ES42,Castilla-La Mancha,ES,59.9,68.9,9.0,Q1 lowest
+ES12,Principado de Asturias,ES,60.4,69.4,9.0,Q1 lowest
+FRB0,Centre — Val de Loire,FR,69.6,78.6,9.0,Q3
+FRF2,Champagne-Ardenne,FR,64.9,73.9,9.0,Q2
+HU11,Budapest,HU,76.8,85.3,8.5,Q4
+SI04,Zahodna Slovenija,SI,72.0,80.5,8.5,Q3
+PL41,Wielkopolskie,PL,71.5,79.9,8.4,Q3
+HU31,Észak-Magyarország,HU,67.2,75.6,8.4,Q2
+ES13,Cantabria,ES,65.3,73.6,8.3,Q2
+ITG2,Sardegna,IT,53.6,61.7,8.1,Q1 lowest
+BG42,Yuzhen tsentralen,BG,66.1,74.1,8.0,Q2
+IE04,Northern and Western,IE,70.5,78.5,8.0,Q3
+PT20,Região Autónoma dos Açores,PT,66.8,74.8,8.0,Q2
+SK04,Východné Slovensko,SK,64.5,72.5,8.0,Q2
+FRI1,Aquitaine,FR,70.8,78.7,7.9,Q3
+FRY2,Martinique,FR,59.4,67.3,7.9,Q1 lowest
+SI03,Vzhodna Slovenija,SI,68.4,76.3,7.9,Q2
+HU23,Dél-Dunántúl,HU,66.9,74.7,7.8,Q2
+FRY1,Guadeloupe,FR,53.3,61.0,7.7,Q1 lowest
+ES11,Galicia,ES,63.5,71.1,7.6,Q2
+SK02,Západné Slovensko,SK,71.9,79.4,7.5,Q3
+IE05,Southern,IE,71.4,78.8,7.4,Q3
+NL23,Flevoland,NL,76.9,84.2,7.3,Q4
+ITF4,Puglia,IT,48.0,55.3,7.3,Q1 lowest
+PL91,Warszawski stołeczny,PL,78.9,86.2,7.3,Q5 highest
+ITG1,Sicilia,IT,43.5,50.7,7.2,Q1 lowest
+FRE2,Picardie,FR,66.2,73.4,7.2,Q2
+NL22,Gelderland,NL,77.1,84.2,7.1,Q4
+ITF1,Abruzzo,IT,59.7,66.8,7.1,Q1 lowest
+ES41,Castilla y León,ES,66.0,73.1,7.1,Q2
+NL13,Drenthe,NL,75.9,83.0,7.1,Q4
+PL84,Podlaskie,PL,70.3,77.3,7.0,Q3
+ES62,Región de Murcia,ES,61.8,68.7,6.9,Q1 lowest
+ES52,Comunitat Valenciana,ES,63.4,70.3,6.9,Q1 lowest
+EL42,Notio Aigaio,EL,62.2,69.1,6.9,Q1 lowest
+BG41,Yugozapaden,BG,73.1,79.9,6.8,Q4
+SK01,Bratislavský kraj,SK,78.7,85.4,6.7,Q5 highest
+BE21,Prov. Antwerpen,BE,69.2,75.8,6.6,Q2
+FRE1,Nord-Pas de Calais,FR,63.0,69.6,6.6,Q1 lowest
+NL21,Overijssel,NL,77.1,83.6,6.5,Q4
+PL21,Małopolskie,PL,69.9,76.4,6.5,Q3
+ES22,Comunidad Foral de Navarra,ES,69.3,75.8,6.5,Q3
+FRF1,Alsace,FR,71.0,77.4,6.4,Q3
+ITF2,Molise,IT,55.7,62.1,6.4,Q1 lowest
+ES30,Comunidad de Madrid,ES,70.4,76.8,6.4,Q3
+NL42,Limburg (NL),NL,74.2,80.6,6.4,Q4
+ES24,Aragón,ES,69.6,75.9,6.3,Q3
+ITC2,Valle d’Aosta/Vallée d’Aoste,IT,71.3,77.6,6.3,Q3
+PL71,Łódzkie,PL,71.3,77.6,6.3,Q3
+ITI2,Umbria,IT,67.2,73.4,6.2,Q2
+ITI1,Toscana,IT,69.9,76.1,6.2,Q3
+ITF5,Basilicata,IT,54.3,60.4,6.1,Q1 lowest
+BE35,Prov. Namur,BE,64.2,70.3,6.1,Q2
+PT15,Algarve,PT,73.7,79.8,6.1,Q4
+ITH3,Veneto,IT,69.5,75.6,6.1,Q3
+BE22,Prov. Limburg (BE),BE,69.7,75.7,6.0,Q3
+NL12,Friesland (NL),NL,77.2,83.2,6.0,Q5 highest
+FRD2,Haute-Normandie,FR,67.4,73.4,6.0,Q2
+CZ06,Jihovýchod,CZ,76.8,82.8,6.0,Q4
+CZ07,Střední Morava,CZ,75.4,81.4,6.0,Q4
+CZ08,Moravskoslezsko,CZ,73.8,79.7,5.9,Q4
+ITH4,Friuli-Venezia Giulia,IT,69.2,75.1,5.9,Q2
+CZ03,Jihozápad,CZ,77.6,83.4,5.8,Q5 highest
+FRH0,Bretagne,FR,72.4,78.2,5.8,Q3
+FI1D,Pohjois- ja Itä-Suomi,FI,69.7,75.4,5.7,Q3
+FRD1,Basse-Normandie,FR,70.9,76.6,5.7,Q3
+ES51,Cataluña,ES,70.1,75.7,5.6,Q3
+ITF6,Calabria,IT,42.9,48.5,5.6,Q1 lowest
+CZ04,Severozápad,CZ,74.2,79.8,5.6,Q4
+RO42,Vest,RO,61.4,66.9,5.5,Q1 lowest
+ITH2,Provincia Autonoma di Trento,IT,71.4,76.9,5.5,Q3
+FRF3,Lorraine,FR,66.7,72.2,5.5,Q2
+ITI3,Marche,IT,66.7,72.2,5.5,Q2
+NL34,Zeeland,NL,79.2,84.7,5.5,Q5 highest
+CZ02,Střední Čechy,CZ,78.0,83.4,5.4,Q5 highest
+ES64,Ciudad de Melilla,ES,49.9,55.3,5.4,Q1 lowest
+EE00,Eesti,EE,76.4,81.8,5.4,Q4
+ITC1,Piemonte,IT,69.0,74.3,5.3,Q2
+NL41,Noord-Brabant,NL,78.7,84.0,5.3,Q5 highest
+FRJ2,Midi-Pyrénées,FR,71.8,77.1,5.3,Q3
+FRJ1,Languedoc-Roussillon,FR,65.0,70.3,5.3,Q2
+RO12,Centru,RO,63.2,68.4,5.2,Q1 lowest
+FRI3,Poitou-Charentes,FR,70.0,75.2,5.2,Q3
+PL82,Podkarpackie,PL,66.6,71.8,5.2,Q2
+EL62,Ionia Nisia,EL,62.0,67.2,5.2,Q1 lowest
+ITC3,Liguria,IT,67.1,72.2,5.1,Q2
+NL32,Noord-Holland,NL,79.3,84.4,5.1,Q5 highest
+DK03,Syddanmark,DK,73.9,79.0,5.1,Q4
+CZ01,Praha,CZ,80.1,85.1,5.0,Q5 highest
+BE25,Prov. West-Vlaanderen,BE,74.0,79.0,5.0,Q4
+FI19,Länsi-Suomi,FI,72.3,77.3,5.0,Q3
+BE23,Prov. Oost-Vlaanderen,BE,74.0,78.9,4.9,Q4
+FRC1,Bourgogne,FR,70.0,74.8,4.8,Q3
+ITI4,Lazio,IT,64.2,69.0,4.8,Q2
+FRL0,Provence-Alpes-Côte d’Azur,FR,68.2,72.9,4.7,Q2
+ES21,País Vasco,ES,69.6,74.2,4.6,Q3
+LT02,Vidurio ir vakarų Lietuvos regionas,LT,73.2,77.8,4.6,Q4
+ITF3,Campania,IT,44.9,49.4,4.5,Q1 lowest
+DK02,Sjælland,DK,74.3,78.8,4.5,Q4
+DE91,Braunschweig,DE,75.2,79.7,4.5,Q4
+DK05,Nordjylland,DK,73.9,78.4,4.5,Q4
+BE31,Prov. Brabant wallon,BE,69.3,73.7,4.4,Q3
+FRC2,Franche-Comté,FR,73.5,77.9,4.4,Q4
+DE80,Mecklenburg-Vorpommern,DE,75.6,79.9,4.3,Q4
+DE25,Mittelfranken,DE,80.3,84.6,4.3,Q5 highest
+FI1C,Etelä-Suomi,FI,71.7,76.0,4.3,Q3
+RO31,Sud-Muntenia,RO,64.7,69.0,4.3,Q2
+BE10,Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest,BE,59.8,64.1,4.3,Q1 lowest
+BE32,Prov. Hainaut,BE,60.0,64.3,4.3,Q1 lowest
+LV00,Latvija,LV,73.2,77.4,4.2,Q4
+CZ05,Severovýchod,CZ,77.2,81.4,4.2,Q5 highest
+FR10,Ile de France,FR,72.8,77.0,4.2,Q4
+ES23,La Rioja,ES,70.4,74.4,4.0,Q3
+BE33,Prov. Liège,BE,61.1,65.1,4.0,Q1 lowest
+DEE0,Sachsen-Anhalt,DE,76.7,80.6,3.9,Q4
+DE92,Hannover,DE,76.4,80.3,3.9,Q4
+AT11,Burgenland,AT,73.1,76.9,3.8,Q4
+BE34,Prov. Luxembourg (BE),BE,68.2,72.0,3.8,Q2
+DK01,Hovedstaden,DK,78.3,82.1,3.8,Q5 highest
+DEB3,Rheinhessen-Pfalz,DE,77.3,81.1,3.8,Q5 highest
+AT21,Kärnten,AT,73.0,76.7,3.7,Q4
+ITC4,Lombardia,IT,71.1,74.8,3.7,Q3
+FRG0,Pays de la Loire,FR,74.0,77.7,3.7,Q4
+AT32,Salzburg,AT,78.3,82.0,3.7,Q5 highest
+AT33,Tirol,AT,77.8,81.5,3.7,Q5 highest
+AT22,Steiermark,AT,74.6,78.2,3.6,Q4
+DK04,Midtjylland,DK,76.4,80.0,3.6,Q4
+FRY4,La Réunion,FR,54.0,57.5,3.5,Q1 lowest
+LU00,Luxembourg,LU,70.7,74.2,3.5,Q3
+DEA4,Detmold,DE,78.7,82.2,3.5,Q5 highest
+DED2,Dresden,DE,80.5,83.9,3.4,Q5 highest
+RO41,Sud-Vest Oltenia,RO,60.2,63.5,3.3,Q1 lowest
+DEA5,Arnsberg,DE,74.3,77.4,3.1,Q4
+ES53,Illes Balears,ES,71.4,74.4,3.0,Q3
+FRK2,Rhône-Alpes,FR,73.8,76.8,3.0,Q4
+RO11,Nord-Vest,RO,68.9,71.8,2.9,Q2
+DEA3,Münster,DE,76.2,79.1,2.9,Q4
+DEA2,Köln,DE,76.8,79.6,2.8,Q4
+DE93,Lüneburg,DE,80.1,82.8,2.7,Q5 highest
+DE27,Schwaben,DE,82.3,84.9,2.6,Q5 highest
+ES63,Ciudad de Ceuta,ES,53.9,56.5,2.6,Q1 lowest
+DEA1,Düsseldorf,DE,74.7,77.3,2.6,Q4
+AT13,Wien,AT,68.0,70.6,2.6,Q2
+SE33,Övre Norrland,SE,81.0,83.6,2.6,Q5 highest
+ITH5,Emilia-Romagna,IT,73.0,75.6,2.6,Q4
+SE31,Norra Mellansverige,SE,80.1,82.5,2.4,Q5 highest
+AT12,Niederösterreich,AT,76.5,78.9,2.4,Q4
+DE30,Berlin,DE,75.2,77.5,2.3,Q4
+SE21,Småland med öarna,SE,82.0,84.2,2.2,Q5 highest
+LT01,Sostinės regionas,LT,80.1,82.2,2.1,Q5 highest
+DE71,Darmstadt,DE,78.3,80.4,2.1,Q5 highest
+DE13,Freiburg,DE,82.1,84.2,2.1,Q5 highest
+DED5,Leipzig,DE,78.4,80.5,2.1,Q5 highest
+DEG0,Thüringen,DE,79.0,81.0,2.0,Q5 highest
+DE11,Stuttgart,DE,82.1,83.9,1.8,Q5 highest
+DE12,Karlsruhe,DE,80.4,82.2,1.8,Q5 highest
+DE21,Oberbayern,DE,83.1,84.8,1.7,Q5 highest
+DE40,Brandenburg,DE,80.3,82.0,1.7,Q5 highest
+ITH1,Provincia Autonoma di Bolzano/Bozen,IT,78.2,79.9,1.7,Q5 highest
+FRM0,Corse,FR,70.0,71.7,1.7,Q3
+DEF0,Schleswig-Holstein,DE,78.5,80.2,1.7,Q5 highest
+AT31,Oberösterreich,AT,78.8,80.4,1.6,Q5 highest
+SE22,Sydsverige,SE,78.5,80.1,1.6,Q5 highest
+RO22,Sud-Est,RO,61.1,62.6,1.5,Q1 lowest
+DE94,Weser-Ems,DE,79.1,80.6,1.5,Q5 highest
+FRK1,Auvergne,FR,72.6,74.1,1.5,Q3
+DE72,Gießen,DE,77.7,79.0,1.3,Q5 highest
+BE24,Prov. Vlaams-Brabant,BE,73.9,74.7,0.8,Q4
+DE14,Tübingen,DE,82.9,83.5,0.6,Q5 highest
+FI1B,Helsinki-Uusimaa,FI,77.7,78.2,0.5,Q5 highest
+DE60,Hamburg,DE,78.9,79.2,0.3,Q5 highest
+SE11,Stockholm,SE,83.4,83.7,0.3,Q5 highest
+SE32,Mellersta Norrland,SE,81.4,81.6,0.2,Q5 highest
+FRI2,Limousin,FR,75.1,75.2,0.1,Q4
+SE12,Östra Mellansverige,SE,79.6,79.6,0.0,Q5 highest
+FRY3,Guyane,FR,51.5,51.1,-0.4,Q1 lowest
+SE23,Västsverige,SE,81.9,81.5,-0.4,Q5 highest
+AT34,Vorarlberg,AT,80.1,79.2,-0.9,Q5 highest
+RO21,Nord-Est,RO,74.9,69.6,-5.3,Q4
