@@ -1,0 +1,2803 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>EU Regional Convergence Analysis</title>
+<style>
+:root{--ink:#15263b;--muted:#63758b;--bg:#f2f5f8;--paper:#fff;--line:#d9e2eb;--accent:#155f91;--accent2:#15a0a0}
+*{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Segoe UI,Arial,sans-serif;line-height:1.65}
+.top{background:linear-gradient(120deg,#0b233d,#155f91 68%,#168d99);color:#fff;padding:68px 7vw 58px} .top h1{font-size:clamp(2.5rem,6vw,5rem);line-height:1;margin:0 0 18px;max-width:900px;letter-spacing:-.05em} .top p{font-size:1.18rem;max-width:850px;color:#dcebf5;margin:0}
+.shell{display:grid;grid-template-columns:285px minmax(0,980px);gap:30px;max-width:1340px;margin:auto;padding:34px 24px 80px}
+nav{position:sticky;top:18px;align-self:start;max-height:94vh;overflow:auto;background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px} nav .label{font-size:.75rem;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-weight:800;margin:2px 8px 12px} nav a{display:block;text-decoration:none;color:#2e4660;border-radius:8px;padding:7px 9px;font-size:.9rem} nav a:hover{background:#eaf4f8;color:#0b5b86} nav .n1{font-weight:800;margin-top:8px} nav .n2{font-weight:650;padding-left:14px} nav .n3{padding-left:23px;font-size:.84rem}
+main{min-width:0} .markdown-cell,.output-cell{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:clamp(24px,4vw,46px);margin-bottom:22px;box-shadow:0 8px 28px rgba(22,48,73,.05)}
+h1,h2,h3,h4{color:#0c2946;line-height:1.18;letter-spacing:-.025em} h1{font-size:2.35rem} h2{font-size:1.75rem;margin-top:.15em;border-bottom:1px solid var(--line);padding-bottom:12px} h3{font-size:1.35rem} p{margin:.75em 0} strong{color:#0c5786} code{background:#edf3f7;padding:2px 6px;border-radius:5px} a{color:#0b6d9c}
+figure{margin:0} figure+figure{margin-top:22px} figure img{display:block;width:100%;height:auto;border-radius:10px}
+.output-cell{padding:18px} .table-wrap{overflow:auto;margin:0 0 18px} table,.dataframe{border-collapse:collapse;width:100%;font-size:.82rem} th,td{padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap;text-align:right} th{background:#eaf1f6;color:#173a57;text-align:center;position:sticky;top:0} tr:hover td{background:#f7fafc}
+ul,ol{padding-left:1.35rem} footer{background:#0b233d;color:#c9dae6;text-align:center;padding:32px}
+@media(max-width:900px){.shell{grid-template-columns:1fr}nav{position:relative;top:0;max-height:350px}.top{padding:48px 25px}}
+@media print{nav{display:none}.shell{display:block;padding:0}.markdown-cell,.output-cell{box-shadow:none;break-inside:avoid}.top{padding:35px}}
+</style></head><body>
+<header class="top"><h1>EU Regional Convergence Analysis</h1><p>An analysis of GDP and employment convergence across EU NUTS 2 regions, from 2016 to 2024.</p></header>
+<div class="shell"><nav><div class="label">Contents</div><a href="#eu-regional-convergence-analysis" class="n1">EU REGIONAL CONVERGENCE ANALYSIS</a><a href="#introduction" class="n2">INTRODUCTION</a><a href="#literature-review" class="n2">LITERATURE REVIEW</a><a href="#1-sigma-convergence" class="n1">1. SIGMA CONVERGENCE</a><a href="#1-1-is-the-gdp-spread-narrowing-year-by-year" class="n2">1.1. Is the GDP spread narrowing year by year?</a><a href="#1-2-are-employment-gaps-narrowing" class="n2">1.2. Are employment gaps narrowing?</a><a href="#2-beta-convergence" class="n1">2. BETA CONVERGENCE</a><a href="#2-1-do-poorer-eu-regions-grow-faster" class="n2">2.1. Do poorer EU regions grow faster?</a><a href="#3-regional-profiles-and-clustering" class="n1">3. REGIONAL PROFILES AND CLUSTERING</a><a href="#3-1-which-regions-behave-alike" class="n2">3.1. Which regions behave alike?</a><a href="#3-3-1-method" class="n3">3.3.1 Method</a><a href="#3-2-choosing-the-number-of-clusters" class="n3">3.2. Choosing the number of clusters</a><a href="#3-3-regional-clusters-in-the-pca-space" class="n3">3.3. Regional clusters in the PCA space</a><a href="#3-4-cluster-profiles-and-geographical-interpretation" class="n3">3.4. Cluster profiles and geographical interpretation</a><a href="#4-connecting-sigma-and-beta-convergence" class="n1">4. CONNECTING SIGMA AND BETA CONVERGENCE</a><a href="#4-1-where-do-the-two-tests-agree-or-disagree" class="n2">4.1. Where do the two tests agree or disagree?</a><a href="#4-2-where-is-convergence-happening" class="n2">4.2. Where is convergence happening?</a><a href="#4-3-exceptions-and-regions-left-behind" class="n2">4.3. Exceptions and regions left behind</a><a href="#conclusion" class="n1">CONCLUSION</a><a href="#limitations-of-the-study" class="n2">LIMITATIONS OF THE STUDY</a><a href="#references-and-data-sources" class="n2">REFERENCES AND DATA SOURCES</a></nav><main><article class="markdown-cell" data-cell="0"><h1 id="eu-regional-convergence-analysis">EU REGIONAL CONVERGENCE ANALYSIS</h1>
+<h2 id="an-analysis-of-gdp-and-employment-convergence-across-eu-nuts-2-regions-from-2016-to-2024">An analysis of GDP and employment convergence across EU NUTS 2 regions, from 2016 to 2024</h2></article>
+<article class="markdown-cell" data-cell="1"><h2 id="introduction">INTRODUCTION</h2>
+<p>European Union regions do not have the same level of economic growth. Some regions have high income and strong employment. Other regions have lower income and fewer job opportunities. These differences can affect the lives of people and the development of each region. This project studies whether the economic gaps between European Union regions became smaller or larger from 2016 to 2024. The analysis uses data from Eurostat. It focuses on 244 NUTS 2 regions. A NUTS 2 region is an area used by the European Union to collect and compare regional data. The project uses GDP per person, employment rates, and unemployment rates. GDP is measured in purchasing power standards. This makes comparisons between countries aligned because prices differ across the European Union. The analysis answers four questions. First, it checks whether the spread between regions became smaller each year. Second, it tests whether poorer regions grew faster than richer regions. Third, it groups regions that have similar economic and employment results. It also checks whether these groups are linked to location or the type of economic activity in each region. Finally, it compares two convergence tests and explains why the results may agree or disagree. The results can help in understanding whether European Union regions are becoming more equal over time.</p></article>
+<article class="markdown-cell" data-cell="6"><h2 id="literature-review">LITERATURE REVIEW</h2>
+<p>Regional convergence means that poorer regions move closer to richer regions over time. This can happen when poorer regions grow faster or when the economic gap between regions becomes smaller. Studies show that this process is not equal across the European Union. Kostadinović and Stanković (2025) studied income differences across EU NUTS 2 regions. The findings showed strong convergence in newer EU member states. However, some older member states showed signs of divergence. The study also found that education, investment, migration, and geography can affect regional growth. Fiorelli et al. (2024) studied 249 European regions from 2000 to 2021. The authors found that regional inequality fell over time, especially in poorer countries. The authors also identified three regional groups. This supports the use of clustering to find regions with similar patterns. Cieślik and Misiak (2025) studied regions in Poland at NUTS 1, NUTS 2, and NUTS 3 levels. The results did not show full convergence. Instead, different groups of regions moved towards different income levels. This shows that national growth does not always reduce all regional gaps. Mockevičienė and Butkus (2026) reviewed 33 studies on EU financial support. The review found mixed results. EU funding may support growth, but its effect depends on the region and the type of support. These studies show that convergence can be slow and uneven.</p>
+<p>Recent studies give more evidence that regional convergence is uneven across Europe. Leško et al. (2026) studied 242 NUTS 2 regions from 2000 to 2022. The study found overall convergence, but the regions did not follow one common path. The regions formed three groups with different growth patterns. Some poorer regions caught up strongly. Other regions showed weak or slow progress, even when they received large amounts of EU support. This finding shows that funding alone may not produce the same result in every region. Local economic conditions also matter. Truglia and Zeli (2025) studied regional convergence in the euro area from 2001 to 2018. The results showed divergence between some regions. The authors also found a clear difference between stronger central regions and weaker outer regions. Cieślik and Misiak (2025) studied NUTS 3 regions in the Visegrad-4 countries. The study rejected full convergence across all regions. Instead, three convergence groups were found. Large city regions formed one group, nearby regions formed another group, and poorer outer regions formed a third group. This shows that location and access to large cities can affect regional growth. Butkus et al. (2026) studied employment and unemployment across 244 NUTS 2 regions from 1999 to 2024. The study found some employment catch-up, but unemployment patterns remained very different. Nearby regions also affected one another. Together, these studies show that convergence is shaped by income, employment, location, regional structure, and links with nearby regions. They support the use of sigma convergence, beta convergence, and regional clustering in this project.</p></article>
+<article class="markdown-cell" data-cell="7"><h1 id="1-sigma-convergence">1. SIGMA CONVERGENCE</h1>
+<p>A focus on whether the spread in regional outcomes becomes smaller over time.</p></article>
+<article class="markdown-cell" data-cell="8"><h2 id="1-1-is-the-gdp-spread-narrowing-year-by-year">1.1. Is the GDP spread narrowing year by year?</h2>
+<p>The GDP analysis uses the coefficient of variation, standard deviation, percentile gaps, period comparisons, and sensitivity checks.</p></article>
+<section class="output-cell"><div class="table-wrap"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>year</th>
+      <th>n_regions</th>
+      <th>cv_pct</th>
+      <th>sd</th>
+      <th>p90_p10_gap</th>
+      <th>cv_pct_change</th>
+      <th>sd_change</th>
+      <th>p90_p10_gap_change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2016</td>
+      <td>244</td>
+      <td>39.77</td>
+      <td>37.56</td>
+      <td>88.7</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2017</td>
+      <td>244</td>
+      <td>39.51</td>
+      <td>37.25</td>
+      <td>90.1</td>
+      <td>-0.27</td>
+      <td>-0.31</td>
+      <td>1.4</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2018</td>
+      <td>244</td>
+      <td>39.27</td>
+      <td>36.98</td>
+      <td>90.7</td>
+      <td>-0.24</td>
+      <td>-0.27</td>
+      <td>0.6</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2019</td>
+      <td>244</td>
+      <td>38.57</td>
+      <td>36.23</td>
+      <td>85.7</td>
+      <td>-0.70</td>
+      <td>-0.74</td>
+      <td>-5.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2020</td>
+      <td>244</td>
+      <td>39.43</td>
+      <td>37.15</td>
+      <td>85.7</td>
+      <td>0.86</td>
+      <td>0.92</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2021</td>
+      <td>244</td>
+      <td>39.69</td>
+      <td>37.35</td>
+      <td>83.0</td>
+      <td>0.26</td>
+      <td>0.20</td>
+      <td>-2.7</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2022</td>
+      <td>244</td>
+      <td>39.93</td>
+      <td>37.67</td>
+      <td>84.0</td>
+      <td>0.24</td>
+      <td>0.32</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2023</td>
+      <td>244</td>
+      <td>38.02</td>
+      <td>35.81</td>
+      <td>79.4</td>
+      <td>-1.90</td>
+      <td>-1.86</td>
+      <td>-4.6</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2024</td>
+      <td>244</td>
+      <td>37.96</td>
+      <td>35.69</td>
+      <td>75.7</td>
+      <td>-0.07</td>
+      <td>-0.12</td>
+      <td>-3.7</td>
+    </tr>
+  </tbody>
+</table>
+</div></div><figure><img src="assets/figure_01.png" alt="Analysis figure 1"></figure></section>
+<article class="markdown-cell" data-cell="10"><p>The results show overall GDP convergence between EU regions from 2016 to 2024. By 2024, the coefficient of variation was about 95% of its 2016 level. The standard deviation also fell to about 95%. The gap between the richest and poorest groups fell more strongly, reaching about 85% of its starting level. However, the gap did not fall every year. GDP differences increased slightly between 2019 and 2022 before falling sharply in 2023 and 2024. This means that convergence was real, but uneven. The result supports Kostadinović and Stanković (2025), who found declining income differences in many EU regions. It also agrees with Leško et al. (2026), who found overall convergence but different growth paths across regional groups. Therefore, the answer to the first research question is yes, but regional GDP gaps did not narrow in every year.</p></article>
+<section class="output-cell"><figure><img src="assets/figure_02.png" alt="Analysis figure 2"></figure><div class="table-wrap"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>year</th>
+      <th>n_regions_main</th>
+      <th>cv_pct_main</th>
+      <th>sd_main</th>
+      <th>p90_p10_gap_main</th>
+      <th>iqr</th>
+      <th>n_regions_trim_top_1pct</th>
+      <th>cv_pct_trim_top_1pct</th>
+      <th>sd_trim_top_1pct</th>
+      <th>p90_p10_gap_trim_top_1pct</th>
+      <th>cv_difference_pp</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2016</td>
+      <td>244</td>
+      <td>39.77</td>
+      <td>37.56</td>
+      <td>88.7</td>
+      <td>48.25</td>
+      <td>241</td>
+      <td>37.06</td>
+      <td>34.37</td>
+      <td>86.0</td>
+      <td>-2.71</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2017</td>
+      <td>244</td>
+      <td>39.51</td>
+      <td>37.25</td>
+      <td>90.1</td>
+      <td>47.50</td>
+      <td>241</td>
+      <td>36.87</td>
+      <td>34.14</td>
+      <td>86.0</td>
+      <td>-2.64</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2018</td>
+      <td>244</td>
+      <td>39.27</td>
+      <td>36.98</td>
+      <td>90.7</td>
+      <td>47.00</td>
+      <td>241</td>
+      <td>36.65</td>
+      <td>33.89</td>
+      <td>87.0</td>
+      <td>-2.62</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2019</td>
+      <td>244</td>
+      <td>38.57</td>
+      <td>36.23</td>
+      <td>85.7</td>
+      <td>46.25</td>
+      <td>241</td>
+      <td>36.10</td>
+      <td>33.33</td>
+      <td>83.0</td>
+      <td>-2.47</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2020</td>
+      <td>244</td>
+      <td>39.43</td>
+      <td>37.15</td>
+      <td>85.7</td>
+      <td>45.25</td>
+      <td>241</td>
+      <td>36.48</td>
+      <td>33.72</td>
+      <td>82.0</td>
+      <td>-2.95</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2021</td>
+      <td>244</td>
+      <td>39.69</td>
+      <td>37.35</td>
+      <td>83.0</td>
+      <td>44.50</td>
+      <td>241</td>
+      <td>35.79</td>
+      <td>32.97</td>
+      <td>81.0</td>
+      <td>-3.89</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2022</td>
+      <td>244</td>
+      <td>39.93</td>
+      <td>37.67</td>
+      <td>84.0</td>
+      <td>44.00</td>
+      <td>241</td>
+      <td>35.71</td>
+      <td>32.95</td>
+      <td>78.0</td>
+      <td>-4.22</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2023</td>
+      <td>244</td>
+      <td>38.02</td>
+      <td>35.81</td>
+      <td>79.4</td>
+      <td>41.25</td>
+      <td>241</td>
+      <td>34.56</td>
+      <td>31.91</td>
+      <td>76.0</td>
+      <td>-3.46</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2024</td>
+      <td>244</td>
+      <td>37.96</td>
+      <td>35.69</td>
+      <td>75.7</td>
+      <td>39.25</td>
+      <td>241</td>
+      <td>34.35</td>
+      <td>31.65</td>
+      <td>74.0</td>
+      <td>-3.61</td>
+    </tr>
+  </tbody>
+</table>
+</div></div><div class="table-wrap"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>year</th>
+      <th>n_regions_main</th>
+      <th>cv_pct_main</th>
+      <th>sd_main</th>
+      <th>p90_p10_gap_main</th>
+      <th>iqr</th>
+      <th>n_regions_trim_top_1pct</th>
+      <th>cv_pct_trim_top_1pct</th>
+      <th>sd_trim_top_1pct</th>
+      <th>p90_p10_gap_trim_top_1pct</th>
+      <th>cv_difference_pp</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2016</td>
+      <td>244</td>
+      <td>39.77</td>
+      <td>37.56</td>
+      <td>88.7</td>
+      <td>48.25</td>
+      <td>241</td>
+      <td>37.06</td>
+      <td>34.37</td>
+      <td>86.0</td>
+      <td>-2.71</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2017</td>
+      <td>244</td>
+      <td>39.51</td>
+      <td>37.25</td>
+      <td>90.1</td>
+      <td>47.50</td>
+      <td>241</td>
+      <td>36.87</td>
+      <td>34.14</td>
+      <td>86.0</td>
+      <td>-2.64</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2018</td>
+      <td>244</td>
+      <td>39.27</td>
+      <td>36.98</td>
+      <td>90.7</td>
+      <td>47.00</td>
+      <td>241</td>
+      <td>36.65</td>
+      <td>33.89</td>
+      <td>87.0</td>
+      <td>-2.62</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2019</td>
+      <td>244</td>
+      <td>38.57</td>
+      <td>36.23</td>
+      <td>85.7</td>
+      <td>46.25</td>
+      <td>241</td>
+      <td>36.10</td>
+      <td>33.33</td>
+      <td>83.0</td>
+      <td>-2.47</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2020</td>
+      <td>244</td>
+      <td>39.43</td>
+      <td>37.15</td>
+      <td>85.7</td>
+      <td>45.25</td>
+      <td>241</td>
+      <td>36.48</td>
+      <td>33.72</td>
+      <td>82.0</td>
+      <td>-2.95</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2021</td>
+      <td>244</td>
+      <td>39.69</td>
+      <td>37.35</td>
+      <td>83.0</td>
+      <td>44.50</td>
+      <td>241</td>
+      <td>35.79</td>
+      <td>32.97</td>
+      <td>81.0</td>
+      <td>-3.89</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2022</td>
+      <td>244</td>
+      <td>39.93</td>
+      <td>37.67</td>
+      <td>84.0</td>
+      <td>44.00</td>
+      <td>241</td>
+      <td>35.71</td>
+      <td>32.95</td>
+      <td>78.0</td>
+      <td>-4.22</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2023</td>
+      <td>244</td>
+      <td>38.02</td>
+      <td>35.81</td>
+      <td>79.4</td>
+      <td>41.25</td>
+      <td>241</td>
+      <td>34.56</td>
+      <td>31.91</td>
+      <td>76.0</td>
+      <td>-3.46</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2024</td>
+      <td>244</td>
+      <td>37.96</td>
+      <td>35.69</td>
+      <td>75.7</td>
+      <td>39.25</td>
+      <td>241</td>
+      <td>34.35</td>
+      <td>31.65</td>
+      <td>74.0</td>
+      <td>-3.61</td>
+    </tr>
+  </tbody>
+</table>
+</div></div><div class="table-wrap"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>year</th>
+      <th>n_regions_main</th>
+      <th>cv_pct_main</th>
+      <th>sd_main</th>
+      <th>p90_p10_gap_main</th>
+      <th>iqr</th>
+      <th>n_regions_trim_top_1pct</th>
+      <th>cv_pct_trim_top_1pct</th>
+      <th>sd_trim_top_1pct</th>
+      <th>p90_p10_gap_trim_top_1pct</th>
+      <th>cv_difference_pp</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2016</td>
+      <td>244</td>
+      <td>39.7746</td>
+      <td>37.5593</td>
+      <td>88.7</td>
+      <td>48.25</td>
+      <td>241</td>
+      <td>37.0598</td>
+      <td>34.3672</td>
+      <td>86.0</td>
+      <td>-2.7148</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2017</td>
+      <td>244</td>
+      <td>39.5064</td>
+      <td>37.2478</td>
+      <td>90.1</td>
+      <td>47.50</td>
+      <td>241</td>
+      <td>36.8671</td>
+      <td>34.1395</td>
+      <td>86.0</td>
+      <td>-2.6394</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2018</td>
+      <td>244</td>
+      <td>39.2697</td>
+      <td>36.9779</td>
+      <td>90.7</td>
+      <td>47.00</td>
+      <td>241</td>
+      <td>36.6488</td>
+      <td>33.8948</td>
+      <td>87.0</td>
+      <td>-2.6209</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2019</td>
+      <td>244</td>
+      <td>38.5696</td>
+      <td>36.2348</td>
+      <td>85.7</td>
+      <td>46.25</td>
+      <td>241</td>
+      <td>36.0969</td>
+      <td>33.3260</td>
+      <td>83.0</td>
+      <td>-2.4727</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2020</td>
+      <td>244</td>
+      <td>39.4251</td>
+      <td>37.1501</td>
+      <td>85.7</td>
+      <td>45.25</td>
+      <td>241</td>
+      <td>36.4773</td>
+      <td>33.7241</td>
+      <td>82.0</td>
+      <td>-2.9478</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2021</td>
+      <td>244</td>
+      <td>39.6881</td>
+      <td>37.3475</td>
+      <td>83.0</td>
+      <td>44.50</td>
+      <td>241</td>
+      <td>35.7943</td>
+      <td>32.9694</td>
+      <td>81.0</td>
+      <td>-3.8938</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2022</td>
+      <td>244</td>
+      <td>39.9277</td>
+      <td>37.6712</td>
+      <td>84.0</td>
+      <td>44.00</td>
+      <td>241</td>
+      <td>35.7111</td>
+      <td>32.9535</td>
+      <td>78.0</td>
+      <td>-4.2166</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2023</td>
+      <td>244</td>
+      <td>38.0237</td>
+      <td>35.8092</td>
+      <td>79.4</td>
+      <td>41.25</td>
+      <td>241</td>
+      <td>34.5591</td>
+      <td>31.9076</td>
+      <td>76.0</td>
+      <td>-3.4646</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2024</td>
+      <td>244</td>
+      <td>37.9585</td>
+      <td>35.6857</td>
+      <td>75.7</td>
+      <td>39.25</td>
+      <td>241</td>
+      <td>34.3457</td>
+      <td>31.6508</td>
+      <td>74.0</td>
+      <td>-3.6128</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></section>
+<article class="markdown-cell" data-cell="12"><h2 id="1-2-are-employment-gaps-narrowing">1.2. Are employment gaps narrowing?</h2>
+<p>Employment convergence is evaluated with the standard deviation, coefficient of variation, and P90 minus P10 gap.</p></article>
+<section class="output-cell"><div class="table-wrap"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>sample</th>
+      <th>year</th>
+      <th>mean</th>
+      <th>std_dev</th>
+      <th>coef_variation_pct</th>
+      <th>p10</th>
+      <th>p90</th>
+      <th>p90_minus_p10</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>master</td>
+      <td>2016</td>
+      <td>70.00</td>
+      <td>8.60</td>
+      <td>12.28</td>
+      <td>57.38</td>
+      <td>79.98</td>
+      <td>22.60</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>master</td>
+      <td>2017</td>
+      <td>71.20</td>
+      <td>8.44</td>
+      <td>11.85</td>
+      <td>58.88</td>
+      <td>80.32</td>
+      <td>21.44</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>master</td>
+      <td>2018</td>
+      <td>72.23</td>
+      <td>8.39</td>
+      <td>11.61</td>
+      <td>60.66</td>
+      <td>81.48</td>
+      <td>20.82</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>master</td>
+      <td>2019</td>
+      <td>73.16</td>
+      <td>8.19</td>
+      <td>11.19</td>
+      <td>61.76</td>
+      <td>81.74</td>
+      <td>19.98</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>master</td>
+      <td>2020</td>
+      <td>72.33</td>
+      <td>8.17</td>
+      <td>11.30</td>
+      <td>60.13</td>
+      <td>80.60</td>
+      <td>20.47</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>master</td>
+      <td>2021</td>
+      <td>73.25</td>
+      <td>8.06</td>
+      <td>11.01</td>
+      <td>61.60</td>
+      <td>81.98</td>
+      <td>20.38</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>master</td>
+      <td>2022</td>
+      <td>74.86</td>
+      <td>7.77</td>
+      <td>10.38</td>
+      <td>63.60</td>
+      <td>83.30</td>
+      <td>19.70</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>master</td>
+      <td>2023</td>
+      <td>75.52</td>
+      <td>7.46</td>
+      <td>9.88</td>
+      <td>65.66</td>
+      <td>83.60</td>
+      <td>17.94</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>master</td>
+      <td>2024</td>
+      <td>75.89</td>
+      <td>7.41</td>
+      <td>9.76</td>
+      <td>66.99</td>
+      <td>83.57</td>
+      <td>16.58</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>constant</td>
+      <td>2016</td>
+      <td>70.11</td>
+      <td>8.43</td>
+      <td>12.03</td>
+      <td>57.95</td>
+      <td>80.00</td>
+      <td>22.05</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>constant</td>
+      <td>2017</td>
+      <td>71.32</td>
+      <td>8.26</td>
+      <td>11.58</td>
+      <td>59.10</td>
+      <td>80.35</td>
+      <td>21.25</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>constant</td>
+      <td>2018</td>
+      <td>72.37</td>
+      <td>8.15</td>
+      <td>11.26</td>
+      <td>60.75</td>
+      <td>81.50</td>
+      <td>20.75</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>constant</td>
+      <td>2019</td>
+      <td>73.14</td>
+      <td>8.04</td>
+      <td>11.00</td>
+      <td>61.80</td>
+      <td>81.70</td>
+      <td>19.90</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>constant</td>
+      <td>2020</td>
+      <td>72.33</td>
+      <td>7.98</td>
+      <td>11.03</td>
+      <td>60.15</td>
+      <td>80.60</td>
+      <td>20.45</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>constant</td>
+      <td>2021</td>
+      <td>73.12</td>
+      <td>8.13</td>
+      <td>11.11</td>
+      <td>61.35</td>
+      <td>81.95</td>
+      <td>20.60</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>constant</td>
+      <td>2022</td>
+      <td>74.73</td>
+      <td>7.83</td>
+      <td>10.48</td>
+      <td>63.55</td>
+      <td>83.30</td>
+      <td>19.75</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>constant</td>
+      <td>2023</td>
+      <td>75.39</td>
+      <td>7.52</td>
+      <td>9.97</td>
+      <td>65.45</td>
+      <td>83.60</td>
+      <td>18.15</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>constant</td>
+      <td>2024</td>
+      <td>75.91</td>
+      <td>7.10</td>
+      <td>9.35</td>
+      <td>67.05</td>
+      <td>83.55</td>
+      <td>16.50</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>balanced</td>
+      <td>2016</td>
+      <td>69.63</td>
+      <td>8.34</td>
+      <td>11.98</td>
+      <td>57.14</td>
+      <td>79.07</td>
+      <td>21.93</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>balanced</td>
+      <td>2017</td>
+      <td>70.86</td>
+      <td>8.18</td>
+      <td>11.54</td>
+      <td>58.79</td>
+      <td>79.90</td>
+      <td>21.11</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>balanced</td>
+      <td>2018</td>
+      <td>71.95</td>
+      <td>8.11</td>
+      <td>11.28</td>
+      <td>60.63</td>
+      <td>80.67</td>
+      <td>20.04</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>balanced</td>
+      <td>2019</td>
+      <td>72.72</td>
+      <td>8.01</td>
+      <td>11.01</td>
+      <td>61.49</td>
+      <td>81.00</td>
+      <td>19.51</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>balanced</td>
+      <td>2020</td>
+      <td>71.92</td>
+      <td>7.94</td>
+      <td>11.03</td>
+      <td>59.89</td>
+      <td>80.41</td>
+      <td>20.52</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>balanced</td>
+      <td>2021</td>
+      <td>72.72</td>
+      <td>8.09</td>
+      <td>11.12</td>
+      <td>61.13</td>
+      <td>81.67</td>
+      <td>20.54</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>balanced</td>
+      <td>2022</td>
+      <td>74.37</td>
+      <td>7.82</td>
+      <td>10.51</td>
+      <td>63.43</td>
+      <td>82.94</td>
+      <td>19.51</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>balanced</td>
+      <td>2023</td>
+      <td>75.05</td>
+      <td>7.54</td>
+      <td>10.04</td>
+      <td>65.30</td>
+      <td>83.00</td>
+      <td>17.70</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>balanced</td>
+      <td>2024</td>
+      <td>75.60</td>
+      <td>7.12</td>
+      <td>9.42</td>
+      <td>66.83</td>
+      <td>83.47</td>
+      <td>16.64</td>
+    </tr>
+  </tbody>
+</table>
+</div></div><figure><img src="assets/figure_03.png" alt="Analysis figure 3"></figure></section>
+<article class="markdown-cell" data-cell="14"><p>Employment rates across EU regions became more similar between 2016 and 2024. The coefficient of variation fell in the master, balanced, and constant samples. This means that employment differences between regions became smaller. In the balanced panel, the average employment rate rose from about 69.6% to 75.6%. The standard deviation also fell from 8.34 to 7.12 percentage points. There was a small pause around the COVID-19 period, but the downward trend continued after 2021. The three samples show almost the same pattern. This makes the result more reliable. The findings support Butkus et al. (2026), who found employment catch-up across EU regions. However, the employment gap did not disappear. Some regions still had much lower employment rates than others. Overall, the results provide clear evidence of employment convergence from 2016 to 2024.</p></article>
+<section class="output-cell"><figure><img src="assets/figure_04.png" alt="Analysis figure 4"></figure><div class="table-wrap"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>year</th>
+      <th>total_variance</th>
+      <th>between_country_variance</th>
+      <th>within_country_variance</th>
+      <th>between_country_share_pct</th>
+      <th>within_country_share_pct</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2016</td>
+      <td>69.282</td>
+      <td>42.622</td>
+      <td>26.660</td>
+      <td>61.520</td>
+      <td>38.480</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2017</td>
+      <td>66.627</td>
+      <td>40.114</td>
+      <td>26.513</td>
+      <td>60.207</td>
+      <td>39.793</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2018</td>
+      <td>65.531</td>
+      <td>38.381</td>
+      <td>27.150</td>
+      <td>58.569</td>
+      <td>41.431</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2019</td>
+      <td>63.812</td>
+      <td>36.684</td>
+      <td>27.128</td>
+      <td>57.487</td>
+      <td>42.513</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2020</td>
+      <td>62.683</td>
+      <td>37.049</td>
+      <td>25.634</td>
+      <td>59.105</td>
+      <td>40.895</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2021</td>
+      <td>65.070</td>
+      <td>38.815</td>
+      <td>26.256</td>
+      <td>59.650</td>
+      <td>40.350</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2022</td>
+      <td>60.865</td>
+      <td>34.739</td>
+      <td>26.126</td>
+      <td>57.076</td>
+      <td>42.924</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2023</td>
+      <td>56.522</td>
+      <td>31.233</td>
+      <td>25.289</td>
+      <td>55.258</td>
+      <td>44.742</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2024</td>
+      <td>50.449</td>
+      <td>26.679</td>
+      <td>23.770</td>
+      <td>52.883</td>
+      <td>47.117</td>
+    </tr>
+  </tbody>
+</table>
+</div></div><div class="table-wrap"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>year</th>
+      <th>total_variance</th>
+      <th>between_country_variance</th>
+      <th>within_country_variance</th>
+      <th>between_country_share_pct</th>
+      <th>within_country_share_pct</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2016</td>
+      <td>69.282</td>
+      <td>42.622</td>
+      <td>26.660</td>
+      <td>61.520</td>
+      <td>38.480</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2017</td>
+      <td>66.627</td>
+      <td>40.114</td>
+      <td>26.513</td>
+      <td>60.207</td>
+      <td>39.793</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2018</td>
+      <td>65.531</td>
+      <td>38.381</td>
+      <td>27.150</td>
+      <td>58.569</td>
+      <td>41.431</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2019</td>
+      <td>63.812</td>
+      <td>36.684</td>
+      <td>27.128</td>
+      <td>57.487</td>
+      <td>42.513</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2020</td>
+      <td>62.683</td>
+      <td>37.049</td>
+      <td>25.634</td>
+      <td>59.105</td>
+      <td>40.895</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2021</td>
+      <td>65.070</td>
+      <td>38.815</td>
+      <td>26.256</td>
+      <td>59.650</td>
+      <td>40.350</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2022</td>
+      <td>60.865</td>
+      <td>34.739</td>
+      <td>26.126</td>
+      <td>57.076</td>
+      <td>42.924</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2023</td>
+      <td>56.522</td>
+      <td>31.233</td>
+      <td>25.289</td>
+      <td>55.258</td>
+      <td>44.742</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2024</td>
+      <td>50.449</td>
+      <td>26.679</td>
+      <td>23.770</td>
+      <td>52.883</td>
+      <td>47.117</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></section>
+<article class="markdown-cell" data-cell="16"><p>The chart shows that regional employment differences became smaller from 2016 to 2024. Total variation fell from about 69 to 50 percentage points squared. Most of this decline came from smaller differences between countries. Between-country variation fell from about 43 in 2016 to 27 in 2024. Its share of total variation also fell from about 62% to 53%. Differences within countries fell more slowly. Their share therefore increased from about 38% to 47%. There was a small increase in total variation in 2021, but the decline continued after that year. These results show that employment convergence was stronger between EU countries than within individual countries. This agrees with studies showing that EU regions can move closer overall while large differences remain inside countries. EU policy should therefore focus not only on poorer countries, but also on weaker regions within each country.</p></article>
+<article class="markdown-cell" data-cell="17"><h1 id="2-beta-convergence">2. BETA CONVERGENCE</h1>
+<p>Beta convergence tests whether regions with lower starting GDP grew faster than regions with higher starting GDP.</p></article>
+<article class="markdown-cell" data-cell="18"><h2 id="2-1-do-poorer-eu-regions-grow-faster">2.1. Do poorer EU regions grow faster?</h2>
+<p>The preferred model regresses annualised log GDP growth from 2016 to 2024 on log GDP in 2016. Standard errors are clustered by country because regions within the same country may experience common shocks.</p></article>
+<section class="output-cell"><div class="table-wrap"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>model</th>
+      <th>n_regions</th>
+      <th>slope</th>
+      <th>se_cluster</th>
+      <th>p_value</th>
+      <th>r_squared</th>
+      <th>speed</th>
+      <th>half_life_yrs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>A. Full sample</td>
+      <td>244</td>
+      <td>-0.0167</td>
+      <td>0.0045</td>
+      <td>0.0002</td>
+      <td>0.2371</td>
+      <td>0.0179</td>
+      <td>38.7851</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>B. Excl. commuter ring</td>
+      <td>237</td>
+      <td>-0.0168</td>
+      <td>0.0045</td>
+      <td>0.0002</td>
+      <td>0.2412</td>
+      <td>0.0180</td>
+      <td>38.4473</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>B2. Excl. core + ring</td>
+      <td>230</td>
+      <td>-0.0191</td>
+      <td>0.0043</td>
+      <td>0.0000</td>
+      <td>0.3002</td>
+      <td>0.0207</td>
+      <td>33.4276</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>C. Excl. break-flag regions</td>
+      <td>223</td>
+      <td>-0.0152</td>
+      <td>0.0051</td>
+      <td>0.0028</td>
+      <td>0.1937</td>
+      <td>0.0162</td>
+      <td>42.7837</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>D. Excl. influential regions</td>
+      <td>228</td>
+      <td>-0.0182</td>
+      <td>0.0032</td>
+      <td>0.0000</td>
+      <td>0.3691</td>
+      <td>0.0196</td>
+      <td>35.3119</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>E. End year 2023</td>
+      <td>244</td>
+      <td>-0.0167</td>
+      <td>0.0047</td>
+      <td>0.0004</td>
+      <td>0.2206</td>
+      <td>0.0177</td>
+      <td>39.1028</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>F. Excl. Ireland</td>
+      <td>241</td>
+      <td>-0.0183</td>
+      <td>0.0042</td>
+      <td>0.0000</td>
+      <td>0.2888</td>
+      <td>0.0198</td>
+      <td>34.9830</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>G. Excl. French overseas</td>
+      <td>239</td>
+      <td>-0.0176</td>
+      <td>0.0046</td>
+      <td>0.0001</td>
+      <td>0.2615</td>
+      <td>0.0189</td>
+      <td>36.5790</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>H. Excl. Ireland + overseas</td>
+      <td>236</td>
+      <td>-0.0193</td>
+      <td>0.0042</td>
+      <td>0.0000</td>
+      <td>0.3181</td>
+      <td>0.0210</td>
+      <td>32.9995</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>I. Excl. team outlier list</td>
+      <td>240</td>
+      <td>-0.0187</td>
+      <td>0.0043</td>
+      <td>0.0000</td>
+      <td>0.2820</td>
+      <td>0.0202</td>
+      <td>34.2836</td>
+    </tr>
+  </tbody>
+</table>
+</div></div><figure><img src="assets/figure_05.png" alt="Analysis figure 5"></figure></section>
+<article class="markdown-cell" data-cell="20"><p>The graph shows that poorer EU regions generally grew faster than richer regions between 2016 and 2024. This can be seen from the downward fitted line. The slope is -0.0167, which supports beta convergence. However, the R² value is only 0.24. This means that starting GDP explains 24% of the differences in growth. Other factors were also important. Some poorer regions grew strongly, while others had little or negative growth. Some richer regions also continued to grow. Capital and commuter regions did not follow one clear pattern. This supports earlier studies showing that regional convergence is slow and uneven. Overall, the result answers the second research question positively. Poorer regions grew faster on average, but many regional differences remain.</p></article>
+<section class="output-cell"><figure><img src="assets/figure_06.png" alt="Analysis figure 6"></figure></section>
+<article class="markdown-cell" data-cell="22"><p>The graph shows that the beta convergence result is robust. The estimated slope remains negative in every test. The 95% confidence intervals also remain below the red zero line. This means that the evidence of convergence does not depend on one group of unusual regions. The same result remains after removing commuter regions, capital regions, break-flag observations, influential regions, Ireland, French overseas regions, and the team’s outlier list. The slope changes slightly across the tests, but the main conclusion does not change. Poorer regions still grew faster than richer regions on average. The strongest negative slope appears when capital cores and commuter rings are removed. Overall, the analysis provides reliable evidence of beta convergence across EU regions between 2016 and 2024.</p></article>
+<article class="markdown-cell" data-cell="23"><h1 id="3-regional-profiles-and-clustering">3. REGIONAL PROFILES AND CLUSTERING</h1></article>
+<article class="markdown-cell" data-cell="24"><h2 id="3-1-which-regions-behave-alike">3.1. Which regions behave alike?</h2>
+<p>This analysis groups EU NUTS 2 regions that show similar economic and employment patterns. Six measures are used to create the groups. These are the average GDP level, change in GDP, average employment rate, change in employment, average unemployment rate, and change in unemployment. The measures show both the general position of each region and how the region changed over time. Before grouping the regions, all six measures are put on the same scale. This prevents a measure with larger numbers from having too much influence on the results. The final groups therefore reflect the combined GDP, employment, and unemployment patterns of the regions.</p></article>
+<article class="markdown-cell" data-cell="25"><h3 id="3-3-1-method">3.3.1 Method</h3>
+<p>The analysis uses K-means clustering to place similar regions into groups. The model is run 50 times with a fixed random seed of 42. This helps to produce a stable result. Different solutions with two to eight groups are tested. The elbow method and silhouette score are used to choose the best number of groups. Three groups are selected. The result is checked using Ward hierarchical clustering and repeated tests with 80% of the regions. Principal component analysis is then used to show the regional groups on a simple two-dimensional graph. The first component explains 53% of the differences between regions, while the second explains 23%. Together, the two components show 76% of the total differences in the regional profiles.</p></article>
+<article class="markdown-cell" data-cell="27"><h3 id="3-2-choosing-the-number-of-clusters">3.2. Choosing the number of clusters</h3></article>
+<section class="output-cell"><div class="table-wrap"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>k</th>
+      <th>inertia</th>
+      <th>silhouette</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2</td>
+      <td>874.413</td>
+      <td>0.369</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>3</td>
+      <td>632.803</td>
+      <td>0.351</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>4</td>
+      <td>538.279</td>
+      <td>0.260</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>5</td>
+      <td>474.585</td>
+      <td>0.264</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>6</td>
+      <td>421.492</td>
+      <td>0.273</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>7</td>
+      <td>381.396</td>
+      <td>0.283</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>8</td>
+      <td>347.296</td>
+      <td>0.250</td>
+    </tr>
+  </tbody>
+</table>
+</div></div><figure><img src="assets/figure_07.png" alt="Analysis figure 7"></figure></section>
+<article class="markdown-cell" data-cell="29"><p>Two clusters had the highest silhouette score of 0.37, while three clusters scored 0.35. The difference is small. The elbow result also shows a strong improvement from two to three clusters. After three clusters, the improvement becomes much smaller. Three clusters were therefore chosen because they provide more detail about the regional groups without losing much separation. The result is stable because K-means and Ward clustering produced similar groups, with an agreement score of 0.88. Repeated tests using 80% of the regions gave a stability score of 0.95. This shows that the three-cluster solution is reliable and suitable for explaining the different regional profiles. The elbow graph shows a strong improvement when the number of clusters increases from two to three. After three clusters, the improvement becomes smaller. The silhouette score is highest for two clusters at 0.369. Three clusters have a slightly lower score of 0.351. However, this difference is small. Solutions with four to eight clusters have much lower scores, ranging from 0.250 to 0.283. Three clusters were therefore selected because they still separate the regions well and provide more useful detail than two broad groups. The results show that three clusters offer a good balance between clear separation and meaningful regional profiles.</p></article>
+<article class="markdown-cell" data-cell="30"><h3 id="3-3-regional-clusters-in-the-pca-space">3.3. Regional clusters in the PCA space</h3></article>
+<section class="output-cell"><figure><img src="assets/figure_08.png" alt="Analysis figure 8"></figure></section>
+<article class="markdown-cell" data-cell="32"><p>The PCA graph shows three groups of EU regions. Cluster 3 is the clearest group because it is separated from most of the other regions. Cluster 2 is mainly found in the upper part of the graph. Cluster 1 is the largest group and is mainly found on the right side. Some regions from the different groups are close together near the centre. This means that the groups are not completely separate. The graph still shows clear differences in the economic and employment patterns of the regions. Overall, EU regions can be placed into three useful groups, but some regions share similar features.</p></article>
+<article class="markdown-cell" data-cell="33"><h3 id="3-4-cluster-profiles-and-geographical-interpretation">3.4. Cluster profiles and geographical interpretation</h3></article>
+<section class="output-cell"><div class="table-wrap"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>gdp_level_log</th>
+      <th>gdp_rel_growth</th>
+      <th>emp_level</th>
+      <th>emp_change</th>
+      <th>unemp_level</th>
+      <th>unemp_change</th>
+      <th>n_regions</th>
+      <th>gdp_level_(index)</th>
+    </tr>
+    <tr>
+      <th>cluster</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>4.68</td>
+      <td>-0.49</td>
+      <td>76.45</td>
+      <td>4.19</td>
+      <td>5.72</td>
+      <td>-1.81</td>
+      <td>131</td>
+      <td>107.45</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>4.20</td>
+      <td>1.90</td>
+      <td>72.91</td>
+      <td>8.28</td>
+      <td>5.43</td>
+      <td>-3.17</td>
+      <td>55</td>
+      <td>66.75</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4.14</td>
+      <td>-0.21</td>
+      <td>59.80</td>
+      <td>8.72</td>
+      <td>16.51</td>
+      <td>-9.18</td>
+      <td>38</td>
+      <td>63.05</td>
+    </tr>
+  </tbody>
+</table>
+</div></div><div class="table-wrap"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+    </tr>
+    <tr>
+      <th>country_code</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>AT</th>
+      <td>9</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>BE</th>
+      <td>11</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>BG</th>
+      <td>0</td>
+      <td>6</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>CY</th>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>CZ</th>
+      <td>8</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>DE</th>
+      <td>28</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>DK</th>
+      <td>5</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>EE</th>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>EL</th>
+      <td>0</td>
+      <td>0</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <th>ES</th>
+      <td>7</td>
+      <td>0</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>FI</th>
+      <td>4</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>FR</th>
+      <td>21</td>
+      <td>1</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>HR</th>
+      <td>0</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>HU</th>
+      <td>1</td>
+      <td>7</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>IE</th>
+      <td>1</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>IT</th>
+      <td>13</td>
+      <td>0</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>LT</th>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>LU</th>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>LV</th>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>MT</th>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>NL</th>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>PL</th>
+      <td>1</td>
+      <td>15</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>PT</th>
+      <td>0</td>
+      <td>4</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>RO</th>
+      <td>0</td>
+      <td>8</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>SE</th>
+      <td>8</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>SI</th>
+      <td>0</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>SK</th>
+      <td>1</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+</div></div><div class="table-wrap"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>share_explained_by_country</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>gdp_level_log</th>
+      <td>0.51</td>
+    </tr>
+    <tr>
+      <th>gdp_rel_growth</th>
+      <td>0.77</td>
+    </tr>
+    <tr>
+      <th>emp_level</th>
+      <td>0.58</td>
+    </tr>
+    <tr>
+      <th>emp_change</th>
+      <td>0.69</td>
+    </tr>
+    <tr>
+      <th>unemp_level</th>
+      <td>0.67</td>
+    </tr>
+    <tr>
+      <th>unemp_change</th>
+      <td>0.72</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></section>
+<article class="markdown-cell" data-cell="35"><p>The analysis found three main groups of EU regions. Cluster 1 is the largest, with 131 regions. These regions have the highest GDP and employment levels and low unemployment. Cluster 2 has 55 regions. These regions have lower GDP but show the strongest GDP growth. This group shows the clearest catch-up pattern. Cluster 3 has 38 regions. These regions have the lowest employment and the highest unemployment, although their labour results improved. Country location explains an important part of these differences. It explains 51% of GDP levels, 77% of GDP growth, and 58% of employment levels. It also explains 69% of employment change, 67% of unemployment levels, and 72% of unemployment change. However, some countries have regions in different clusters. This shows that geography matters, but differences within countries also matter. Industrial structure cannot be fully tested because sector data were not included.</p></article>
+<article class="markdown-cell" data-cell="36"><h1 id="4-connecting-sigma-and-beta-convergence">4. CONNECTING SIGMA AND BETA CONVERGENCE</h1></article>
+<article class="markdown-cell" data-cell="37"><h2 id="4-1-where-do-the-two-tests-agree-or-disagree">4.1. Where do the two tests agree or disagree?</h2>
+<p>Beta convergence and sigma convergence answer related but different questions. Poor regions can grow faster on average while new shocks temporarily increase the overall spread.</p></article>
+<section class="output-cell"><div class="table-wrap"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>start</th>
+      <th>end</th>
+      <th>pct_change</th>
+      <th>trend_per_year</th>
+      <th>years_rising</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>sd_log</th>
+      <td>0.3949</td>
+      <td>0.3551</td>
+      <td>-10.0880</td>
+      <td>-0.0047</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>cv</th>
+      <td>0.3977</td>
+      <td>0.3796</td>
+      <td>-4.5658</td>
+      <td>-0.0015</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>p90_p10</th>
+      <td>2.7634</td>
+      <td>2.3281</td>
+      <td>-15.7540</td>
+      <td>-0.0559</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>sd_log_excl_outliers</th>
+      <td>0.3797</td>
+      <td>0.3355</td>
+      <td>-11.6597</td>
+      <td>-0.0054</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>cv_excl_outliers</th>
+      <td>0.3675</td>
+      <td>0.3387</td>
+      <td>-7.8222</td>
+      <td>-0.0034</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+</div></div><figure><img src="assets/figure_09.png" alt="Analysis figure 9"></figure></section>
+<article class="markdown-cell" data-cell="39"><p>The results show that GDP differences between EU regions became smaller from 2016 to 2024. The standard deviation of log GDP fell by about 10%. The gap between the richer and poorer groups fell by about 16%. This gives strong evidence of sigma convergence. The coefficient of variation fell by only about 5%. It also increased between 2019 and 2022. However, when Luxembourg, Ireland, and Brussels were removed, the decline was stronger at about 8%. This shows that a few very rich regions affected the result. The findings agree with Leško et al. (2026) and Kostadinović and Stanković (2025), who found that EU convergence is real but uneven. Overall, regional GDP gaps became smaller, but the result depends partly on the measure used and the inclusion of unusual high-income regions.</p></article>
+<section class="output-cell"><div class="table-wrap"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>period</th>
+      <th>beta</th>
+      <th>beta_significant_5pct</th>
+      <th>change_sd_log</th>
+      <th>change_cv</th>
+      <th>beta_says</th>
+      <th>sd_log_says</th>
+      <th>cv_says</th>
+      <th>agree_sd_log</th>
+      <th>agree_cv</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2016-2017</td>
+      <td>-0.0151</td>
+      <td>True</td>
+      <td>-0.0052</td>
+      <td>-0.0027</td>
+      <td>converging</td>
+      <td>converging</td>
+      <td>converging</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2017-2018</td>
+      <td>-0.0149</td>
+      <td>True</td>
+      <td>-0.0051</td>
+      <td>-0.0024</td>
+      <td>converging</td>
+      <td>converging</td>
+      <td>converging</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2018-2019</td>
+      <td>-0.0192</td>
+      <td>True</td>
+      <td>-0.0067</td>
+      <td>-0.0070</td>
+      <td>converging</td>
+      <td>converging</td>
+      <td>converging</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2019-2020</td>
+      <td>-0.0041</td>
+      <td>False</td>
+      <td>0.0022</td>
+      <td>0.0086</td>
+      <td>converging</td>
+      <td>diverging</td>
+      <td>diverging</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2020-2021</td>
+      <td>-0.0223</td>
+      <td>True</td>
+      <td>-0.0066</td>
+      <td>0.0026</td>
+      <td>converging</td>
+      <td>converging</td>
+      <td>diverging</td>
+      <td>True</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2021-2022</td>
+      <td>-0.0151</td>
+      <td>False</td>
+      <td>-0.0031</td>
+      <td>0.0024</td>
+      <td>converging</td>
+      <td>converging</td>
+      <td>diverging</td>
+      <td>True</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2022-2023</td>
+      <td>-0.0350</td>
+      <td>True</td>
+      <td>-0.0111</td>
+      <td>-0.0190</td>
+      <td>converging</td>
+      <td>converging</td>
+      <td>converging</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2023-2024</td>
+      <td>-0.0136</td>
+      <td>True</td>
+      <td>-0.0044</td>
+      <td>-0.0006</td>
+      <td>converging</td>
+      <td>converging</td>
+      <td>converging</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+  </tbody>
+</table>
+</div></div><div class="table-wrap"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>period</th>
+      <th>sample</th>
+      <th>var_start</th>
+      <th>var_end</th>
+      <th>change</th>
+      <th>catch_up_effect</th>
+      <th>shock_effect</th>
+      <th>check_sum</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2016-2024</td>
+      <td>all</td>
+      <td>0.1553</td>
+      <td>0.1256</td>
+      <td>-0.0298</td>
+      <td>-0.0386</td>
+      <td>0.0089</td>
+      <td>-0.0298</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2016-2024</td>
+      <td>excl. outliers</td>
+      <td>0.1436</td>
+      <td>0.1121</td>
+      <td>-0.0315</td>
+      <td>-0.0397</td>
+      <td>0.0082</td>
+      <td>-0.0315</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2016-2017</td>
+      <td>all</td>
+      <td>0.1553</td>
+      <td>0.1513</td>
+      <td>-0.0041</td>
+      <td>-0.0047</td>
+      <td>0.0006</td>
+      <td>-0.0041</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2017-2018</td>
+      <td>all</td>
+      <td>0.1513</td>
+      <td>0.1473</td>
+      <td>-0.0039</td>
+      <td>-0.0045</td>
+      <td>0.0005</td>
+      <td>-0.0039</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2018-2019</td>
+      <td>all</td>
+      <td>0.1473</td>
+      <td>0.1423</td>
+      <td>-0.0051</td>
+      <td>-0.0056</td>
+      <td>0.0005</td>
+      <td>-0.0051</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2019-2020</td>
+      <td>all</td>
+      <td>0.1423</td>
+      <td>0.1440</td>
+      <td>0.0017</td>
+      <td>-0.0012</td>
+      <td>0.0029</td>
+      <td>0.0017</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2020-2021</td>
+      <td>all</td>
+      <td>0.1440</td>
+      <td>0.1390</td>
+      <td>-0.0050</td>
+      <td>-0.0064</td>
+      <td>0.0014</td>
+      <td>-0.0050</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2021-2022</td>
+      <td>all</td>
+      <td>0.1390</td>
+      <td>0.1367</td>
+      <td>-0.0023</td>
+      <td>-0.0042</td>
+      <td>0.0019</td>
+      <td>-0.0023</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2022-2023</td>
+      <td>all</td>
+      <td>0.1367</td>
+      <td>0.1287</td>
+      <td>-0.0080</td>
+      <td>-0.0094</td>
+      <td>0.0014</td>
+      <td>-0.0080</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2023-2024</td>
+      <td>all</td>
+      <td>0.1287</td>
+      <td>0.1256</td>
+      <td>-0.0031</td>
+      <td>-0.0035</td>
+      <td>0.0004</td>
+      <td>-0.0031</td>
+    </tr>
+  </tbody>
+</table>
+</div></div><figure><img src="assets/figure_10.png" alt="Analysis figure 10"></figure></section>
+<article class="markdown-cell" data-cell="41"><p>The two tests give a similar result for the full period from 2016 to 2024. Beta convergence shows that poorer regions generally grew faster than richer regions. Sigma convergence also shows that the overall GDP gap became smaller. However, the tests did not agree in every year. The clearest disagreement happened between 2019 and 2020. The beta result was negative, which suggested catch-up, but the result was weak and not statistically significant. At the same time, both sigma measures increased. This means that poorer regions showed some catch-up, but the total gap between regions still became larger. There was also a mixed result from 2020 to 2022. The standard deviation of log GDP fell, while the coefficient of variation increased. This shows that the conclusion can change depending on the measure used. New economic shocks were strong enough to reduce the effect of catch-up during these years. From 2022 to 2024, the tests agreed again. Poorer regions grew faster, and the overall regional gap became smaller. The strongest decline happened between 2022 and 2023. These results support Leško et al. (2026) and Truglia and Zeli (2025), who found that European convergence is uneven and can be affected by temporary shocks. Sigma convergence gives the clearest answer about whether the actual gap became smaller. Beta convergence helps explain whether poorer regions were catching up.</p></article>
+<article class="markdown-cell" data-cell="42"><h2 id="4-2-where-is-convergence-happening">4.2. Where is convergence happening?</h2></article>
+<section class="output-cell"><div class="table-wrap"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>total</th>
+      <th>between_countries</th>
+      <th>within_countries</th>
+      <th>share_within</th>
+    </tr>
+    <tr>
+      <th>year</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2016</th>
+      <td>0.1553</td>
+      <td>0.0861</td>
+      <td>0.0692</td>
+      <td>0.4454</td>
+    </tr>
+    <tr>
+      <th>2017</th>
+      <td>0.1513</td>
+      <td>0.0830</td>
+      <td>0.0682</td>
+      <td>0.4510</td>
+    </tr>
+    <tr>
+      <th>2018</th>
+      <td>0.1473</td>
+      <td>0.0785</td>
+      <td>0.0689</td>
+      <td>0.4675</td>
+    </tr>
+    <tr>
+      <th>2019</th>
+      <td>0.1423</td>
+      <td>0.0727</td>
+      <td>0.0696</td>
+      <td>0.4892</td>
+    </tr>
+    <tr>
+      <th>2020</th>
+      <td>0.1440</td>
+      <td>0.0787</td>
+      <td>0.0652</td>
+      <td>0.4532</td>
+    </tr>
+    <tr>
+      <th>2021</th>
+      <td>0.1390</td>
+      <td>0.0738</td>
+      <td>0.0652</td>
+      <td>0.4689</td>
+    </tr>
+    <tr>
+      <th>2022</th>
+      <td>0.1367</td>
+      <td>0.0702</td>
+      <td>0.0665</td>
+      <td>0.4867</td>
+    </tr>
+    <tr>
+      <th>2023</th>
+      <td>0.1287</td>
+      <td>0.0623</td>
+      <td>0.0664</td>
+      <td>0.5160</td>
+    </tr>
+    <tr>
+      <th>2024</th>
+      <td>0.1256</td>
+      <td>0.0592</td>
+      <td>0.0664</td>
+      <td>0.5288</td>
+    </tr>
+  </tbody>
+</table>
+</div></div><figure><img src="assets/figure_11.png" alt="Analysis figure 11"></figure></section>
+<article class="markdown-cell" data-cell="44"><p>The results show that regional GDP differences became smaller between 2016 and 2024. However, most of this change happened between countries. The GDP difference between countries fell from 0.086 in 2016 to 0.059 in 2024. This is a decline of about 31%. It means that poorer EU countries moved closer to richer EU countries. The differences between regions within the same country changed much less. Within-country inequality fell from 0.069 to 0.066. This is a decline of only about 4%. As a result, the share of inequality found within countries increased from about 45% in 2016 to 53% in 2024. There was also a small rise in between-country inequality in 2020. This may be linked to the different effects of the COVID-19 shock. The findings show that EU convergence was mainly driven by countries catching up with one another. However, large differences still remain between regions inside the same country. This agrees with Cieślik and Misiak (2025), who found that national growth does not always reduce all regional gaps. It also supports Leško et al. (2026), who found that regions can follow different growth paths. Overall, EU countries became more similar, but regional inequality within countries remained strong. EU support should therefore focus on weaker regions inside countries, not only on differences between countries.</p></article>
+<article class="markdown-cell" data-cell="45"><h2 id="4-3-exceptions-and-regions-left-behind">4.3. Exceptions and regions left behind</h2></article>
+<section class="output-cell"><div class="table-wrap"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>country</th>
+      <th>n_regions</th>
+      <th>sd_log_2016</th>
+      <th>sd_log_2024</th>
+      <th>sd_change_pct</th>
+      <th>within_beta</th>
+      <th>sigma_says</th>
+      <th>beta_says</th>
+      <th>richest_region_2024</th>
+      <th>tests_agree</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>EL</td>
+      <td>13</td>
+      <td>0.195</td>
+      <td>0.221</td>
+      <td>13.517</td>
+      <td>-0.001</td>
+      <td>diverging</td>
+      <td>converging</td>
+      <td>EL30 Attiki</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>DK</td>
+      <td>5</td>
+      <td>0.227</td>
+      <td>0.256</td>
+      <td>12.872</td>
+      <td>0.012</td>
+      <td>diverging</td>
+      <td>diverging</td>
+      <td>DK01 Hovedstaden</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>PT</td>
+      <td>9</td>
+      <td>0.223</td>
+      <td>0.240</td>
+      <td>7.929</td>
+      <td>0.008</td>
+      <td>diverging</td>
+      <td>diverging</td>
+      <td>PT1A Grande Lisboa</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>HU</td>
+      <td>8</td>
+      <td>0.392</td>
+      <td>0.413</td>
+      <td>5.243</td>
+      <td>0.002</td>
+      <td>diverging</td>
+      <td>diverging</td>
+      <td>HU11 Budapest</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>RO</td>
+      <td>8</td>
+      <td>0.401</td>
+      <td>0.420</td>
+      <td>4.767</td>
+      <td>0.004</td>
+      <td>diverging</td>
+      <td>diverging</td>
+      <td>RO32 Bucureşti-Ilfov</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>BG</td>
+      <td>6</td>
+      <td>0.351</td>
+      <td>0.358</td>
+      <td>2.005</td>
+      <td>0.001</td>
+      <td>diverging</td>
+      <td>diverging</td>
+      <td>BG41 Yugozapaden</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>ES</td>
+      <td>19</td>
+      <td>0.207</td>
+      <td>0.210</td>
+      <td>1.660</td>
+      <td>0.000</td>
+      <td>diverging</td>
+      <td>diverging</td>
+      <td>ES30 Comunidad de Madrid</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>BE</td>
+      <td>11</td>
+      <td>0.320</td>
+      <td>0.320</td>
+      <td>-0.225</td>
+      <td>-0.002</td>
+      <td>converging</td>
+      <td>converging</td>
+      <td>BE10 Région de Bruxelles-Capitale/Brussels Hoo...</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>SE</td>
+      <td>8</td>
+      <td>0.178</td>
+      <td>0.176</td>
+      <td>-0.627</td>
+      <td>-0.004</td>
+      <td>converging</td>
+      <td>converging</td>
+      <td>SE11 Stockholm</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>CZ</td>
+      <td>8</td>
+      <td>0.357</td>
+      <td>0.350</td>
+      <td>-2.174</td>
+      <td>-0.003</td>
+      <td>converging</td>
+      <td>converging</td>
+      <td>CZ01 Praha</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>IT</td>
+      <td>21</td>
+      <td>0.294</td>
+      <td>0.286</td>
+      <td>-2.449</td>
+      <td>-0.004</td>
+      <td>converging</td>
+      <td>converging</td>
+      <td>ITH1 Provincia Autonoma di Bolzano/Bozen</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>FR</td>
+      <td>27</td>
+      <td>0.302</td>
+      <td>0.287</td>
+      <td>-4.939</td>
+      <td>-0.008</td>
+      <td>converging</td>
+      <td>converging</td>
+      <td>FR10 Ile de France</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>NL</td>
+      <td>12</td>
+      <td>0.199</td>
+      <td>0.188</td>
+      <td>-5.588</td>
+      <td>-0.011</td>
+      <td>converging</td>
+      <td>converging</td>
+      <td>NL32 Noord-Holland</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>AT</td>
+      <td>9</td>
+      <td>0.177</td>
+      <td>0.166</td>
+      <td>-6.432</td>
+      <td>-0.011</td>
+      <td>converging</td>
+      <td>converging</td>
+      <td>AT32 Salzburg</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>HR</td>
+      <td>4</td>
+      <td>0.419</td>
+      <td>0.390</td>
+      <td>-6.877</td>
+      <td>-0.009</td>
+      <td>converging</td>
+      <td>converging</td>
+      <td>HR05 Grad Zagreb</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>PL</td>
+      <td>17</td>
+      <td>0.264</td>
+      <td>0.245</td>
+      <td>-6.964</td>
+      <td>-0.009</td>
+      <td>converging</td>
+      <td>converging</td>
+      <td>PL91 Warszawski stołeczny</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>DE</td>
+      <td>38</td>
+      <td>0.216</td>
+      <td>0.201</td>
+      <td>-7.039</td>
+      <td>-0.011</td>
+      <td>converging</td>
+      <td>converging</td>
+      <td>DE60 Hamburg</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>SK</td>
+      <td>4</td>
+      <td>0.583</td>
+      <td>0.467</td>
+      <td>-20.006</td>
+      <td>-0.025</td>
+      <td>converging</td>
+      <td>converging</td>
+      <td>SK01 Bratislavský kraj</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>FI</td>
+      <td>5</td>
+      <td>0.210</td>
+      <td>0.161</td>
+      <td>-23.329</td>
+      <td>-0.031</td>
+      <td>converging</td>
+      <td>converging</td>
+      <td>FI1B Helsinki-Uusimaa</td>
+      <td>True</td>
+    </tr>
+  </tbody>
+</table>
+</div></div><div class="table-wrap"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>region_name</th>
+      <th>country</th>
+      <th>index_2016</th>
+      <th>index_2024</th>
+      <th>change_points</th>
+      <th>pattern</th>
+    </tr>
+    <tr>
+      <th>region_code</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>EL53</th>
+      <td>Dytiki Makedonia</td>
+      <td>EL</td>
+      <td>66</td>
+      <td>48</td>
+      <td>-18</td>
+      <td>poor, falling behind (exception)</td>
+    </tr>
+    <tr>
+      <th>FRY3</th>
+      <td>Guyane</td>
+      <td>FR</td>
+      <td>52</td>
+      <td>41</td>
+      <td>-11</td>
+      <td>poor, falling behind (exception)</td>
+    </tr>
+    <tr>
+      <th>EL41</th>
+      <td>Voreio Aigaio</td>
+      <td>EL</td>
+      <td>50</td>
+      <td>42</td>
+      <td>-8</td>
+      <td>poor, falling behind (exception)</td>
+    </tr>
+    <tr>
+      <th>ES64</th>
+      <td>Ciudad de Melilla</td>
+      <td>ES</td>
+      <td>64</td>
+      <td>59</td>
+      <td>-5</td>
+      <td>poor, falling behind (exception)</td>
+    </tr>
+    <tr>
+      <th>ES63</th>
+      <td>Ciudad de Ceuta</td>
+      <td>ES</td>
+      <td>69</td>
+      <td>64</td>
+      <td>-5</td>
+      <td>poor, falling behind (exception)</td>
+    </tr>
+    <tr>
+      <th>FRY2</th>
+      <td>Martinique</td>
+      <td>FR</td>
+      <td>74</td>
+      <td>69</td>
+      <td>-5</td>
+      <td>poor, falling behind (exception)</td>
+    </tr>
+    <tr>
+      <th>FRY4</th>
+      <td>La Réunion</td>
+      <td>FR</td>
+      <td>67</td>
+      <td>63</td>
+      <td>-4</td>
+      <td>poor, falling behind (exception)</td>
+    </tr>
+    <tr>
+      <th>ITF6</th>
+      <td>Calabria</td>
+      <td>IT</td>
+      <td>59</td>
+      <td>57</td>
+      <td>-2</td>
+      <td>poor, falling behind (exception)</td>
+    </tr>
+    <tr>
+      <th>ES70</th>
+      <td>Canarias</td>
+      <td>ES</td>
+      <td>74</td>
+      <td>72</td>
+      <td>-2</td>
+      <td>poor, falling behind (exception)</td>
+    </tr>
+    <tr>
+      <th>BE32</th>
+      <td>Prov. Hainaut</td>
+      <td>BE</td>
+      <td>74</td>
+      <td>72</td>
+      <td>-2</td>
+      <td>poor, falling behind (exception)</td>
+    </tr>
+    <tr>
+      <th>CZ08</th>
+      <td>Moravskoslezsko</td>
+      <td>CZ</td>
+      <td>73</td>
+      <td>71</td>
+      <td>-2</td>
+      <td>poor, falling behind (exception)</td>
+    </tr>
+    <tr>
+      <th>EL42</th>
+      <td>Notio Aigaio</td>
+      <td>EL</td>
+      <td>72</td>
+      <td>70</td>
+      <td>-2</td>
+      <td>poor, falling behind (exception)</td>
+    </tr>
+    <tr>
+      <th>EL54</th>
+      <td>Ipeiros</td>
+      <td>EL</td>
+      <td>46</td>
+      <td>45</td>
+      <td>-1</td>
+      <td>poor, falling behind (exception)</td>
+    </tr>
+    <tr>
+      <th>EL51</th>
+      <td>Anatoliki Makedonia, Thraki</td>
+      <td>EL</td>
+      <td>46</td>
+      <td>45</td>
+      <td>-1</td>
+      <td>poor, falling behind (exception)</td>
+    </tr>
+    <tr>
+      <th>CZ04</th>
+      <td>Severozápad</td>
+      <td>CZ</td>
+      <td>62</td>
+      <td>61</td>
+      <td>-1</td>
+      <td>poor, falling behind (exception)</td>
+    </tr>
+    <tr>
+      <th>EL65</th>
+      <td>Peloponnisos</td>
+      <td>EL</td>
+      <td>58</td>
+      <td>57</td>
+      <td>-1</td>
+      <td>poor, falling behind (exception)</td>
+    </tr>
+    <tr>
+      <th>BE34</th>
+      <td>Prov. Luxembourg (BE)</td>
+      <td>BE</td>
+      <td>73</td>
+      <td>72</td>
+      <td>-1</td>
+      <td>poor, falling behind (exception)</td>
+    </tr>
+    <tr>
+      <th>NL36</th>
+      <td>Zuid-Holland</td>
+      <td>NL</td>
+      <td>129</td>
+      <td>129</td>
+      <td>0</td>
+      <td>rich, pulling further ahead (exception)</td>
+    </tr>
+    <tr>
+      <th>DE30</th>
+      <td>Berlin</td>
+      <td>DE</td>
+      <td>126</td>
+      <td>127</td>
+      <td>1</td>
+      <td>rich, pulling further ahead (exception)</td>
+    </tr>
+    <tr>
+      <th>ITH1</th>
+      <td>Provincia Autonoma di Bolzano/Bozen</td>
+      <td>IT</td>
+      <td>157</td>
+      <td>161</td>
+      <td>4</td>
+      <td>rich, pulling further ahead (exception)</td>
+    </tr>
+    <tr>
+      <th>NL32</th>
+      <td>Noord-Holland</td>
+      <td>NL</td>
+      <td>169</td>
+      <td>175</td>
+      <td>6</td>
+      <td>rich, pulling further ahead (exception)</td>
+    </tr>
+    <tr>
+      <th>NL41</th>
+      <td>Noord-Brabant</td>
+      <td>NL</td>
+      <td>131</td>
+      <td>139</td>
+      <td>8</td>
+      <td>rich, pulling further ahead (exception)</td>
+    </tr>
+    <tr>
+      <th>NL35</th>
+      <td>Utrecht</td>
+      <td>NL</td>
+      <td>154</td>
+      <td>162</td>
+      <td>8</td>
+      <td>rich, pulling further ahead (exception)</td>
+    </tr>
+    <tr>
+      <th>PL91</th>
+      <td>Warszawski stołeczny</td>
+      <td>PL</td>
+      <td>146</td>
+      <td>157</td>
+      <td>11</td>
+      <td>rich, pulling further ahead (exception)</td>
+    </tr>
+    <tr>
+      <th>DK01</th>
+      <td>Hovedstaden</td>
+      <td>DK</td>
+      <td>163</td>
+      <td>175</td>
+      <td>12</td>
+      <td>rich, pulling further ahead (exception)</td>
+    </tr>
+    <tr>
+      <th>BE31</th>
+      <td>Prov. Brabant wallon</td>
+      <td>BE</td>
+      <td>136</td>
+      <td>155</td>
+      <td>19</td>
+      <td>rich, pulling further ahead (exception)</td>
+    </tr>
+    <tr>
+      <th>IE05</th>
+      <td>Southern</td>
+      <td>IE</td>
+      <td>195</td>
+      <td>217</td>
+      <td>22</td>
+      <td>rich, pulling further ahead (exception)</td>
+    </tr>
+    <tr>
+      <th>HU11</th>
+      <td>Budapest</td>
+      <td>HU</td>
+      <td>139</td>
+      <td>168</td>
+      <td>29</td>
+      <td>rich, pulling further ahead (exception)</td>
+    </tr>
+    <tr>
+      <th>RO32</th>
+      <td>Bucureşti-Ilfov</td>
+      <td>RO</td>
+      <td>136</td>
+      <td>188</td>
+      <td>52</td>
+      <td>rich, pulling further ahead (exception)</td>
+    </tr>
+    <tr>
+      <th>IE06</th>
+      <td>Eastern and Midland</td>
+      <td>IE</td>
+      <td>201</td>
+      <td>268</td>
+      <td>67</td>
+      <td>rich, pulling further ahead (exception)</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></section>
+<article class="markdown-cell" data-cell="47"><p>The overall EU pattern shows convergence, but some countries and regions moved in the opposite direction. Regional GDP gaps increased inside Greece, Denmark, Portugal, Hungary, Romania, Bulgaria, and Spain. Greece was the only country where the two tests disagreed. The beta test showed catch-up, but the sigma test showed that the regional gap increased. This means that some poorer Greek regions improved, but the country’s total regional inequality still became larger. The analysis also found 17 poorer regions that fell further behind. Dytiki Makedonia had the largest fall. Its GDP index declined from 66 to 48. Guyane fell from 52 to 41, while Voreio Aigaio fell from 50 to 42. Other examples include Melilla, Ceuta, Martinique, Calabria, Canarias, Hainaut, and several Greek regions. At the same time, 13 richer regions moved further ahead. Eastern and Midland Ireland had the largest increase, from 201 to 268. București-Ilfov rose from 136 to 188. Budapest, Southern Ireland, Hovedstaden, Warszawski stołeczny, Utrecht, and Noord-Holland also moved further ahead. These results agree with Cieślik and Misiak (2025) and Leško et al. (2026). The studies show that regions do not follow one common path. Overall EU convergence can therefore hide poorer regions that continue to fall behind and richer regions that continue to move ahead.</p></article>
+<article class="markdown-cell" data-cell="48"><h1 id="conclusion">CONCLUSION</h1>
+<p>The four analyses show that EU regions became more similar between 2016 and 2024, but the change was slow and uneven. The GDP spread became smaller over the full period. However, it did not fall every year. Some years showed a temporary increase in the gap. Employment differences also became smaller. Regions with weaker employment results generally improved during the period. The beta convergence test showed that poorer regions grew faster than richer regions on average. However, the speed of this change was slow. This means that large regional gaps still remain. The regional profile analysis placed the regions into three main groups. These groups were based on GDP, employment, and unemployment. The PCA results explained 76% of the differences in the data. One group was clearly different from the others. The other two groups had some overlap. Country and sector results helped to show whether the groups were linked to location or economic structure. The sigma and beta tests gave a similar result for the full period. Both supported convergence. However, the tests did not always agree in every year. Economic shocks sometimes increased the spread between regions, even when poorer regions were growing faster. Convergence was also stronger between countries than within countries. This means that differences inside some countries remain important. Overall, EU NUTS 2 regions show real but slow convergence. Progress has been made, but it is not equal across all regions. Further support is still needed for regions that remain behind or move against the wider trend.</p></article>
+<article class="markdown-cell" data-cell="49"><h2 id="limitations-of-the-study">LIMITATIONS OF THE STUDY</h2>
+<p>This study has several limits. First, it covers only nine years, from 2016 to 2024. This period includes the COVID-19 shock, which affected regions in different ways. Second, GDP may not always show the real strength of a region. It can be affected by multinational companies that record profits in certain regions. It can also be affected by people who live in one region but work in another. Some Eurostat values were also provisional or had quality warnings. Third, all regions were given the same weight. A small region therefore had the same effect as a large region. Fourth, the beta convergence test did not include factors such as education, investment, industry, or local institutions. These factors may explain why some regions grow faster than others. Fifth, changes to NUTS regional boundaries and missing values affected some comparisons. Finally, GDP and employment do not directly measure household income, poverty, or quality of life.</p></article>
+<article class="markdown-cell" data-cell="50"><h2 id="references-and-data-sources">REFERENCES AND DATA SOURCES</h2>
+<p>Butkus, M., Dargenytė-Kacilevičienė, L., Matuzevičiūtė, K., Ruplienė, D., &amp; Valasevičienė, R. (2026). The dual geography of European labour markets: Gendered convergence and spatial polarisation across NUTS 2 regions. <em>Papers in Regional Science</em>. <a href="https://doi.org/10.1016/j.pirs.2026.100176" target="_blank" rel="noopener"><a href="https://doi.org/10.1016/j.pirs.2026.100176" target="_blank" rel="noopener">https://doi.org/10.1016/j.pirs.2026.100176</a></a></p>
+<p>Cieślik, A., &amp; Misiak, T. (2025a). Regional income convergence in Visegrad-4 countries: Empirical evidence from NUTS3 regions. <em>European Planning Studies, 33</em>(11), 1993–2017. <a href="https://doi.org/10.1080/09654313.2025.2536168" target="_blank" rel="noopener"><a href="https://doi.org/10.1080/09654313.2025.2536168" target="_blank" rel="noopener">https://doi.org/10.1080/09654313.2025.2536168</a></a></p>
+<p>Cieślik, A., &amp; Misiak, T. (2025b). Has 20 years of EU membership fostered regional income convergence in Poland? Empirical evidence for NUTS1, NUTS2, and NUTS3 regions. <em>Journal of Economic Integration, 40</em>(4), 567–587. <a href="https://doi.org/10.11130/jei.2025010" target="_blank" rel="noopener">https://doi.org/10.11130/jei.2025010</a></p>
+<p>Eurostat. (2026a). <em>Employment rates by sex, age, and NUTS 2 region (%) [Data set: lfst_r_lfe2emprt]</em>. European Commission. Retrieved November 19, 2026, from <a href="https://ec.europa.eu/eurostat/databrowser/view/lfst_r_lfe2emprt/default/table?lang=en" target="_blank" rel="noopener">https://ec.europa.eu/eurostat/databrowser/view/lfst_r_lfe2emprt/default/table?lang=en</a></p>
+<p>Eurostat. (2026b). <em>Gross domestic product at current market prices by NUTS 2 region [Data set: nama_10r_2gdp]</em>. European Commission. <a href="https://doi.org/10.2908/NAMA_10R_2GDP" target="_blank" rel="noopener">https://doi.org/10.2908/NAMA_10R_2GDP</a></p>
+<p>Eurostat. (2026c). <em>Unemployment rates by sex, age, educational attainment, and NUTS 2 region (%) [Data set: lfst_r_lfu3rt]</em>. European Commission. Retrieved November 19, 2026, from <a href="https://ec.europa.eu/eurostat/databrowser/view/lfst_r_lfu3rt/default/table?lang=en" target="_blank" rel="noopener">https://ec.europa.eu/eurostat/databrowser/view/lfst_r_lfu3rt/default/table?lang=en</a></p>
+<p>Fiorelli, C., Giannini, M., &amp; Martini, B. (2024). Regional economic convergence in the European Union. In <em>Conflict scenarios and transitions: Opportunities and risks for regions and territories</em> (pp. 15–34). FrancoAngeli.</p>
+<p>Kostadinović, I., &amp; Stanković, S. (2025). Regional disparities and the degree of income convergence of the EU regions. <em>Engineering Economics, 36</em>(5), 532–541. <a href="https://doi.org/10.5755/j01.ee.36.5.28117" target="_blank" rel="noopener">https://doi.org/10.5755/j01.ee.36.5.28117</a></p>
+<p>Leško, P., Muchová, E., &amp; Lešková, R. (2026). EU Cohesion Policy and regional club clustering: A comparative analysis of NUTS2 regions in Europe. <em>European Spatial Research and Policy, 33</em>(1). <a href="https://doi.org/10.18778/1231-1952.33.1.07" target="_blank" rel="noopener"><a href="https://doi.org/10.18778/1231-1952.33.1.07" target="_blank" rel="noopener">https://doi.org/10.18778/1231-1952.33.1.07</a></a></p>
+<p>Mockevičienė, G., &amp; Butkus, M. (2026). Assessing the impact of EU financial support on regional convergence: A systematic literature review. <em>World, 7</em>(3), Article 35. <a href="https://doi.org/10.3390/world7030035" target="_blank" rel="noopener">https://doi.org/10.3390/world7030035</a></p>
+<p>Truglia, F. G., &amp; Zeli, A. (2025). Regional economic convergence in the euro area. <em>European Spatial Research and Policy, 32</em>(1), 5–32. <a href="https://doi.org/10.18778/1231-1952.32.1.06" target="_blank" rel="noopener"><a href="https://doi.org/10.18778/1231-1952.32.1.06" target="_blank" rel="noopener">https://doi.org/10.18778/1231-1952.32.1.06</a></a></p></article></main></div>
+<footer>EU Regional Convergence Analysis · Report generated directly from the notebook · Python code hidden</footer></body></html>
